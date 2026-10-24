@@ -37,6 +37,15 @@ class ReleaseTests(unittest.TestCase):
         self.put('README.md', '[missing](missing.md)')
         self.assertIn('link_not_in_package', self.reasons())
 
+    def test_license_texts_are_included_and_scanned(self):
+        self.put('LICENSE', 'See LICENSE-CODE and LICENSE-DOCS.')
+        self.put('LICENSE-CODE', 'MIT License')
+        self.put('LICENSE-DOCS', 'Attribution-ShareAlike 4.0 International')
+        self.assertTrue(inspect(self.root)['passed'])
+        self.assertEqual(inspect(self.root)['file_count'], 3)
+        self.put('LICENSE-DOCS', '-----BEGIN '+'PRIVATE KEY-----')
+        self.assertIn('credential_pattern', self.reasons())
+
     def test_workspace_link(self):
         self.put('README.md', '[author report](../reports/a.json)')
         self.assertIn('link_leaves_package', self.reasons())
