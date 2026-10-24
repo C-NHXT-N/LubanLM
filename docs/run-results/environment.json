@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-02T07:12:40.391556+00:00",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.21",
+  "torch": "2.6.0+cu124",
+  "cuda_runtime": "12.4",
+  "RAM_GiB": 15.928031921386719,
+  "GPU": [
+    "NVIDIA GeForce GTX 1650, GPU-81c9d1c8-490e-6251-b4bf-66bfaf0e90d7, 591.74, 4096 MiB",
+    "NVIDIA GeForce RTX 4060 Ti, GPU-c50d3c54-c5d3-f0da-7fa4-a48d195a849f, 591.74, 16380 MiB"
+  ],
+  "git": "D:\\Program Files\\Git\\cmd\\git.EXE",
+  "vscode": "D:\\Microsoft VS Code\\bin\\code.CMD",
+  "WSL_RKLLM_RK3576": "not_run",
+  "dependencies": {
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "numpy": "1.26.4",
+    "datasets": "4.1.1",
+    "safetensors": "0.5.3",
+    "lm-eval": "0.4.9.2"
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "created_utc": "2026-10-07T04:04:13.581088+00:00",
+  "repo": "silver/lccc",
+  "revision": "5bd582fa28cd7143f2f9c852e08e23089d677c44",
+  "file": "lccc_base_train.jsonl.gz",
+  "counts": {
+    "raw_rows": 2000,
+    "accepted_daily": 131,
+    "supplement_task_not_requested": 2951,
+    "unsupported_experience_or_english": 1,
+    "human_persona_or_unsuitable": 93,
+    "persona": 1,
+    "supplement_complex_or_factual": 2,
+    "unexpected_script": 1
+  },
+  "samples": [
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "你去那儿竟然不喊我生气了，快点给我道歉"
+        },
+        {
+          "role": "assistant",
+          "content": "道歉！！再有时间找你去"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "早点好起来啊。生日快乐"
+        },
+        {
+          "role": "assistant",
+          "content": "好得差不多啦"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "今天不知道能下么，不过天又冷了"
+        },
+        {
+          "role": "assistant",
+          "content": "希望能 …"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "所以大妈想把你变成儿媳妇吗"
+        },
+        {
+          "role": "assistant",
+          "content": "有幸见到了大妈全家，大妈儿子是魁梧的大叔"
+        },
+        {
+          "role": "user",
+          "content": "岔辈儿了。天天晚上十二点在卧室踢翻啤酒瓶报复大周末扰清梦的人，反正马上要搬走了"
+        },
+        {
+          "role": "assistant",
+          "content": "这年头六七十的也得叫阿姨，不敢叫奶奶"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "抱抱"
+        },
+        {
+          "role": "assistant",
+          "content": "你啥时候开学啊"
+        },
+        {
+          "role": "user",
+          "content": "3 号不想告诉你怕你难过"
+        },
+        {
+          "role": "assistant",
+          "content": "那你还说！"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "好久没跟你聊天了嘛"
+        },
+        {
+          "role": "assistant",
+          "content": "好久不见"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我今天想请客户吃还没吃成也"
+        },
+        {
+          "role": "assistant",
+          "content": "请客户居然不去九九"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "你好，这是怎么受伤的啊？好好休息，祝你早些好起来哦 ～"
+        },
+        {
+          "role": "assistant",
+          "content": "楼梯上摔下来的，等消肿了要做手术，谢谢关心"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "为什么穿长袖"
+        },
+        {
+          "role": "assistant",
+          "content": "10 度你说呢哈哈"
+        },
+        {
+          "role": "user",
+          "content": "啥地方天气温度这么好"
+        },
+        {
+          "role": "assistant",
+          "content": "西藏啊"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "你也太 P 了我替全体姐妹鄙视你"
+        },
+        {
+          "role": "assistant",
+          "content": "不要这样啊！记得明年住莘庄。"
+        },
+        {
+          "role": "user",
+          "content": "那咖啡店怎么办 ?"
+        },
+        {
+          "role": "assistant",
+          "content": "咖啡店有着落了？"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我只关心你吃了没？有没有朋友来接你啊？"
+        },
+        {
+          "role": "assistant",
+          "content": "快饿死了"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "是啊，死缠烂打的样子特别丑，求他再给一次机会。他说，他不喜欢我了，他有女朋友了。他说，你可以放手了。放手了，所有的联系方式都删了。但是我还是走不出来啊！"
+        },
+        {
+          "role": "assistant",
+          "content": "可能你放不下的是付出的自己"
+        },
+        {
+          "role": "user",
+          "content": "有可能吧，只能慢慢来了"
+        },
+        {
+          "role": "assistant",
+          "content": "也可以其他的方式的"
+        },
+        {
+          "role": "user",
+          "content": "都说忘记一个人最好的办法就是进行下一段感情。"
+        },
+        {
+          "role": "assistant",
+          "content": "都说是新欢和时间，但有些人做不到"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我对人生感到迷茫了怎么破"
+        },
+        {
+          "role": "assistant",
+          "content": "来找老纳帮你化解一下冤孽？"
+        },
+        {
+          "role": "user",
+          "content": "冤孽倒不至于，只是突然失去了生活的真谛，不知道到底应该怎样才算是有意义的生活"
+        },
+        {
+          "role": "assistant",
+          "content": "起的早点儿？哈哈"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "好吧！我就觉得周末很不开心的！"
+        },
+        {
+          "role": "assistant",
+          "content": "为什么"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "好想吃面"
+        },
+        {
+          "role": "assistant",
+          "content": "面馆走起"
+        },
+        {
+          "role": "user",
+          "content": "最近都起的很晚，日常失眠，早上起不来"
+        },
+        {
+          "role": "assistant",
+          "content": "羡慕起的很晚"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "韵 ? 我记得比今天早啊，不管是谁，同祝福"
+        },
+        {
+          "role": "assistant",
+          "content": "韵还没到"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "今天试了 373 大写的好看"
+        },
+        {
+          "role": "assistant",
+          "content": "197 也好看你去试试"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我还没工作呢换什么啊"
+        },
+        {
+          "role": "assistant",
+          "content": "那你努努力呗，尝试一下换工作"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "所以你是不是快过生日了"
+        },
+        {
+          "role": "assistant",
+          "content": "哈哈哈哈对"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "这昨天刚下完雨，我明天要肥家啦"
+        },
+        {
+          "role": "assistant",
+          "content": "啊为啥回家"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我们现在要和平"
+        },
+        {
+          "role": "assistant",
+          "content": "怎么和平？"
+        },
+        {
+          "role": "user",
+          "content": "做朋友"
+        },
+        {
+          "role": "assistant",
+          "content": "好呀，做朋友欢迎"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "回去几天，你要去哪里啊"
+        },
+        {
+          "role": "assistant",
+          "content": "回家几天还得再来长沙"
+        },
+        {
+          "role": "user",
+          "content": "你现在在长沙工作吗"
+        },
+        {
+          "role": "assistant",
+          "content": "没有，目前还在玩"
+        },
+        {
+          "role": "user",
+          "content": "你应该在家工作吧"
+        },
+        {
+          "role": "assistant",
+          "content": "没有喔"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "陪大家说说话，陪大家聊聊天，陪大家唠唠嗑"
+        },
+        {
+          "role": "assistant",
+          "content": "很多人在工作么"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "这个线下比赛到底怎么回事，让我们去线下门店，门店工作人员却对赛事一无所知，真是醉了"
+        },
+        {
+          "role": "assistant",
+          "content": "你去过线下门店了吗？"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "减肥生活本不易，何苦难为己。致敬那些减肥成功不反弹的，羡慕那些怎么吃都不发胖的，嫉妒那些整天嚷嚷要增肥的。"
+        },
+        {
+          "role": "assistant",
+          "content": "咔咔寿！一种梅子。据说挺管用"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我看到这个消息心也很痛等你死了我也很孤独"
+        },
+        {
+          "role": "assistant",
+          "content": "爬远点有多远爬多远"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我的宝贝然然生日快乐"
+        },
+        {
+          "role": "assistant",
+          "content": "想你"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "工作了？"
+        },
+        {
+          "role": "assistant",
+          "content": "正式出道了"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我刚刚去买了，扫了二维码，送了我 8 张代金券，下面有一行字， “ 向店员大喊蜜雪冰城生日快乐 ” ，可再拿五张 … … 结果那个帅哥对着我说 : “ 那你喊啊 ” ~ ~ ~ 我 … …"
+        },
+        {
+          "role": "assistant",
+          "content": "代金券是一块的嘛？"
+        }
+      ]
+    },
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "记不清经历了多少次大醉，也记不清多少次梦见，记不清多少次从梦里醒来，也记不清因为想你有过多少个不眠夜，更记不清梦里醒来流过多少次眼泪，我要怎么才能忘掉她开始新的生活"
+        },
+        {
+          "role": "assistant",
+          "content": "重新开始一段感情"
+        }
+      ]
+    }
+  ],
+  "global_dedup_not_yet_applied": true
+}

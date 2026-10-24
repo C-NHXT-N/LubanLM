@@ -1,0 +1,88 @@
+{
+  "version": "general-pretrain-2b-v1",
+  "authorization": "2026-10-05: 用户要求核算吞吐，若约每小时1亿Token则直接训练至20亿；历史实测9930万/小时。20亿按累计预训练量解释。",
+  "data_root": "D:/LubanLM-Data/general-2b-v1",
+  "runs_root": "D:/LubanLM-Runs/general-2b-v1",
+  "legacy_data": "D:/LubanLM-Data/chat-v2",
+  "parent_checkpoint": "D:/LubanLM-Runs/chat-v2/checkpoints/50m-base-correction-v6/last.pt",
+  "parent_tokens": 808003584,
+  "target_cumulative_tokens": 2000000000,
+  "model_config": "configs/config_50m.json",
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "seed": 20261005,
+  "fresh_gpu_budget_minutes": 900,
+  "pretrain_minutes_cap": 840,
+  "old_budget_policy": "保留旧账本。这是最新20亿请求授权的新实验；新旧耗时分别记录并汇总，不能把新账本当成历史耗时归零。",
+  "preparation_hours_cap": 12,
+  "raw_download_bytes_cap": 14000000000,
+  "disk_free_bytes_floor": 18000000000,
+  "wiki_train_tokens_target": 100000000,
+  "minimum_new_train_tokens": 800000000,
+  "validation_tokens_per_source_cap": 2000000,
+  "sources": [
+    {
+      "name": "fineweb-4-5",
+      "repo": "opencsg/Fineweb-Edu-Chinese-V2.1",
+      "revision": "a5b574efa48beb3a8f6887ef0b093becf004328b",
+      "metadata": ".cache/general-chat-v8/opencsg--Fineweb-Edu-Chinese-V2.1--files.json",
+      "prefix": "4_5/",
+      "score_min": 0.8,
+      "train_tokens_target": 400000000
+    },
+    {
+      "name": "fineweb-3-4",
+      "repo": "opencsg/Fineweb-Edu-Chinese-V2.1",
+      "revision": "a5b574efa48beb3a8f6887ef0b093becf004328b",
+      "metadata": ".cache/general-chat-v8/opencsg--Fineweb-Edu-Chinese-V2.1--files.json",
+      "prefix": "3_4/",
+      "score_min": 0.6,
+      "train_tokens_target": 300000000
+    },
+    {
+      "name": "cosmopedia-simple",
+      "repo": "opencsg/chinese-cosmopedia",
+      "revision": "b15fa10b9ec8ac30a719b46eead5ffbdaf644d50",
+      "metadata": ".cache/general-chat-v8/opencsg--chinese-cosmopedia--files.json",
+      "prefix": "data/",
+      "score_min": 0.75,
+      "train_tokens_target": 200000000,
+      "formats": [
+        "preschool story",
+        "middle school textbook"
+      ],
+      "exclude_seed_sources": [
+        "blog"
+      ]
+    }
+  ],
+  "license_scope": "当前为本地研究实验。三个数据集卡标Apache-2.0，正文另有OpenCSG社区及商用许可条件；没有据此授予商用权限。",
+  "training": {
+    "length": 256,
+    "micro_batch": 24,
+    "accumulation": 1,
+    "lr": 0.0001,
+    "warmup_steps": 334,
+    "validation_tokens": 500000,
+    "validation_every_tokens": 50000000,
+    "checkpoint_tokens": 100000000,
+    "save_every_minutes": 30,
+    "log_every": 100
+  },
+  "sft_policy": "本控制器只进行Base续训。SmolTalk候选须经过短回答、上下文、身份和语义审查，再建立隔离验证并另行SFT；不把预训练结束等同聊天验收成功。",
+  "capability_status": "not_accepted",
+  "download_workers": 4,
+  "download_prefetch_files": 4,
+  "download_prefetch_bytes": 1500000000,
+  "execution_revision": {
+    "date": "2026-10-05",
+    "reason": "用户询问资源利用与提速。独立模型100步实测batch 24约1.4255亿Token/小时，比batch8约1.5648倍；预取4文件使下载与编码重叠。",
+    "old_micro_batch": 8,
+    "old_warmup_steps": 1000,
+    "learning_rate_unchanged": true,
+    "warmup_scope": "按Token保持约204.8万warmup Token",
+    "batch_change_is_not_bitwise_equivalent": true,
+    "convergence_must_be_evaluated_on_new_holdout": true,
+    "total_token_target_unchanged": 2000000000,
+    "benchmark_report": "D:/LubanLM-Runs/general-2b-v1/reports/throughput_benchmark_long.json"
+  }
+}

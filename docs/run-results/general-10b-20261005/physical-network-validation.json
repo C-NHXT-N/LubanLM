@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "https_connections_checked": 101,
+  "interface_index": 10,
+  "local_ip": "10.183.83.36",
+  "hosts": [
+    "cas-bridge.xethub.hf.co",
+    "dns.alidns.com",
+    "hf-mirror.com"
+  ],
+  "proxy_used": false,
+  "signed_urls_not_recorded": true,
+  "scope": "Connections observed at startup; future connections enforce the same socket checks."
+}

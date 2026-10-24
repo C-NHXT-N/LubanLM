@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-10-05T10:38:37.872713+00:00",
+  "plan_sha256": "d7c48457bb5d4f1a90cdd8a8cd3ea8029722636a14f1505c2047dc6cfca8c436",
+  "template_sha256": "21db9bc814808b61bb177f6f0abce31c6b448f074bd9544546b8d629625f1e32",
+  "recipe_sha256": "992234296fe644c60b019eb25f26060c027f39051a9d9f747492eff74bb9e2f4",
+  "counts": {
+    "raw_rows": 1455394,
+    "accepted_daily": 51628,
+    "prefix_replaced_not_counted": 22433,
+    "unstable_or_specialized_fact": 43773,
+    "unexpected_script": 45938,
+    "unsupported_experience_or_english": 102281,
+    "too_long_or_incomplete": 66992,
+    "specialized_or_persona": 31190,
+    "language": 991,
+    "persona_roleplay": 12725,
+    "missing_task_input": 1980,
+    "sentence_constraint": 3690,
+    "duplicate_question": 5135,
+    "arithmetic_not_verified": 745,
+    "unverified_exact_constraint": 2464,
+    "wrong_identity": 22,
+    "test_overlap": 9,
+    "invalid_or_complex": 872,
+    "unverified_precision_task": 445,
+    "accepted_arithmetic": 108,
+    "source_quality": 165357,
+    "accepted_concept": 50000,
+    "accepted_instruction": 20000,
+    "category_candidate_cap": 1067858,
+    "invalid_arithmetic": 1
+  },
+  "examples": {
+    "train": 100000,
+    "validation": 5000,
+    "test": 1000
+  },
+  "distinct_conversations": {
+    "train": 100000,
+    "validation": 5000,
+    "test": 1000
+  },
+  "categories": {
+    "train": {
+      "concept": 41077,
+      "daily": 48865,
+      "instruction": 9958,
+      "arithmetic": 100
+    },
+    "validation": {
+      "daily": 2060,
+      "concept": 2102,
+      "instruction": 831,
+      "arithmetic": 7
+    },
+    "test": {
+      "instruction": 166,
+      "daily": 423,
+      "concept": 410,
+      "arithmetic": 1
+    }
+  },
+  "sources": {
+    "opencsg/smoltalk-chinese": 27739,
+    "shibing624/alpaca-zh": 15231,
+    "BelleGroup/train_1M_CN": 51334,
+    "Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese": 2029,
+    "m-a-p/COIG-CQIA": 3667
+  },
+  "quality_status": "structural_audit_and_limited_semantic_review_passed",
+  "split_group_disjoint": true,
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "train_sha256": "5d5e1e73a4241041c50b3deb4dd84302e1b69e8816c1ea5bc5a538d77fec8984",
+  "validation_sha256": "1dc88585aaecb2776ded4c7dfe373b237361c1aa4e9d4e4ba7c276a971419502",
+  "test_sha256": "dd3f399375e7925c9e09bd5c8dc4cc63ca49ef29014dbad2e99926871fad22a6",
+  "postfilter_sha256": "ba1d5d7e32c4f7daa2ae15917bf0773b00bb8c7c31716a299c847ac1658ac308",
+  "review_decisions_sha256": "2ab430e981f4c8bd16ce0b0a65bcd41a9b2383400997ae004d31a295f592ba13",
+  "review_removed": {
+    "review_rejected": 3
+  },
+  "semantic_review_scope": "67 inspected, 18 excluded, 49 inspected retained; not full-corpus factual verification"
+}

@@ -1,0 +1,73 @@
+{
+  "logical_cpus": 12,
+  "physical_cores": 6,
+  "ram_total_gib": 15.928031921386719,
+  "ram_available_gib": 4.471584320068359,
+  "platform": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+  "processes": [
+    {
+      "pid": 60704,
+      "command": [
+        "D:\\miniconda3\\envs\\lubanlm-gpu\\python.exe",
+        "-u",
+        "-m",
+        "scripts.run_general_2b",
+        "--plan",
+        "configs/50m-general-pretrain-2b.json"
+      ],
+      "one_core_cpu_percent": 0.0,
+      "threads": 14,
+      "rss_mib": 942.08203125
+    },
+    {
+      "pid": 66632,
+      "command": [
+        "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+        "0x4"
+      ],
+      "one_core_cpu_percent": 0.0,
+      "threads": 5,
+      "rss_mib": 10.609375
+    },
+    {
+      "pid": 68268,
+      "command": [
+        "D:\\miniconda3\\envs\\lubanlm-gpu\\python.exe",
+        "-m",
+        "scripts.keep_awake",
+        "--pid",
+        "60704"
+      ],
+      "one_core_cpu_percent": 0.0,
+      "threads": 3,
+      "rss_mib": 20.15625
+    },
+    {
+      "pid": 57996,
+      "command": [
+        "D:\\miniconda3\\envs\\lubanlm-gpu\\python.exe",
+        "-u",
+        "-m",
+        "scripts.prepare_general_2b",
+        "--plan",
+        "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\50m-general-pretrain-2b.json"
+      ],
+      "one_core_cpu_percent": 0.5182421227173334,
+      "threads": 36,
+      "rss_mib": 298.70703125
+    },
+    {
+      "pid": 70620,
+      "command": [
+        "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+        "0x4"
+      ],
+      "one_core_cpu_percent": 0.0,
+      "threads": 3,
+      "rss_mib": 8.125
+    }
+  ],
+  "system_network_receive_mib_per_second": 0.5868291775753736,
+  "system_disk_read_mib_per_second": 0.06348466003287334,
+  "system_disk_write_mib_per_second": 0.45524331467450757
+}

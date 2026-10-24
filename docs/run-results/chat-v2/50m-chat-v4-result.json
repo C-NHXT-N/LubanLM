@@ -1,0 +1,26 @@
+{
+  "plan": {
+    "version": 1,
+    "name": "50m-chat-v4",
+    "data_version": "sft-v4",
+    "init_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v2\\last.pt",
+    "init_sha256": "c92f6dc6476aeeecd543ec798ab01438351c584060716a7057021a35561edf84",
+    "base_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\last.pt",
+    "base_new_tokens": 400001024,
+    "initial_chat_supervised_tokens": 2940656,
+    "lr": 5e-05,
+    "epochs": 6,
+    "minutes": 45,
+    "created_utc": "2026-10-02T19:02:48.541053+00:00",
+    "rationale": "General curriculum based on v3 development error types; no final-answer tuning",
+    "gpu_budget_at_start": 567.3496400166667,
+    "sft_gpu_minutes_at_start": 32.750816666666665,
+    "new_optimizer": true
+  },
+  "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v4\\last.pt",
+  "checkpoint_sha256": "b08c49d6f7152363e1ed6d8ae93be332479bb1f235eaa7e2065c17df8d95e867",
+  "review": "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v4-dev.review.json",
+  "qualified_rate": 0.75,
+  "development_ready": false,
+  "created_utc": "2026-10-03T03:15:34.575313+00:00"
+}

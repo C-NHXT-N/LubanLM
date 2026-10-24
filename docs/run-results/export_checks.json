@@ -1,0 +1,22 @@
+{
+  "models": [
+    {
+      "kind": "Base",
+      "native_export_logits_max_abs_error": 0.0,
+      "output": "我是我的，我是我的，我是我。\n\n参见 \n 我：我是我",
+      "generated_tokens": 24,
+      "passed": true
+    },
+    {
+      "kind": "Chat",
+      "native_export_logits_max_abs_error": 0.0,
+      "output": "我可以让你的，我可以让你的，我可以让你的，我可以让你的，",
+      "generated_tokens": 24,
+      "passed": true
+    }
+  ],
+  "chat_cli_stdout": "助手 > 我可以让你的，我可以让你的，我可以让你的，我可以让你的，\n",
+  "chat_cli_stderr": "",
+  "chat_cli_exit_code": 0,
+  "passed": true
+}

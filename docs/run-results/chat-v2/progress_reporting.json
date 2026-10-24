@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "requested_utc": "2026-10-02T16:55:58.862971+00:00",
+  "monitor_interval_minutes": null,
+  "report_interval_tokens": 50000000,
+  "token_scope": "50m-base-v2 新预训练阶段真实 input_tokens；不含旧父模型Token、性能短测或已回退丢弃的更新",
+  "last_reported_actual_tokens": 400001024,
+  "last_reported_milestone_tokens": 400000000,
+  "next_report_tokens": 450000000,
+  "report_events": [
+    "runtime_error_or_stall",
+    "development_review_completed",
+    "sft_completed",
+    "final_acceptance",
+    "budget_exhausted"
+  ],
+  "policy": "常规进度仅在当前实际进度达到next_report_tokens时汇报；同一门槛不重复。监控读到跨越多个门槛时合并为一次，报告真实当前进度，汇报后将next_report_tokens设为严格大于当前进度的下一个5000万整数门槛。回退后不得用旧日志最大值推进门槛。",
+  "last_reported_utc": "2026-10-02T18:27:04.332296+00:00",
+  "coalesced_milestones": [
+    300000000,
+    350000000,
+    400000000
+  ],
+  "last_stage_event": "development_review_completed:50m-chat-v4-dev",
+  "last_stage_event_qualified": 45,
+  "last_stage_event_total": 60,
+  "last_stage_event_utc": "2026-10-03T03:22:44.957444+00:00",
+  "periodic_monitoring_enabled": false,
+  "report_mode": "on_user_request",
+  "automatic_progress_reporting_enabled": false,
+  "automation_status": "PAUSED",
+  "monitoring_change_utc": "2026-10-02T19:08:08.026308+00:00",
+  "monitoring_change_reason": "用户取消定时检查，仅在用户询问时检查"
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-03T07:20:47.775490+00:00",
+  "reviewed_answers": [
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-token-dev.json",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-token-last-dev.json",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-balanced-dev.json",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-balanced-last-dev.json",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-full-dev.json",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v7-clean-dev.json"
+  ],
+  "next_action": "matched_comparison_reviewed_no_demonstrated_improvement",
+  "selected_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v7-clean\\last.pt",
+  "selected_objective": "task-balanced",
+  "reason": "Base extension and two matched short probes completed and fully reviewed; neither passed; preserve earlier46/60 candidate. No repeated Base extension.",
+  "gpu_minutes": 629.3939066833335,
+  "sft_minutes": 90.20861666666666,
+  "full_sft_review": "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-full-dev.review.json",
+  "full_sft_qualified": 42,
+  "updated_utc": "2026-10-04T06:55:12.825606+00:00",
+  "data_version": "sft-v7",
+  "clean_sft_qualified": 46,
+  "pretrain_minutes": 531.8678400166666,
+  "comparison_report": "D:\\LubanLM-Runs\\chat-v2\\reports\\base-correction-v6-comparison.json"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "6787347e13da730e751a65a9",
+  "id": "opencsg/Fineweb-Edu-Chinese-V2.1",
+  "author": "opencsg",
+  "sha": "a5b574efa48beb3a8f6887ef0b093becf004328b",
+  "lastModified": "2026-01-28T00:36:48.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-generation",
+    "language:zh",
+    "license:apache-2.0",
+    "size_categories:10B<n<100B",
+    "arxiv:2501.08197",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tChinese Fineweb Edu Dataset V2.1          [中文]    [English]\n\t\n\n\n\n\n\n\n[OpenCSG Community]   [👾github]  [wechat]  [Twitter] \n\n\n\n📖Technical Report\nThe Chinese Fineweb Edu Dataset V2.1 is an enhanced version of the V2 dataset, designed specifically for natural language processing (NLP) tasks in the education sector. This version introduces two new data sources, map-cc and opencsg-cc, and retains data with scores ranging from 2 to 3. The dataset entries are organized into different… See the full description on the dataset page: https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1.",
+  "downloads": 57588,
+  "likes": 81,
+  "cardData": {
+    "language": [
+      "zh"
+    ],
+    "pipeline_tag": "text-generation",
+    "license": "apache-2.0",
+    "task_categories": [
+      "text-generation"
+    ],
+    "size_categories": [
+      "10B<n<100B"
+    ],
+    "base_model": [
+      "deepseek-ai/DeepSeek-R1"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": "3_4/002197.parquet",
+      "blobId": "b1ca957b58dc48f22bb46ae81fff90f530e5ed7b",
+      "size": 33494777,
+      "lfs": {
+        "sha256": "bee05be5071bfdf89373b45a694a9f635fc736b8cc1eb516afa3cfca8642b566",
+        "size": 33494777,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "4_5/002197.parquet",
+      "blobId": "7df057f46340e90bc724189cd705cd6d6da9c641",
+      "size": 1178309,
+      "lfs": {
+        "sha256": "b799ae8af2817a2251e993f136e55604deb521d4884e91fde658c4c2f9d4d026",
+        "size": 1178309,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "createdAt": "2025-01-15T04:07:26.000Z",
+  "usedStorage": 2416187195398
+}

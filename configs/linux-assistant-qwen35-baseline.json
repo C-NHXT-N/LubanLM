@@ -1,0 +1,58 @@
+{
+  "experiment": "linux-assistant-baseline-qwen35-20261020",
+  "model": "models/Qwen/Qwen3.5-2B",
+  "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "comparison_model": "models/Qwen/Qwen3-4B-Instruct-2507",
+  "comparison_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "data": "datasets/linux-assistant-unified",
+  "runs": "runs/linux-assistant-baseline-qwen35-20261020",
+  "report": "reports/linux-assistant-baseline-qwen35-20261020",
+  "export": "exports/linux-assistant-baseline-qwen35-20261020",
+  "system_prompt": "你是开发板与Linux中文助手。依据已知信息简洁回答，给出必要的操作与检查依据。信息不足时提出具体追问，不编造设备状态、命令输出或SDK接口。用户指定格式时遵守格式。你只提供建议，不执行命令。",
+  "seed": 20261019,
+  "max_length": 1024,
+  "max_new_tokens": 256,
+  "context_length": 2048,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  },
+  "training": {
+    "learning_rate": 0.0001,
+    "second_learning_rate": 5E-05,
+    "epochs": 2,
+    "micro_batch": 8,
+    "gradient_accumulation": 8,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
+    "save_steps": 16,
+    "max_grad_norm": 1.0,
+    "evaluation_steps": 32
+  },
+  "acceptance": {
+    "task_min": 0.8,
+    "task_gain": 0.1,
+    "error_reduction": 0.3,
+    "general_max_drop": 0.05,
+    "quant_max_drop": 0.05,
+    "decode_tokens_per_second_min": 4.0,
+    "ttft_p95_seconds_max": 3.0,
+    "combined_rss_gib_max": 3.0,
+    "stability_seconds": 3600,
+    "stability_requests": 100,
+    "multiturn_sessions": 10,
+    "turns_per_session": 5
+  },
+  "baseline": {
+    "batch_candidates": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "pilot_samples": 8,
+    "cpu_threads": 4,
+    "memory_fraction": 0.85
+  }
+}

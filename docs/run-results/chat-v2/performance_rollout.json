@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-10-02T14:36:40.249036+00:00",
+  "controller_pid": 62352,
+  "child_pid": 65308,
+  "restored_step": 53810,
+  "restored_tokens": 110202880,
+  "disk_resume_checks": {
+    "results": {
+      "pretrain": {
+        "weights_optimizer_rng_sampler_exact": true,
+        "input_tokens": 512,
+        "supervised_tokens": 512
+      },
+      "sft": {
+        "weights_optimizer_rng_sampler_exact": true,
+        "input_tokens": 2296,
+        "supervised_tokens": 684
+      }
+    },
+    "passed": true
+  },
+  "resources": [
+    {
+      "gpu_percent": 72.0,
+      "card_mib": 3578.0,
+      "power_w": 102.69,
+      "temperature_c": 56.0,
+      "cpu_one_core_percent": 99.9
+    },
+    {
+      "gpu_percent": 73.0,
+      "card_mib": 3578.0,
+      "power_w": 103.05,
+      "temperature_c": 56.0,
+      "cpu_one_core_percent": 100.0
+    },
+    {
+      "gpu_percent": 83.0,
+      "card_mib": 3572.0,
+      "power_w": 105.08,
+      "temperature_c": 55.0,
+      "cpu_one_core_percent": 98.6
+    },
+    {
+      "gpu_percent": 80.0,
+      "card_mib": 3572.0,
+      "power_w": 105.09,
+      "temperature_c": 57.0,
+      "cpu_one_core_percent": 100.0
+    },
+    {
+      "gpu_percent": 74.0,
+      "card_mib": 3572.0,
+      "power_w": 104.58,
+      "temperature_c": 56.0,
+      "cpu_one_core_percent": 101.5
+    }
+  ],
+  "performance_check_gpu_seconds": 823.1080000000001,
+  "gpu_total_minutes": 361.03869001666675,
+  "only_one_experiment_controller": true
+}

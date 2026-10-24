@@ -1,0 +1,17 @@
+{
+  "phase": "needs_improvement",
+  "pid": 71284,
+  "updated_utc": "2026-10-04T06:53:53.682127+00:00",
+  "gpu_minutes": 881.0590233500003,
+  "capability_status": "not_accepted",
+  "answers": [
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-v6-base-probe-400m-dev.json",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-v6-base-probe-extended-dev.json"
+  ],
+  "base_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-correction-v6\\last.pt",
+  "note": "Approved Base extension and matched probes completed; no active training. Periodic monitoring remains off. Further full clean SFT must retain budget and independent acceptance.",
+  "development_reviews_complete": true,
+  "comparison_report": "D:\\LubanLM-Runs\\chat-v2\\reports\\base-correction-v6-comparison.json",
+  "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v7-clean\\last.pt",
+  "selected_chat_reason": "Best previously reviewed development46/60; no final acceptance passed"
+}

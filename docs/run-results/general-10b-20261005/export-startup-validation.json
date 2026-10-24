@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "logits_max_abs_error": 0.0,
+  "parameter_count": 49558400,
+  "checkpoint_step": 194010,
+  "native_reload": "supported by inference.generate.load_model"
+}

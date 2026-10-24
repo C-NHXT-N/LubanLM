@@ -1,0 +1,9 @@
+{
+  "plans": [
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-token-plan.json",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-chat-v6-balanced-plan.json"
+  ],
+  "created_utc": "2026-10-03T07:15:20.761253+00:00",
+  "phase": "awaiting_complete_semantic_reviews",
+  "no_automatic_grading": true
+}

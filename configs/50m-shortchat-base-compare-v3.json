@@ -1,0 +1,44 @@
+{
+  "version": "shortchat-base-compare-v3",
+  "data_root": "D:/LubanLM-Data/shortchat-base-compare-v3",
+  "runs_root": "D:/LubanLM-Runs/shortchat-base-compare-v3",
+  "source_plan": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\50m-shortchat-supplement-sources-v2.json",
+  "source_plan_sha256": "6d05f55c31c11dcf42004e20dbe2829f7ff3398ae582b15afc1fb85d56f13e59",
+  "old_pool": "D:/LubanLM-Data/shortchat-base-compare-v2/candidates.sqlite",
+  "tokenizer": "D:\\LubanLM-Data\\tokenizers\\vocab-32000\\tokenizer.json",
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "selection_seed": 20261010,
+  "epochs": 2,
+  "lr": 2e-05,
+  "warmup_steps": 125,
+  "micro_batch": 16,
+  "accumulation": 1,
+  "gpu_minutes": 480,
+  "model_config": "configs/config_50m.json",
+  "bases": [
+    {
+      "name": "base-2b",
+      "checkpoint": "D:/LubanLM-Runs/general-2b-v1/checkpoints/50m-general-base-2b/last.pt"
+    },
+    {
+      "name": "base-12b-best",
+      "checkpoint": "D:/LubanLM-Runs/general-10b-teaching-v2/checkpoints/50m-general-base-12b/best.pt"
+    },
+    {
+      "name": "base-12b-last",
+      "checkpoint": "D:/LubanLM-Runs/general-10b-teaching-v2/checkpoints/50m-general-base-12b/last.pt"
+    }
+  ],
+  "source_quality_v2": true,
+  "supplement_repos": [
+    "shareAI/ShareGPT-Chinese-English-90k",
+    "allenai/WildChat-1M",
+    "OpenMOSS-Team/moss-003-sft-data"
+  ],
+  "reuse_candidates_v3": true,
+  "curated_dev_boundary": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\shortchat-v3-dev-boundary.json",
+  "curated_dev_boundary_sha256": "e774448f8a8175b68d7d57cb75d76875caa13864586bb5dbc0cff830893770cc",
+  "known_corrections": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\shortchat-v3-known-corrections.json",
+  "known_corrections_sha256": "be22ef68d62139af1e7bb6dd827bb54d925936986a45b897197be7394f70950f",
+  "reuse_candidates_sha256": "474f48e69bbbdaad450c7c352c508c41c3e9ec0f60d11af26d06d9bde36e2ea8"
+}

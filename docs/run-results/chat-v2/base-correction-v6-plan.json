@@ -1,0 +1,13 @@
+{
+  "parent_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\last.pt",
+  "parent_sha256": "f2b2d9c3430cbd64d77c9734fe903772ffb708574a28205f5bb7e6ff3e864768",
+  "new_tokens": 400000000,
+  "length": 256,
+  "lr": 0.0001,
+  "warmup_steps": 1000,
+  "cap_minutes": 300,
+  "probe_data_version": "sft-v7",
+  "policy": "Same immutable Wikipedia dataset, optimizer carried with --continue-from. Not a promise of capability. Compare two identical <=10min SFT probes after extension.",
+  "created_utc": "2026-10-03T07:38:48.547756+00:00",
+  "pretrain_minutes_at_start": 531.8678400166666
+}

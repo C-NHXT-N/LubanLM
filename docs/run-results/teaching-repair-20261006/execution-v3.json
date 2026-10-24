@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-10-06T03:17:03.375073+00:00",
+  "regression_tests_passed": 25,
+  "stress": {
+    "created_utc": "2026-10-06T03:09:44.716003+00:00",
+    "fixtures_only": true,
+    "never_used_for_training": true,
+    "candidates": 700000,
+    "selected": {
+      "test": 1000,
+      "train": 100000,
+      "validation": 5000
+    },
+    "peak_observed_rss_bytes": 77336576,
+    "windows_peak_working_set_bytes": 116240384,
+    "rss_cap_bytes": 3221225472,
+    "seconds": 317.73499999998603
+  },
+  "pretrain_migration": {
+    "created_utc": "2026-10-06T03:04:57.269654+00:00",
+    "old": {
+      "version": "teaching-clean-v2",
+      "plan_sha256": "1f9ad458aeb4a2123007aee490d34ef5d359dfe5fa2c9e941de9b59d6309a5b5",
+      "code": {
+        "scripts/corpus_quality.py": "96dcd3d2c89992fb613b1f10f6847a2b66cb840c01e3718bc60c87cfc7831e7a",
+        "scripts/prepare_general_10b.py": "6b858aa7b286a754bd49080d5c5f3864433190b1a5a34e229b90cf36ff1259f2",
+        "scripts/prepare_general_2b.py": "2800ab47d643edd42f25e88a903e9b586ad5ad89cb6b50ba36938d9bf15440fc",
+        "scripts/prepare_sft_100k.py": "9a84dee16bf90f8b68d5dc3f5ec709ddba563fad019e08280dd7fede870d924c",
+        "sft/template.py": "aa732d51ffb0c0f84817ef81bb48ec47be7eee1a02712e4468dd21be379cfc33",
+        "data/prepare.py": "278439470d3086399349b7d4c29cc4f40b40d0252570a82198b710b4becf45af",
+        "eval/chat_suite.py": "6312643a2f22f373ac1a087fcb52b80da1e524bdf7aa57c23c5ce97265f3b9cf",
+        "configs/known-bad-corpus.json": "96e9f9aa7614370050676836199669ad80e7119477e60d1f7e0cbde1bcdace5d",
+        "scripts/balanced_sft.py": "eeae37aab3c2b2babaa0d3c17df19ca99eb7aaf66d9c8edc6f29f28a14d78687",
+        "scripts/content_review_gate.py": "96fb3280ee9c5cefdefae17bd1facb921552986b61993fefb84213d176b390b2",
+        "scripts/run_general_10b.py": "69c052052bb34d19ac9109cc36e6f4953015c9ad35a0aa61035d42564e53a15a",
+        "training/batches.py": "8c211f0b86d4f37c758b1b725d58c00b3d94da8328c4da0667dc57199b8f0698",
+        "training/train.py": "e8c72de507a1c164a43febf990f76bfd4bd3e557c7b15cfb23761f9b0b11a873"
+      }
+    },
+    "new": {
+      "version": "pretrain-rules-v3",
+      "rules_sha256": "d3e8efe356789876e83b0db9fdfeeb696bdc6891495464f8ef80c1720123259d",
+      "settings_sha256": "f0b9ee4969ff95ac6eb1eea2d0dc0079bcad4ceb84a64b36cd3500da4d21ef8b",
+      "frozen_sha256": "5a23a48e5c3ab1093f1b286c9cc6b14e245169f9460f397eb2c4017ba087fa72"
+    },
+    "backup": "D:\\LubanLM-Runs\\general-10b-teaching-v2\\recovery\\pretrain-before-policy-v3.sqlite",
+    "all_shards_verified": 1032,
+    "train_tokens_preserved": 2010330109,
+    "validation_tokens_preserved": 8814677,
+    "rules_identical": true
+  },
+  "sft_legacy_migration": {
+    "created_utc": "2026-10-06T03:11:13.129112+00:00",
+    "legacy_path": "D:\\LubanLM-Data\\general-10b-teaching-v2\\processed\\sft-100k-teaching-v2\\candidates-checkpoint.json",
+    "imported": 126481,
+    "reuse": "Audit archive; changed conversation identities require rescanning all affected raw records. No download.",
+    "rss_bytes": 68644864
+  },
+  "controller": {
+    "pid": 61612,
+    "process_created": 1791256377.3191454,
+    "child_pid": 57272,
+    "child_created": 1791256380.827253,
+    "status": "preparing_10b_cpu",
+    "updated_utc": "2026-10-06T03:17:01.338491+00:00",
+    "parent_sha256": "d85b1e0fac15857bf30aed59ff1ef80e4ef9b5ce5666f2eea0c4b1c7a7b5b789",
+    "historical_ledger_hashes": {
+      "D:\\LubanLM-Runs\\chat-v2\\reports\\gpu_budget.json": "4c5fb9d1955774509b0cbd424c389b3f05df7a295d846b9b65efb3ed1520f624",
+      "D:\\LubanLM-Runs\\general-2b-v1\\reports\\gpu_budget.json": "d5158d76b2210591cea080bc3cd5e3709dc802a5f2e2346ed0746f649ea2fe47"
+    }
+  },
+  "current_committed_train_tokens": 2033515022,
+  "current_committed_fineweb_files": 865,
+  "disk_free_bytes": 75348897792,
+  "current_available_ram_bytes": 6099263488,
+  "formal_gpu_training_started": false,
+  "remaining_gates": [
+    "10B preparation",
+    "qualified 100000+5000+1000 SFT",
+    "200 pretrain and 600 SFT content inspections",
+    "actual FullPassTokens GPU benchmark"
+  ],
+  "code_sha256": {
+    "scripts\\sft_disk.py": "e1f36578ec80c5e1cbdc6fc4b11671c19ccb2ffd58b27972bc0d0fc9b3581b38",
+    "scripts\\prepare_sft_100k.py": "782d5bfa7e8fabdadccd677a13b036e554b047f4c77e576bb2381f3381b677cb",
+    "scripts\\corpus_quality.py": "72d244c5c2a9277df1bbc57686dffcb8871b6d3efe61bc25f8f30f185c0c7b55",
+    "scripts\\policy_versions.py": "ab1ef76dfb5441692f5e947df6e9c36148c80b2a002b22ee27e7c70dd772eccd",
+    "scripts\\balanced_sft.py": "1a992ddbe6dcf1277db85b5f718a033c7efec8b83cd339ee32a8c72e26544a03",
+    "scripts\\run_general_10b.py": "c47c0b75050cfe7b5f06fc94172fb59eb233b6d5b64c82330a62982cfc976daf",
+    "scripts\\teaching_supervisor.py": "c9596320a7cd35cac018e3187a35bcb1cbc8b2034411b150ca7d1e080f49e60a",
+    "scripts\\test_teaching_pipeline.py": "4b77f93a5572b1d6fb0e0db50a5244db4c913d1267ebd3758925c694902db4ab",
+    "scripts\\test_teaching_upgrade.py": "cf5941295e4baab18a8e19e76f00a2d9a41ba7f30323224519e0fe74fe6d3f20",
+    "scripts\\start_teaching_10b.ps1": "ae4efd42c69762eaf79dbb2f08c7f5fdac970105c63dc0ed52c5ba48be943b20"
+  }
+}

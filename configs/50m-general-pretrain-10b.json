@@ -1,0 +1,139 @@
+{
+  "version": "general-10b-v1",
+  "data_root": "D:/LubanLM-Data/general-10b-v1",
+  "runs_root": "D:/LubanLM-Runs/general-10b-v1",
+  "legacy_data": "D:/LubanLM-Data/chat-v2",
+  "parent_checkpoint": "D:/LubanLM-Runs/general-2b-v1/checkpoints/50m-general-base-2b/last.pt",
+  "parent_tokens": 2000001024,
+  "additional_tokens": 10000000000,
+  "target_cumulative_tokens": 12000001024,
+  "model_config": "configs/config_50m.json",
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "seed": 20261005,
+  "fresh_gpu_budget_minutes": 6360,
+  "pretrain_minutes_cap": 5760,
+  "sft_minutes_cap": 480,
+  "preparation_hours_cap": 30,
+  "raw_cache_bytes_cap": 5368709120,
+  "disk_free_bytes_floor": 21474836480,
+  "wiki_train_tokens_target": 200000000,
+  "validation_tokens_per_source_cap": 5000000,
+  "download_workers": 4,
+  "download_prefetch_bytes": 3500000000,
+  "sources": [
+    {
+      "name": "fineweb-4-5",
+      "repo": "opencsg/Fineweb-Edu-Chinese-V2.1",
+      "revision": "a5b574efa48beb3a8f6887ef0b093becf004328b",
+      "metadata": ".cache/general-chat-v8/opencsg--Fineweb-Edu-Chinese-V2.1--files.json",
+      "prefix": "4_5/",
+      "score_min": 0.8,
+      "train_tokens_target": 5800000000
+    },
+    {
+      "name": "fineweb-3-4",
+      "repo": "opencsg/Fineweb-Edu-Chinese-V2.1",
+      "revision": "a5b574efa48beb3a8f6887ef0b093becf004328b",
+      "metadata": ".cache/general-chat-v8/opencsg--Fineweb-Edu-Chinese-V2.1--files.json",
+      "prefix": "3_4/",
+      "score_min": 0.6,
+      "train_tokens_target": 2000000000
+    },
+    {
+      "name": "cosmopedia-simple",
+      "repo": "opencsg/chinese-cosmopedia",
+      "revision": "b15fa10b9ec8ac30a719b46eead5ffbdaf644d50",
+      "metadata": ".cache/general-chat-v8/opencsg--chinese-cosmopedia--files.json",
+      "prefix": "data/",
+      "score_min": 0.75,
+      "train_tokens_target": 2000000000,
+      "formats": [
+        "preschool story",
+        "middle school textbook"
+      ],
+      "exclude_seed_sources": [
+        "blog"
+      ]
+    }
+  ],
+  "training": {
+    "length": 256,
+    "micro_batch": 24,
+    "accumulation": 1,
+    "lr": 0.0001,
+    "warmup_steps": 1628,
+    "validation_tokens": 500000,
+    "validation_every_tokens": 250000000,
+    "checkpoint_tokens": 1000000000,
+    "save_every_minutes": 30,
+    "log_every": 100
+  },
+  "sft": {
+    "train_minimum": 100000,
+    "validation_examples": 5000,
+    "test_examples": 1000,
+    "max_length": 512,
+    "max_answer_tokens": 256,
+    "epochs": 2,
+    "lr": 2e-05,
+    "raw_sources": [
+      {
+        "repo": "opencsg/smoltalk-chinese",
+        "revision": "5edf5d0d7b06794755cf78b274a150a4efe1c9d4",
+        "metadata": ".cache/general-10b/opencsg--smoltalk-chinese.json",
+        "files": [
+          "everyday.parquet",
+          "advice-seeking.parquet",
+          "information-seeking.parquet",
+          "planning.parquet",
+          "rewrite.parquet",
+          "editing.parquet",
+          "format-constrain.parquet",
+          "safe.parquet",
+          "role-playing.parquet",
+          "brainstorming.parquet",
+          "creative-writing.parquet",
+          "summary.parquet"
+        ]
+      },
+      {
+        "repo": "shibing624/alpaca-zh",
+        "revision": "f39db019a94f8dbea48ab30d2bdc090703284559",
+        "metadata": ".cache/general-10b/shibing624--alpaca-zh.json",
+        "files": [
+          "alpaca_gpt4_data_zh.json"
+        ]
+      },
+      {
+        "repo": "m-a-p/COIG-CQIA",
+        "revision": "8b55868c6168adf86c30e7ca0f782cca1c514297",
+        "metadata": ".cache/general-10b/m-a-p--COIG-CQIA.json",
+        "files": [
+          "COIG-CQIA-full.jsonl"
+        ]
+      },
+      {
+        "repo": "Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese",
+        "revision": "ee71d5dbafec166eac8f5dcf9e581c90c56ce631",
+        "metadata": ".cache/general-10b/Magpie-Align--Magpie-Qwen2-Pro-200K-Chinese.json",
+        "files": [
+          "data/train-00000-of-00002.parquet",
+          "data/train-00001-of-00002.parquet"
+        ]
+      },
+      {
+        "repo": "BelleGroup/train_1M_CN",
+        "revision": "a8b4ee0a0a828c8568f74b1c0e09b1367af2d8d6",
+        "metadata": ".cache/general-10b/BelleGroup--train_1M_CN.json",
+        "files": [
+          "Belle_open_source_1M.json"
+        ]
+      }
+    ],
+    "data_version": "sft-100k-v3",
+    "excluded_source": "Infinity-Instruct gated; not downloaded"
+  },
+  "license_scope": "Local research only; retain dataset cards and provenance. No paid teacher API.",
+  "expected_gpu_tokens_per_hour": 139230000,
+  "capability_status": "not_accepted"
+}

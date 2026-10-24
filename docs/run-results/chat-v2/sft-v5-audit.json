@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-03T03:22:44.955446+00:00",
+  "arithmetic_answers_verified": true,
+  "token_masks_eos_verified": true,
+  "question_split_disjoint": true,
+  "arithmetic_split_inherited": true,
+  "init_sha256": "b08c49d6f7152363e1ed6d8ae93be332479bb1f235eaa7e2065c17df8d95e867",
+  "training_plan": "D:\\LubanLM-Runs\\chat-v2\\reports\\sft_v5_plan.json"
+}

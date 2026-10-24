@@ -1,0 +1,13 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "torch": "2.6.0+cu124",
+  "cuda_runtime": "12.4",
+  "bf16_supported": true,
+  "cache_max_abs_error": 1.1920928955078125e-07,
+  "causal_error": 0.0,
+  "padding_max_abs_error": 5.960464477539063e-08,
+  "checkpoint_gradient_max_abs_error": 0.0,
+  "bf16_loss": 4.062131881713867,
+  "parameter_update": true,
+  "passed": true
+}

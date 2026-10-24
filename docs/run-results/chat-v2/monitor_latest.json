@@ -1,0 +1,180 @@
+{
+  "updated_utc": "2026-10-04T06:53:53.818848+00:00",
+  "pipeline": {
+    "phase": "needs_improvement",
+    "pid": 71284,
+    "updated_utc": "2026-10-04T06:53:53.682127+00:00",
+    "gpu_minutes": 881.0590233500003,
+    "capability_status": "not_accepted",
+    "answers": [
+      "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-v6-base-probe-400m-dev.json",
+      "D:\\LubanLM-Runs\\chat-v2\\reports\\50m-v6-base-probe-extended-dev.json"
+    ],
+    "base_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-correction-v6\\last.pt",
+    "note": "Approved Base extension and matched probes completed; no active training. Periodic monitoring remains off. Further full clean SFT must retain budget and independent acceptance.",
+    "development_reviews_complete": true,
+    "comparison_report": "D:\\LubanLM-Runs\\chat-v2\\reports\\base-correction-v6-comparison.json",
+    "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v7-clean\\last.pt",
+    "selected_chat_reason": "Best previously reviewed development46/60; no final acceptance passed"
+  },
+  "process_alive": {
+    "pid": false,
+    "child_pid": false
+  },
+  "preparation": {
+    "stage": "belle",
+    "accepted": 50000,
+    "updated_utc": "2026-10-02T08:21:43.677354+00:00"
+  },
+  "last_pretrain_metric": {
+    "step": 195313,
+    "input_tokens": 400001024,
+    "supervised_tokens": 400001024,
+    "loss": 4.168166160583496,
+    "lr": 1.000000000588137e-05,
+    "grad_norm": 7.609426498413086,
+    "seconds": 14436.375,
+    "tokens_per_second": 27707.857685880284,
+    "peak_allocated_mib": 2202.03955078125,
+    "peak_reserved_mib": 2596.0,
+    "effective_input_tokens": 400001024,
+    "effective_input_token_scope": "entire_stage",
+    "effective_tokens_per_second": 27707.857685880284,
+    "supervised_tokens_per_second": 27707.857685880284,
+    "input_token_scope": "batch positions including padding",
+    "validation_loss": 4.420605199241834
+  },
+  "last_periodic_validation": {
+    "step": 195313,
+    "loss": 4.420605199241834
+  },
+  "gpu_minutes": 881.0590233500003,
+  "gpu": "NVIDIA GeForce GTX 1650, 0 MiB, 0 %, 31\nNVIDIA GeForce RTX 4060 Ti, 772 MiB, 3 %, 33",
+  "capability_status": "not_accepted",
+  "pretrain_folder": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-correction-v6",
+  "waiting_for_user_review": false,
+  "actual_processes": {},
+  "current_sft": {
+    "folder": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v7-clean",
+    "dataset": {
+      "path": "D:\\LubanLM-Data\\chat-v2\\processed\\sft-v7\\train-tokens.jsonl",
+      "examples": 26890,
+      "encoding_version": "prefix-stable-v1",
+      "sha256": "0511d8955b25111a4a71a02bde8ef189b64eb9e61fd2fca8f0f91908f8d56220"
+    },
+    "last_metric": {
+      "step": 2000,
+      "input_tokens": 1404488,
+      "supervised_tokens": 233204,
+      "loss": 0.9832653999328613,
+      "lr": 5.684818646100291e-06,
+      "grad_norm": 41.328243255615234,
+      "seconds": 172.109,
+      "tokens_per_second": 8160.456454921164,
+      "peak_allocated_mib": 1750.53466796875,
+      "peak_reserved_mib": 3198.0,
+      "effective_input_tokens": 810713,
+      "effective_input_token_scope": "entire_stage",
+      "effective_tokens_per_second": 4710.462555706066,
+      "supervised_tokens_per_second": 1354.978531047211,
+      "input_token_scope": "batch positions including padding",
+      "validation_loss": 4.182668349763397
+    },
+    "validation": {
+      "step": 2000,
+      "validation_loss": 4.182668349763397,
+      "validation_tokens_target": 0,
+      "full_sft": true,
+      "created_utc": "2026-10-03T07:34:45.088212+00:00",
+      "by_task": {
+        "public": {
+          "loss": 4.948799844119822,
+          "supervised_tokens": 26125
+        },
+        "arithmetic": {
+          "loss": 0.5385784896302921,
+          "supervised_tokens": 2653
+        },
+        "concept": {
+          "loss": 0.0007620042398277866,
+          "supervised_tokens": 323
+        },
+        "daily": {
+          "loss": 0.008057936805796589,
+          "supervised_tokens": 351
+        },
+        "identity": {
+          "loss": 0.006146277210414098,
+          "supervised_tokens": 956
+        },
+        "instruction": {
+          "loss": 0.01443153856665764,
+          "supervised_tokens": 515
+        },
+        "greeting": {
+          "loss": 0.0025667658316212015,
+          "supervised_tokens": 333
+        }
+      },
+      "macro_loss": 0.7884775509149188
+    },
+    "summary": {
+      "step": 2000,
+      "planned_steps": 4000,
+      "input_tokens": 1404488,
+      "supervised_tokens": 233204,
+      "initial_validation_loss": 4.148207098303657,
+      "final_validation_loss": 4.182668349763397,
+      "stop_reason": "validation_patience",
+      "elapsed_seconds": 223.09299999999348,
+      "peak_allocated_mib": 1750.53466796875,
+      "peak_reserved_mib": 3198.0,
+      "parent": {
+        "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\last.pt",
+        "sha256": "c1a1d7de3c845f426a29abf9b73deca85dc4f9de941b63d70e5f371cc52c84b4",
+        "step": 2000,
+        "stage": "sft",
+        "supervised_tokens": 234135,
+        "inherited_sft_tokens": 6010807,
+        "lineage_complete": true
+      },
+      "parent_tokens": 0,
+      "cumulative_pretrain_tokens": null,
+      "capability_status": "not_accepted",
+      "effective_input_tokens": 810713,
+      "effective_input_token_scope": "entire_stage",
+      "parent_sft_tokens": 6010807,
+      "cumulative_sft_tokens": 6244011,
+      "best_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v7-clean\\best.pt"
+    },
+    "input_token_scope": "batch positions including padding; supervised_tokens count targets only"
+  },
+  "sft_gpu_minutes": 98.83388333333332,
+  "execution_profile": {
+    "pretrain": {
+      "execution": "optimized",
+      "attention_backend": "sdpa",
+      "optimizer_backend": "fused",
+      "pin_memory": true,
+      "micro_batch": 8,
+      "accumulation": 1
+    },
+    "sft": {
+      "execution": "optimized",
+      "attention_backend": "sdpa",
+      "optimizer_backend": "fused",
+      "pin_memory": true,
+      "micro_batch": 8,
+      "accumulation": 1
+    },
+    "validation_micro_batch": 2,
+    "benchmark_report": "D:\\LubanLM-Runs\\chat-v2\\reports\\performance_comparison.json",
+    "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\source.pt",
+    "checkpoint_sha256": "da3c39f94b3d8240329679fa8b82d9e422141323fa80c836da0173ef19e25bed",
+    "reference_validation_loss": 5.043341671798222,
+    "speedup": 4.889982747381371,
+    "migration_required": true,
+    "rollback_used": false,
+    "created_utc": "2026-10-02T14:30:59.254218+00:00"
+  }
+}

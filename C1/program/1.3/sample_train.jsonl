@@ -1,0 +1,6 @@
+{"text":"Linux 是一个操作系统。Linux 系统可以管理进程、文件和内存。","category":"中文"}
+{"text":"Tokenizer 将文本编码成 token IDs；模型按 token 预测下一个 token。","category":"中文"}
+{"text":"Linux is an operating system. A tokenizer maps text to token IDs.","category":"英文"}
+{"text":"A byte-level tokenizer can represent arbitrary UTF-8 text.","category":"英文"}
+{"text":"#include <iostream>\nint main() {\n    std::cout << \"hello\" << std::endl;\n}\n","category":"代码"}
+{"text":"std::vector<int> values = {1, 2, 3};\nfor (int value : values) {\n    process(value);\n}\n","category":"代码"}

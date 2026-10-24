@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-03T07:28:20.010360+00:00",
+  "parent_manifest_sha256": "eb4b5c04d6e3c63ac849af58998189e72ddd2fbdbcc183231a9dc534a085879f",
+  "counts": {
+    "train": 26890,
+    "validation": 1600
+  },
+  "tasks": {
+    "train": {
+      "identity": 307,
+      "instruction": 588,
+      "concept": 264,
+      "daily": 289,
+      "greeting": 96,
+      "arithmetic": 6995,
+      "public": 18351
+    },
+    "validation": {
+      "public": 568,
+      "arithmetic": 829,
+      "concept": 26,
+      "daily": 21,
+      "identity": 68,
+      "instruction": 66,
+      "greeting": 22
+    }
+  },
+  "rejected": 3558,
+  "rejection_types": {
+    "public_calculation_outside_verified_curriculum": 1059,
+    "unanchored_time_sensitive_question": 577,
+    "external_model_meta_instruction": 843,
+    "specialized_lexical_or_grammar_task": 898,
+    "unverified_dynamic_or_high_stakes_task": 161,
+    "missing_context_or_placeholder": 20
+  },
+  "encoding_version": "prefix-stable-v1",
+  "train_sha256": "0511d8955b25111a4a71a02bde8ef189b64eb9e61fd2fca8f0f91908f8d56220",
+  "validation_sha256": "485ea05e0a24834eb10601ddb1afaefe36b2d8c96d771c3434fdf1b3f97d9bff",
+  "policy": "Task-scope filters motivated by seeded training-side semantic audit, not test answers. Remaining public rows are not claimed fully fact-certified. Preserve all v6 files and same authored curriculum. Validation definition changes, no direct loss comparison across versions."
+}

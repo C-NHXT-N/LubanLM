@@ -1,0 +1,32 @@
+{
+  "version": "shortchat-base-compare-v1",
+  "data_root": "D:/LubanLM-Data/shortchat-base-compare-v1",
+  "runs_root": "D:/LubanLM-Runs/shortchat-base-compare-v1",
+  "source_plan": "configs\\50m-general-pretrain-10b-teaching.json",
+  "source_plan_sha256": "1ea702904c5189e3e0dfb1400f1e6ceb87760a8f66772b7c5256f36ab2edd515",
+  "old_pool": "D:/LubanLM-Data/general-10b-teaching-v2/processed/sft-100k-teaching-v4/candidates.sqlite",
+  "tokenizer": "D:\\LubanLM-Data\\tokenizers\\vocab-32000\\tokenizer.json",
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "selection_seed": 20261010,
+  "epochs": 2,
+  "lr": 2e-05,
+  "warmup_steps": 125,
+  "micro_batch": 16,
+  "accumulation": 1,
+  "gpu_minutes": 480,
+  "model_config": "configs/config_50m.json",
+  "bases": [
+    {
+      "name": "base-2b",
+      "checkpoint": "D:/LubanLM-Runs/general-2b-v1/checkpoints/50m-general-base-2b/last.pt"
+    },
+    {
+      "name": "base-12b-best",
+      "checkpoint": "D:/LubanLM-Runs/general-10b-teaching-v2/checkpoints/50m-general-base-12b/best.pt"
+    },
+    {
+      "name": "base-12b-last",
+      "checkpoint": "D:/LubanLM-Runs/general-10b-teaching-v2/checkpoints/50m-general-base-12b/last.pt"
+    }
+  ]
+}

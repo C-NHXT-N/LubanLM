@@ -1,0 +1,15 @@
+{
+  "data_root": "D:\\LubanLM-Data\\chat-v2",
+  "data_split_disjoint": true,
+  "sft_tree_split_disjoint": true,
+  "assistant_mask_verified": true,
+  "hf_template_equals_native": true,
+  "resume_weight_max_abs_error": 0.0,
+  "resume_optimizer_max_abs_error": 0.0,
+  "resume_data_rng_equal": true,
+  "steps": 4,
+  "passed": true,
+  "sft_resume_weight_max_abs_error": 0.0,
+  "sft_resume_optimizer_max_abs_error": 0.0,
+  "sft_sampler_and_rng_equal": true
+}

@@ -1,0 +1,187 @@
+{
+  "answers_sha256": "ff7f6f324953ea8217d1979d5a6a8a09538defd87e9634622168d8661a094a8f",
+  "marks_sha256": "f1d92b386031b47e31cbd958f6c77c7883ab833acc93dcecf2d3f4d255602b7a",
+  "review_complete": true,
+  "split": "core",
+  "qualified_rate": 0.8,
+  "relevant_readable_rate": 1.0,
+  "looping_rate": 0.0,
+  "eos_rate": 1.0,
+  "category_rates": {
+    "greeting": 0.0,
+    "identity": 1.0,
+    "concept": 1.0,
+    "arithmetic": 1.0
+  },
+  "passed": false,
+  "development_ready": null,
+  "created_utc": "2026-10-03T06:47:04.219095+00:00",
+  "results": [
+    {
+      "id": "core-0",
+      "category": "greeting",
+      "question": "你好",
+      "seed": 2026,
+      "answer": "我是LubanLM，一个用中文进行文字交流的语言模型。",
+      "generated_ids": [
+        28158,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        1042,
+        396,
+        1948,
+        1576,
+        2157,
+        5098,
+        11362,
+        4137,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "id": "core-0",
+        "seed": 2026,
+        "relevant_readable": true,
+        "correct": false,
+        "looping": false,
+        "reason": "以身份介绍回应你好，没有问候或明确回应打招呼，基础问候检查未满足。"
+      },
+      "qualified": false
+    },
+    {
+      "id": "core-1",
+      "category": "identity",
+      "question": "你是谁",
+      "seed": 2026,
+      "answer": "我是LubanLM，一个用中文进行文字交流的语言模型。",
+      "generated_ids": [
+        28158,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        1042,
+        396,
+        1948,
+        1576,
+        2157,
+        5098,
+        11362,
+        4137,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "id": "core-1",
+        "seed": 2026,
+        "relevant_readable": true,
+        "correct": true,
+        "looping": false,
+        "reason": "明确LubanLM中文语言模型身份，正确。"
+      },
+      "qualified": true
+    },
+    {
+      "id": "core-2",
+      "category": "concept",
+      "question": "Linux是什么",
+      "seed": 2026,
+      "answer": "Linux是一种开源操作系统内核，日常也用来指基于它的操作系统。",
+      "generated_ids": [
+        9388,
+        2570,
+        29140,
+        5617,
+        21666,
+        262,
+        6192,
+        493,
+        4031,
+        657,
+        4626,
+        2548,
+        5617,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "id": "core-2",
+        "seed": 2026,
+        "relevant_readable": true,
+        "correct": true,
+        "looping": false,
+        "reason": "准确区分Linux内核与日常操作系统称呼。"
+      },
+      "qualified": true
+    },
+    {
+      "id": "core-3",
+      "category": "concept",
+      "question": "操作系统是什么",
+      "seed": 2026,
+      "answer": "操作系统管理电脑的硬件和软件，帮助用户运行程序。",
+      "generated_ids": [
+        5617,
+        1418,
+        5945,
+        264,
+        10106,
+        315,
+        2647,
+        262,
+        6135,
+        4306,
+        4435,
+        2778,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "id": "core-3",
+        "seed": 2026,
+        "relevant_readable": true,
+        "correct": true,
+        "looping": false,
+        "reason": "操作系统管理硬件软件并支持程序运行，正确。"
+      },
+      "qualified": true
+    },
+    {
+      "id": "core-4",
+      "category": "arithmetic",
+      "question": "1+2是多少",
+      "seed": 2026,
+      "answer": "3。",
+      "generated_ids": [
+        21,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "id": "core-4",
+        "seed": 2026,
+        "relevant_readable": true,
+        "correct": true,
+        "looping": false,
+        "reason": "1加2为3，正确。"
+      },
+      "qualified": true
+    }
+  ]
+}

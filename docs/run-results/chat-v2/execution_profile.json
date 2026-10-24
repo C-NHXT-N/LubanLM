@@ -1,0 +1,27 @@
+{
+  "pretrain": {
+    "execution": "optimized",
+    "attention_backend": "sdpa",
+    "optimizer_backend": "fused",
+    "pin_memory": true,
+    "micro_batch": 8,
+    "accumulation": 1
+  },
+  "sft": {
+    "execution": "optimized",
+    "attention_backend": "sdpa",
+    "optimizer_backend": "fused",
+    "pin_memory": true,
+    "micro_batch": 8,
+    "accumulation": 1
+  },
+  "validation_micro_batch": 2,
+  "benchmark_report": "D:\\LubanLM-Runs\\chat-v2\\reports\\performance_comparison.json",
+  "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\source.pt",
+  "checkpoint_sha256": "da3c39f94b3d8240329679fa8b82d9e422141323fa80c836da0173ef19e25bed",
+  "reference_validation_loss": 5.043341671798222,
+  "speedup": 4.889982747381371,
+  "migration_required": true,
+  "rollback_used": false,
+  "created_utc": "2026-10-02T14:30:59.254218+00:00"
+}

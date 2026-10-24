@@ -1,0 +1,184 @@
+{
+  "reviewed_train_sha256": "913b734f43d11ac0a7e35efa06ef82c6ffb386845ce5a3cc5c652420a3ae7b9b",
+  "inspected_groups": [
+    "ec43bd539f9b70bf8972952c5d99b92b0d2e7396e462e22dd4674891f64a6b26",
+    "2756236c5b7b58b2b41cfd72871ea93e7ee6105afdfd6422d06d4e1e850118b2",
+    "eca6a03089aa57f865ed83ffcd8cce253396ac3846515606f3f0295cf4321ed8",
+    "b23aa3607f2f0df731def3c3b81f23e4c657864105976f798261c0fdb4471f34",
+    "c4685030af34f1020c0edff0e4d04e52e5adb10536e7af42d26b9521f39e3c54",
+    "7b87412f4be2466326406e5bc764636952b0dd40a6aece5aaf8b246c4e7be2ee",
+    "aa3e7f4e7f04b43042511a4d44f53b0f4b22d3c769cccaa5d1cafda8fe5b34f4",
+    "5830eb9979179668e1bd4a1aaaa6c9debcf32599b1fdabd3abee240b8dba6e55",
+    "a3e03270a8f95115393cc94c9c03a4edaa84362054fa2092a41a3e1403d46ec2",
+    "23c115f15855b0ca6ea5ac0aea4204781e357fd2e724e828f46d4d437ab392cc",
+    "3878a61e92230fdd44aac32cbafaca8f14bc62ad6261480ea80d49cbe240db09",
+    "4c20d657e11b043f992677649e46e0bf8ace488bb85cfa077e11722e567c5e99",
+    "53e7533ba6a2360975f67518dbdcdd1c9197fd1250ffe5d517f290495d08303b",
+    "2a899b03401e4ffbafc01879154dd00588a2c69d890f8a1510d513b3ed7a0a82",
+    "aeb90d657c7d05d2aeefdbff7c428f6b86ba8be41cbee9258022e3815e41a4cb",
+    "1b6f2fc98ea49ed57f8773f508e4a27dacd21cd583d23acea9251870edd6d3af",
+    "6d1c948ab48feb9c83131b2d7fbbc41a8712055ddbde7398cb4430f06d1e50ad",
+    "14d1a185699a94a6e789094159c65bd67494000c404c55a7af7f8a8eef9c91ce",
+    "61a5b2e26bb90e4c850a7ea3746d6f4b24f8f06b9ff22fa0e324ceb9173fde66",
+    "4160c67e1f7962a710544391b74f4c15252edd8bc364d547916abb72fce41ace",
+    "ac51ed7ea320db7190ce013fedc726748d84b397e5ddfcb17fea811862eac2cd",
+    "f4dd543c4d99fc52d55ea731f4c3a06604c1f20e634d9bd5b41273460f3f4092",
+    "3d3c3e42f85b67f2f828c9f649c05cff2135bdadccb32b4975e2ab9b48b5793e",
+    "f7edc1f449b1bf47b385fc2bfb53a5516a64163e5d04f2ddfd74876b2cc59df1",
+    "cc27293e532f5fe18d7d9f55a315a6c343521f220c3b289a6f8a15e62ec8d38c",
+    "518e647a1a1226cb934c285c3a81c33d1e68b884f2e2cc4960c8cec18b67bb59",
+    "da0771f9c80ef8730461ac04085c4ce1ca97bac75ba244c1cc393d3f7577764d",
+    "44ba92ce5c45ef2a1eab9b3bb0804b7b8c0ef00187194f0bbf362094a5b5452d",
+    "a26b0ad103ce6648cdf773e4b30baaba74fb8c7c6ba95630a2e5701d8fea0ea8",
+    "5d5f276ef7df5640c051b3085da158ed5934203315dbe34927de880cc8ca5cee",
+    "0c2382cf857342f4697abc21bfbc9b994cd19b8ccc3f568e57e1363a8ae88eaf",
+    "a4c963dfb6d7b5ecce5fd7b42f3d7902345c5fa121bf6c51cecf1175616b2083",
+    "bf6bf4138f25538b6305c6334baef68dd19fff0e60044d68dd40c7d21d70ad99",
+    "b19ccd621466e97ec89b7d42876c3c80ab536c9817fb3e74087503226932df6b",
+    "6fe4c83c9c44d70193d250d83c6961172fa7a7cd56d5275c3226ac2cb8f3d92c",
+    "ee03ee236971a80c1358e3dd2d99c65d514fe809f5b5d71a053d59fb66649038",
+    "f48f12a5fd21621b855b5fe97db34d2dc210dddb27df6e37badffc1399121320",
+    "a3131eeffd6097fefd591a41eefe55cc426e5b3b9c0b70a460fa7eefe6590da8",
+    "13d4912f578d2156399fe2efc62c268570861bc78cbc6ba38c9293952b0f0ab4",
+    "70ef1e28547866fa845809b1a014dc878127f0cb6a60f7d8b75dbc3f224d2b54",
+    "bcd883aff8dce55b13c0b5c2c44599f7ab9747e8e9c93f0638ca2eedf2e45729",
+    "56a9aa244c7ad6df1635c4abcc4ece3feedc3c1d94246949420cda93b6ef44ea",
+    "783db208f2766b6cbc87035ebe85e15b68fac577dd136a917ce30cc3a33f59ed",
+    "95a9c76ad2b35af6aef41952845bf0edf8bbcdf45dd5ac466e44ae8c921199aa",
+    "f91a0215879c06cbd9e9576ddc9b30b9bef9adb5562d36816f8a7a74678dc61e",
+    "401966b500472ef6a8b9ed9d19f875b6772f0b4180525748d6e6bcdf8bd0c613",
+    "4a36395164090510f8e19e72a94afd3895634cfcb329a726bffd480e4c88aae8",
+    "7f1d26cd018be2384c899262bcc2ae2e259c8fc72202cee8c2c3ace41776189f"
+  ],
+  "inspected_count": 48,
+  "rejected": [
+    {
+      "group": "5830eb9979179668e1bd4a1aaaa6c9debcf32599b1fdabd3abee240b8dba6e55",
+      "task": "daily",
+      "sample_index": 7,
+      "reason": "Awkward/corrupted practical wording"
+    },
+    {
+      "group": "a3e03270a8f95115393cc94c9c03a4edaa84362054fa2092a41a3e1403d46ec2",
+      "task": "daily",
+      "sample_index": 8,
+      "reason": "Expansion instruction not followed"
+    },
+    {
+      "group": "23c115f15855b0ca6ea5ac0aea4204781e357fd2e724e828f46d4d437ab392cc",
+      "task": "daily",
+      "sample_index": 9,
+      "reason": "Unverifiable similarity scoring"
+    },
+    {
+      "group": "2a899b03401e4ffbafc01879154dd00588a2c69d890f8a1510d513b3ed7a0a82",
+      "task": "concept",
+      "sample_index": 1,
+      "reason": "Espresso incorrectly described as cold-water brewing"
+    },
+    {
+      "group": "14d1a185699a94a6e789094159c65bd67494000c404c55a7af7f8a8eef9c91ce",
+      "task": "concept",
+      "sample_index": 5,
+      "reason": "Opposite meaning not produced"
+    },
+    {
+      "group": "61a5b2e26bb90e4c850a7ea3746d6f4b24f8f06b9ff22fa0e324ceb9173fde66",
+      "task": "concept",
+      "sample_index": 6,
+      "reason": "Unreliable Chinese segmentation task"
+    },
+    {
+      "group": "4160c67e1f7962a710544391b74f4c15252edd8bc364d547916abb72fce41ace",
+      "task": "concept",
+      "sample_index": 7,
+      "reason": "Specialized transfusion content outside simple chat scope"
+    },
+    {
+      "group": "3d3c3e42f85b67f2f828c9f649c05cff2135bdadccb32b4975e2ab9b48b5793e",
+      "task": "concept",
+      "sample_index": 10,
+      "reason": "Political policy claim not checked for this local corpus"
+    },
+    {
+      "group": "f7edc1f449b1bf47b385fc2bfb53a5516a64163e5d04f2ddfd74876b2cc59df1",
+      "task": "concept",
+      "sample_index": 11,
+      "reason": "Milk preparation near boiling unsuitable"
+    },
+    {
+      "group": "cc27293e532f5fe18d7d9f55a315a6c343521f220c3b289a6f8a15e62ec8d38c",
+      "task": "instruction",
+      "sample_index": 0,
+      "reason": "Specialized medical supplement claims not independently verified"
+    },
+    {
+      "group": "518e647a1a1226cb934c285c3a81c33d1e68b884f2e2cc4960c8cec18b67bb59",
+      "task": "instruction",
+      "sample_index": 1,
+      "reason": "Stray .acquire in raw input"
+    },
+    {
+      "group": "5d5f276ef7df5640c051b3085da158ed5934203315dbe34927de880cc8ca5cee",
+      "task": "instruction",
+      "sample_index": 5,
+      "reason": "Rewrite reverses limitation into a guarantee"
+    },
+    {
+      "group": "0c2382cf857342f4697abc21bfbc9b994cd19b8ccc3f568e57e1363a8ae88eaf",
+      "task": "instruction",
+      "sample_index": 6,
+      "reason": "Rewrite changes future/potential into current/asserted status"
+    },
+    {
+      "group": "a4c963dfb6d7b5ecce5fd7b42f3d7902345c5fa121bf6c51cecf1175616b2083",
+      "task": "instruction",
+      "sample_index": 7,
+      "reason": "Unsupported named tea explanation and unclear user intent"
+    },
+    {
+      "group": "bf6bf4138f25538b6305c6334baef68dd19fff0e60044d68dd40c7d21d70ad99",
+      "task": "instruction",
+      "sample_index": 8,
+      "reason": "Incoherent PDF feature claims"
+    },
+    {
+      "group": "4cdf63431356a994457640fe079568aaed23a61f4452c5e7a1a1a389b933f4b6",
+      "task": "concept",
+      "replacement_index": 0,
+      "reason": "Northern Song capital incorrectly called Linan"
+    },
+    {
+      "group": "edb5d8788ae6ee9aec9e19ca2665bd39e56bd94911cee71e72bd8776995f3acc",
+      "task": "concept",
+      "replacement_index": 6,
+      "reason": "Inner/outer court duties and burial contents confused"
+    },
+    {
+      "group": "189b6e46d00a81c8cd185f062c8afe0e049ff7ff67389eef25ab5eb92069e27a",
+      "task": "concept",
+      "replacement_index": 9,
+      "reason": "Unverified celebrity shareholder claim"
+    }
+  ],
+  "note": "Conservative removal includes clear errors and uncertain/specialized items; not a population accuracy estimate.",
+  "initial_reviewed_train_sha256": "8ab6b91fb4a6c008cf1f56d029bdb7ca7026132f49a2a9dd91e4dbb0e06d70e6",
+  "additional_inspected_groups": [
+    "4cdf63431356a994457640fe079568aaed23a61f4452c5e7a1a1a389b933f4b6",
+    "4a084c03048b7ebb56c39c55b2eb858a3fdd58c82e64419137e68f4950a21b54",
+    "4aff85e9caf861465764087f6fd1135c73d403e9ab654b496b68a93261ac3a56",
+    "b6f0ee59d1f9e89c292287fd310fcfb36d0eab89083d9b8d5c53d387c4340e3f",
+    "f542ff7632bb99be50aa2199e2f032cecda4f9d80e0715f7869d2ee3d02b3f13",
+    "e5afa099fd440bf4d02445cd0db77a5f3a546a659624cb45489c84382b899c95",
+    "edb5d8788ae6ee9aec9e19ca2665bd39e56bd94911cee71e72bd8776995f3acc",
+    "22c21cffa4fc0e94d6ab6dbd03fb32c2ae4f60a4ddbc9d83478f13bb2609e60a",
+    "420b17706f2d89e97d9ee81f2f37662b726bb97743c7d558a8e5e8f61fb46633",
+    "189b6e46d00a81c8cd185f062c8afe0e049ff7ff67389eef25ab5eb92069e27a",
+    "184042ee8adba8309c2861797702cd51db9d984a20ba1fba0ac1c4ef6ed4ff53",
+    "2a4fc75b86e32bc62aa2c2341d6a96f3cdf0dc29ee1dc78a0983d388bfb080b8",
+    "3f4c0a6282b9d0a4941e205bfcd0e805278505f62d4689a81716c66814b1de96",
+    "495c2038e337d09af0409e515e2fa1d4e7667b6e46d83a66784691a6bc6994ff",
+    "4ec80627826d5be37c645dac1dfcce46d26dcc26ac6bddb8b4a419472894cc98",
+    "88c94c1415c1c5b7df25fcbb6ce7480b12c5debe41d7cd6a65172950caaf967d"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "continue_preserves_weights": true,
+  "continue_preserves_adam": true,
+  "continue_resets_stage_step": true,
+  "cumulative_tokens_correct": true,
+  "continue_resume_weights_optimizer_rng_exact": true,
+  "incomplete_acceptance_rejected": true,
+  "passed": true
+}

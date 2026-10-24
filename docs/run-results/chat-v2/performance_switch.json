@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-02T14:17:24.630322+00:00",
+  "old_controller_pid": 68784,
+  "old_child_pid": 52540,
+  "source": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\source.pt",
+  "sha256": "da3c39f94b3d8240329679fa8b82d9e422141323fa80c836da0173ef19e25bed",
+  "restored_step": 53810,
+  "restored_tokens": 110202880,
+  "last_logged_tokens": 119808000,
+  "discarded_logged_tokens": 9605120,
+  "gpu_budget_preserved": true,
+  "benchmark_exit_code": 0,
+  "benchmark_completed_utc": "2026-10-02T14:31:00.242088+00:00"
+}

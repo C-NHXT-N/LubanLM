@@ -1,0 +1,53 @@
+{
+  "wiki": {
+    "raw_documents": 30000,
+    "kept_documents": 29400,
+    "split_documents": {
+      "train": 28801,
+      "validation": 599
+    },
+    "rejected": {
+      "length": 600
+    },
+    "characters": 88666039,
+    "length_min": 80,
+    "length_median": 1352,
+    "length_max": 93045,
+    "language": "zh",
+    "dedup": "NFC cleaned exact SHA256; no near dedup",
+    "split": "content hash modulo 100, 2% validation",
+    "tokenizer_training": {
+      "records": 14401,
+      "characters": 6463443,
+      "selection": "every second training document, first <=512 chars; total cap 8M; full pretraining documents retained"
+    }
+  },
+  "sft": {
+    "chinese_messages": 3448,
+    "pairs_before_cap": {
+      "train": 858,
+      "validation": 34
+    },
+    "pair_limit_per_split": 2000,
+    "selection": "human reviewed zh parent-child pair, best sibling rank, original split"
+  },
+  "sources": {
+    "created_utc": "2026-10-02T06:39:48.656409+00:00",
+    "version": "LubanCorpus-v1-teaching",
+    "pretraining": {
+      "repo": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "config": "20231101.zh",
+      "license": "CC-BY-SA-3.0 / GFDL",
+      "limit": 30000,
+      "sha256": "19799c43225462f7c87883ded042a2f8d9d93ae244feac2c79a328a92fad9189"
+    },
+    "sft": {
+      "repo": "OpenAssistant/oasst1",
+      "revision": "fdf72ae0827c1cda404aff25b6603abec9e3399b",
+      "license": "Apache-2.0",
+      "sha256": "34bcd043fa0914749ad86b9ed762da9737f08635844c6404a0e0f8c07f296a41"
+    },
+    "raw_data_redistribution": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "tutorial": "C:\\Lab\\LubanLM-lab\\reports\\reader-route-20261023\\fresh\\LubanLM",
+  "interpreter": "C:\\Lab\\LubanLM-lab\\.conda\\lubanlm-py311\\python.exe",
+  "torch_version": "2.12.1+cu130",
+  "subprocess_wall_seconds": {
+    "part": 3.6633205000543967,
+    "resumed": 3.667534099891782,
+    "continuous": 3.699646700057201
+  },
+  "checks": {
+    "config": true,
+    "model": true,
+    "optimizer": true,
+    "step": true,
+    "total_steps": true,
+    "data_identity": true,
+    "history": true,
+    "sampler_rng": true,
+    "torch_rng": true,
+    "generated_ids": true,
+    "resumed_only_eight_updates": true,
+    "tokenizer_bytes": true
+  },
+  "passed": true,
+  "resumed_result": {
+    "step": 16,
+    "dev_loss": 3.435078978538513,
+    "prompt": "Linux是",
+    "output": "一个个个个个个个个个个个个个",
+    "generated_ids": [
+      10,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      2
+    ],
+    "parameters": 20064,
+    "updates_this_run": 8,
+    "input_tokens": 202,
+    "supervised_tokens": 202,
+    "seconds": 1.3370536000002176,
+    "device": "cpu",
+    "dtype": "float32",
+    "total_steps": 16,
+    "torch_version": "2.12.1+cu130"
+  }
+}

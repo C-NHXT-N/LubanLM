@@ -1,0 +1,44 @@
+{
+  "marks": [
+    {
+      "id": "core-0",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "以身份介绍回应你好，没有问候或明确回应打招呼，基础问候检查未满足。"
+    },
+    {
+      "id": "core-1",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "明确LubanLM中文语言模型身份，正确。"
+    },
+    {
+      "id": "core-2",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "准确区分Linux内核与日常操作系统称呼。"
+    },
+    {
+      "id": "core-3",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "操作系统管理硬件软件并支持程序运行，正确。"
+    },
+    {
+      "id": "core-4",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "1加2为3，正确。"
+    }
+  ]
+}

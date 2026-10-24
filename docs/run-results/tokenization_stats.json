@@ -1,0 +1,28 @@
+{
+  "train": {
+    "tokens": 56065359,
+    "documents": 28801,
+    "mean_document_tokens": 1946.6462622825597,
+    "shards": 28
+  },
+  "validation": {
+    "tokens": 1293562,
+    "documents": 599,
+    "mean_document_tokens": 2159.5358931552587,
+    "shards": 1
+  },
+  "sft_train": {
+    "before_length_filter": 858,
+    "examples": 764,
+    "tokens": 139672,
+    "supervised_tokens": 110578,
+    "max_length": 512
+  },
+  "sft_validation": {
+    "before_length_filter": 34,
+    "examples": 31,
+    "tokens": 6114,
+    "supervised_tokens": 5100,
+    "max_length": 512
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cached_quota_seconds": 0.17222559999208897,
+  "ready": false,
+  "gaps": {
+    "daily_gap": 12656,
+    "validation_gap": 0,
+    "test_gap": 0
+  },
+  "read_only_connection": true,
+  "full_recalculation_not_required_for_unchanged_pool": true
+}

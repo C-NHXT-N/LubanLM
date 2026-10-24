@@ -1,0 +1,10 @@
+{
+  "uniform_loglikelihood": -20.74698257446289,
+  "expected": -20.746982363563728,
+  "rolling_tokens": 11,
+  "rolling_loglikelihood": -114.1084041595459,
+  "rolling_max_abs_error": 1.1599453983990315e-06,
+  "answer_boundary_tokens": 1,
+  "sampling_filters_and_negative_repetition_penalty": true,
+  "passed": true
+}

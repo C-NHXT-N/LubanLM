@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "steps": 4,
+  "train_examples": 64,
+  "validation_examples": 16,
+  "micro_batch": 16,
+  "length_range": [
+    480,
+    512
+  ],
+  "peak_reserved_mib": 7100.0,
+  "final_validation_loss": 3.7763170575015255,
+  "parent_unchanged": true,
+  "weights_are_discarded": true,
+  "note": "Private numerical SFT pipeline test; not final model capability."
+}

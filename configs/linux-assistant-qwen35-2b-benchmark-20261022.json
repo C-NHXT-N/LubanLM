@@ -1,0 +1,36 @@
+{
+  "experiment": "linux-assistant-qwen35-2b-benchmark-20261022",
+  "model": "models/Qwen/Qwen3.5-2B",
+  "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "comparison_model": "models/Qwen/Qwen3-4B-Instruct-2507",
+  "comparison_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "data": "datasets/linux-assistant-unified",
+  "runs": "runs/linux-assistant-qwen35-2b-benchmark-20261022",
+  "report": "reports/linux-assistant-qwen35-2b-benchmark-20261022",
+  "export": "exports/linux-assistant-qwen35-2b-benchmark-20261022",
+  "system_prompt": "你是中文助手，擅长Linux与开发板部署。依据题目和已知信息回答，普通常识、算术和推理问题按题意直接作答。操作建议说明必要步骤和判断依据；只有缺少影响结论的关键条件时才提出具体追问。区分事实与推测，不编造设备状态、命令输出、版本或SDK接口。遵守用户明确指定的格式与最新更正。你只提供建议，不执行命令。",
+  "seed": 20261022,
+  "max_length": 1024,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  },
+  "benchmark": {
+    "effective_batch_examples": 32,
+    "micro_batch_candidates": [32, 16, 8],
+    "batch_orders": ["random", "length_bucketed"],
+    "warmup_updates": 1,
+    "measured_updates": 3,
+    "optimizer_modes": ["default", "fused"],
+    "gradient_check_modes": ["per_parameter_sync", "aggregated_sync"],
+    "ablation_batch_order": "length_bucketed",
+    "ablation_micro_batch": 8,
+    "cpu_threads": 4,
+    "cpu_interop_threads": 1,
+    "reserve_mib": 1024,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0
+  }
+}

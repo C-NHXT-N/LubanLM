@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-06T12:22:42.513411+00:00",
+  "status": "preparing_10b_cpu",
+  "controller_pid": 73936,
+  "child_pid": 58552,
+  "committed_train_tokens": 4242713373,
+  "committed_files": 1981,
+  "progress_percent": 42.42713373,
+  "tokens_added_since_baseline": 27158026,
+  "window_seconds": 113.30423355102539,
+  "short_window_tokens_per_hour": 862888265.8296329,
+  "supervisor_status": "running",
+  "supervisor_disk_free_bytes": 66237046784,
+  "disk_free_bytes": 66243862528,
+  "available_memory_bytes": 5044486144,
+  "child_rss_bytes": 355405824,
+  "worker_heartbeat_utc": "2026-10-06T12:22:38.712093+00:00",
+  "stderr_bytes": 0,
+  "regression_tests_passed": 36,
+  "pretrain_policy_unchanged": true,
+  "code_sha256": {
+    "scripts/worker_health.py": "96497d5534ca61038f3794831e39498e3aa431ef3489d1a8008d1dfa09b31775",
+    "scripts/teaching_supervisor.py": "7466e69a53fb268b77f43e451b4756e9122ff901228c9d75b718efa3e5bfd1a1",
+    "scripts/run_general_10b.py": "b05d41feb362aee4cb63f4ccc639634a51e24910a527bc3842bd8a4455041f80",
+    "scripts/prepare_general_10b.py": "1bc67358be36e09f072295df01d932251946e7983df28e76e97528880e23f3cc",
+    "scripts/sft_disk.py": "fb66f40097fafd0a81805e0db5590dac6a1a54b072e906c0effb68a2d1f0d4d3",
+    "scripts/policy_versions.py": "3f1d84074e4e7d764d3d5b6125bf183c67aab78e21a9d21cca20e54105706b18",
+    "scripts/benchmark_sft_10b.py": "fec689aa04a02b0220aafc38179c71b3a5f8e9724d4f4c454ef0f69d65d09e42",
+    "training/batches.py": "8b2e247e24c0141b37c8888bdce4ebbd499394264ee20c3b39eea017cb319c98",
+    "training/sft_storage.py": "0ff2d2c9496d1591cb640e45bc977fdd00864bd7806f00c3a53b63e4d3d8c17d"
+  }
+}

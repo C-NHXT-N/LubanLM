@@ -1,0 +1,679 @@
+{
+  "wiki": {
+    "source": {
+      "repo": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "config": "20231101.zh",
+      "license": "CC-BY-SA-3.0 / GFDL"
+    },
+    "raw_documents": 250000,
+    "original_validation_preserved": true,
+    "train": {
+      "dtype": "uint16",
+      "shards": [
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0000.bin",
+          "tokens": 2001824,
+          "sha256": "b45b8e285c5e8d8985eb8dd45f27a70873da022edb32742dcfc6d9682d5ec287"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0001.bin",
+          "tokens": 2009634,
+          "sha256": "47f55a0e81a45129a02ccde8a76327f90427b5ae459a544a558e45d499abf780"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0002.bin",
+          "tokens": 2001759,
+          "sha256": "f38aed87ede3a8dcb2d4a64dc32aad9b1217313eec5d320ed76bff01f221a6d0"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0003.bin",
+          "tokens": 2008554,
+          "sha256": "cbf95f0e0823ffe535848bcf755c7a497dbeb762a270eb9a5217c38d533e8494"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0004.bin",
+          "tokens": 2007437,
+          "sha256": "94ea460e9d2a177c0d1ac50cfae0f19c20664bce0414fce01e7e022a3f9f9747"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0005.bin",
+          "tokens": 2000135,
+          "sha256": "1aeb0f6c8fbf4f8e0c5cb46e90d0e1aaa11987835a49386a68c03c96bc7c96e6"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0006.bin",
+          "tokens": 2007061,
+          "sha256": "9770b9e83662df438c06eac31d82e8e8d99043d3dbc1af3b9e12f715893c3bd4"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0007.bin",
+          "tokens": 2000159,
+          "sha256": "8b4bf953f766ef12a8c161957a972f376e289751b1db2624aba74e00adf2fdde"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0008.bin",
+          "tokens": 2000041,
+          "sha256": "f27bc7aaf12e02ee9da83c5d956ea98096f6aa946b80c0be140aeeddabab7fce"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0009.bin",
+          "tokens": 2000378,
+          "sha256": "cd152f93683fed531e169d0b410ec8d529ac2dea55d51cc113ce6188d69f083e"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0010.bin",
+          "tokens": 2017058,
+          "sha256": "d24c70ffe82a270cc28c05e1383fc3a7cff2d4fb39066a2c08e156bcfbc76d5a"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0011.bin",
+          "tokens": 2009705,
+          "sha256": "7cf03cd1cb85e5d453a97c39305ef1f3d2542e389c93ece10bb185ed1ba17c81"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0012.bin",
+          "tokens": 2000478,
+          "sha256": "9e600a8f17d92c6fcd19631f59b07a005c13caec4802aa68b06f0abb496e037f"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0013.bin",
+          "tokens": 2002939,
+          "sha256": "adea0c4ee0631f37a86119eb7c312a16b3b37c59bd9cb7fabb4a795291e90f16"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0014.bin",
+          "tokens": 2015418,
+          "sha256": "a505a82a047c19518b37159a8e1a3110bce9e8c2ce83a1549872f816a0d84ccf"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0015.bin",
+          "tokens": 2000609,
+          "sha256": "f5616ecd4fad6ac752a18d6afef99002e75dcd63bafa2c076b8496cbee55e277"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0016.bin",
+          "tokens": 2002540,
+          "sha256": "527d84a80aefd3fccb205499021e3fcd9640dc707d646f6589f44519382715d8"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0017.bin",
+          "tokens": 2000946,
+          "sha256": "be20e79d7a39e067a81c3d94ce077be12a7591740ac94814a8f28af43429a3bf"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0018.bin",
+          "tokens": 2000864,
+          "sha256": "eb5ed3588f3e35c93c82c0d42c68b7c15cb202258e4d55f2892d913735da5435"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0019.bin",
+          "tokens": 2000013,
+          "sha256": "50a3372c7c1a99688bb0a6c4be61de146072671b6d28f9c703ae5ba770149698"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0020.bin",
+          "tokens": 2002799,
+          "sha256": "5ad1afa98bf12a28491bba29943f25ae1bc2585123ee46f66dc531900813cccf"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0021.bin",
+          "tokens": 2000732,
+          "sha256": "fb324e403fca8436631600a67335257c7142c6af4f37ad4c597a1abddbc952c3"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0022.bin",
+          "tokens": 2001085,
+          "sha256": "f6ace7a0c3c2b84308149b6a020275e9b4a64b7444e65a6ac5e2643809f97eb7"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0023.bin",
+          "tokens": 2008840,
+          "sha256": "ee772df72d5b1780ccb950b11062892cd4e65f0fbebc905d471c32d45131aee4"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0024.bin",
+          "tokens": 2001287,
+          "sha256": "31562db2da64dfe27676d0e2b74a42df1aa1d472a8500bfc63b8f695f64e2703"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0025.bin",
+          "tokens": 2004438,
+          "sha256": "588345ad2c4632069bdfcebc70c173287963d782161cc3346d1767004ae49f36"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0026.bin",
+          "tokens": 2001253,
+          "sha256": "041b2e282c4304c496d050fa5c628b5d150a3a39d4be72512ca547f6c549ae64"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0027.bin",
+          "tokens": 2000420,
+          "sha256": "b3376d3369124c8b5d6443680ba9e1a34282166aba89b57551e8f84dc668ec0d"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0028.bin",
+          "tokens": 2000830,
+          "sha256": "6b40c0ccb5cc699ff3c7109ada16cbb9d93832e13d6d5c05833ba44d680b6d80"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0029.bin",
+          "tokens": 2004284,
+          "sha256": "40f952182021945668b6a2b9012e8cb044b051cb9db6b06ad286037f83bdef1c"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0030.bin",
+          "tokens": 2007347,
+          "sha256": "16b6cc56f96cafc27e63a0248ed2c4bfff144fc2ecaa8ed2cd8be223ae58231d"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0031.bin",
+          "tokens": 2001226,
+          "sha256": "84928551e3f38aa95e4ad8ec16cf81a69c3f244b10f9440339a6a4b2a9d6998e"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0032.bin",
+          "tokens": 2001458,
+          "sha256": "20138ebb4021c398a6f8102dd54dbebbaeb34ae98605d1d23539ceb8a2e1c7f7"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0033.bin",
+          "tokens": 2003679,
+          "sha256": "4e6c0c404d37391c48688bd3a9e36bc6f1f1dd47142ccb2d7123663733effd4b"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0034.bin",
+          "tokens": 2000765,
+          "sha256": "4a8a9c3ef45f833902ad20e306fde9f6f701a116a9abba04129a20463053b4ea"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0035.bin",
+          "tokens": 2007200,
+          "sha256": "36b1f5c2980d13146f8ce3aa651dd9e45ef067971691417dc11eff5f550f51db"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0036.bin",
+          "tokens": 2000681,
+          "sha256": "e0e1f463dbdacf30fbc3c21e10de64a166a1d5535f842644bddf6d15d6949ab0"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0037.bin",
+          "tokens": 2000000,
+          "sha256": "039f946f75e7c63a77b6dfd5080a6331c3bd2d638d6c13e66c4f8821e64b0aec"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0038.bin",
+          "tokens": 2001175,
+          "sha256": "0477ba34c12aa1cd9bb66ff768ba48851a3e4b2bb2da547feedb953572b37f3f"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0039.bin",
+          "tokens": 2001228,
+          "sha256": "056267435feb162740cc6936cbee45f38e62b2cfff47393eb0fc0d16ca85bf46"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0040.bin",
+          "tokens": 2003936,
+          "sha256": "7737f890ce09ac2c8a17deec604c497d4cf958893527f18867d52a4a779ea379"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0041.bin",
+          "tokens": 2000325,
+          "sha256": "c3d0424b7bf935c8c78dde352e8d4e8db78de06c9d87a05fbbf375f369a6af44"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0042.bin",
+          "tokens": 2046161,
+          "sha256": "59f5ea3cc7fbe7eab18efc779034a0b896773371aa3ac4df5b0a0394ed2f9b64"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0043.bin",
+          "tokens": 2001162,
+          "sha256": "bd2f7366d57281aab48fa1270253507cd5102b7c89166228e18d3fde3d22aaf6"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0044.bin",
+          "tokens": 2000189,
+          "sha256": "0e02814614ca273f66287d60b452975fc5de0223ad0ba90ee11fe8bfc7b46397"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0045.bin",
+          "tokens": 2000564,
+          "sha256": "34e7e598845228afa6620cc61bc1faeadd92fb500a2e1d68f2e39539441e4c84"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0046.bin",
+          "tokens": 2001203,
+          "sha256": "4aee6d885b1c108c7766924e9b1f3838afd85efb7e345ff72be68d4cdfd3f1bc"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0047.bin",
+          "tokens": 2003221,
+          "sha256": "c39302ec0614f0c00ccd450e7eeb697d7da537478887a0649d377eb30156fe0f"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0048.bin",
+          "tokens": 2001766,
+          "sha256": "a46cc55122a703eba59e1723e105bda06e7166a8c67886ce4bb5c68612d42f60"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0049.bin",
+          "tokens": 2000254,
+          "sha256": "70948f218b7665b863f275e17273306ce7f74d66f4fb7098053833cedf4f98a4"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0050.bin",
+          "tokens": 2003648,
+          "sha256": "7df4b09b9aba2fc711d4671093c004571275b51e88c4f851a7a4bb1e5ae6914b"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0051.bin",
+          "tokens": 2001469,
+          "sha256": "932181aed67238cb4555781615067bb825ed1b07e25a2d7d00685199718c1f4f"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0052.bin",
+          "tokens": 2001088,
+          "sha256": "912b5cf32070b0cc93a65bf45de6d1ae34719e8f02a80285920e306e14f1eceb"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0053.bin",
+          "tokens": 2000937,
+          "sha256": "a1ab21c54c6a9ff339c5e0d6752bf3566e08e8eebae44e28e0d0a4c296101843"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0054.bin",
+          "tokens": 2000276,
+          "sha256": "748661061a8df454a344f17f7e026cb957421e6dbc09e79e10984e8eedc38386"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0055.bin",
+          "tokens": 2006284,
+          "sha256": "4a18104359ee2532ac1eab17b68b4fc3d9586e5747fd5da055c58bb74832d989"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0056.bin",
+          "tokens": 2000520,
+          "sha256": "d05534f42f4c1eae2dfcbecdcf061a337e466f7d603a9e65342e05da0d7b06e5"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0057.bin",
+          "tokens": 2000483,
+          "sha256": "0d4e16f03058b59ac5768cc3182ce4b408f181535deb04d3701cf6316729945a"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0058.bin",
+          "tokens": 2001865,
+          "sha256": "260b70a906a8f408f791cf073c86f0bd33843e5908d2fb3a2847d15e77d24d71"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0059.bin",
+          "tokens": 2001020,
+          "sha256": "fcf0ddc2798e7aaead1f16613c41291fbe974791ead026012fafa6125c0ecf31"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0060.bin",
+          "tokens": 2002737,
+          "sha256": "e6fd2d388408090289aa293dec83a6b7d8b6a85b990f77015dd4215728b415ed"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0061.bin",
+          "tokens": 2001163,
+          "sha256": "a5a9c92089c8a06960fccdff2bff41326a0f9cd44dd4225af6217e5096d91798"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0062.bin",
+          "tokens": 2000848,
+          "sha256": "cf2b02107d44b5281ad76711a2960c015e8547c6c3cdd48ba2b145036c4ba51d"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0063.bin",
+          "tokens": 2008021,
+          "sha256": "4574e48339ab1738781fc55383feceb0238b6309c7a2ade92ccd56ba6aa2a1bf"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0064.bin",
+          "tokens": 2001254,
+          "sha256": "6ec8b13fa7ecb8366f4be2663f489d04dfc864b3d5e993d98d9d79a2c261eaad"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0065.bin",
+          "tokens": 2000293,
+          "sha256": "631f88c34769d924221f6af6f9fe87527669f73c67e705037aa602429f588d5b"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0066.bin",
+          "tokens": 2000232,
+          "sha256": "e7efcc914d81d1e5914a5bd6f4561ecfc5b355243c22ceb70e1e1b46494484b6"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0067.bin",
+          "tokens": 2002924,
+          "sha256": "54095c0871e85dc662a0e2e5c8eb21b7d8a49e1f2db32fecbcf116eb558e98cc"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0068.bin",
+          "tokens": 2003787,
+          "sha256": "779efd3fb0dac7e91a8eb5553ae5651a79858cd82bc2bd7bad92c45965816815"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0069.bin",
+          "tokens": 2001306,
+          "sha256": "cf5e917c66212840601586f5dc60cac1ac932bad2635f7559fb68c37d435ab99"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0070.bin",
+          "tokens": 2000384,
+          "sha256": "f819025c0b4dfff79dfc029ebd6fa4a62d49c56568a46c632ded07a2ed7bbe15"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0071.bin",
+          "tokens": 2000665,
+          "sha256": "4b2f01da992aeb24b7ee87f0017d71df96ea9190d4d4f4c6fe5344331aeba05c"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0072.bin",
+          "tokens": 2007470,
+          "sha256": "f3abd21374d24f86f9c68a7a593eccd4360f6d4c54af7553518dd551e9f47a76"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0073.bin",
+          "tokens": 2000122,
+          "sha256": "72790a193505713140c4543cc958da514ab94d84d4af9da1f2edb443ecaa9bc4"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0074.bin",
+          "tokens": 2000168,
+          "sha256": "684a7113e8423f3349670066f76b97e3bd576e4d330267eb17ced17e4049dc30"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0075.bin",
+          "tokens": 2002408,
+          "sha256": "50a1b167e56863db50c711723fb3750ff6927d95fdd6aaa4cbd3d0d38e73a036"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0076.bin",
+          "tokens": 2000521,
+          "sha256": "f7865305e3b70ebc7543d0b68f17460a613c854bf357f899493a61aaba507e59"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0077.bin",
+          "tokens": 2000872,
+          "sha256": "df344a66372fee7af9651092986e990bf473e7b93af7ee0cd69865400665903f"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0078.bin",
+          "tokens": 2002102,
+          "sha256": "d0d554d813a8517ef2664e3940eb362258c49c5e28eac5009931a0464c141a8c"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0079.bin",
+          "tokens": 2000037,
+          "sha256": "8f056bbb735ae7b04fa6ad819e7dbcfdf7d0492d91f5669ecb557d1207874dce"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0080.bin",
+          "tokens": 2001259,
+          "sha256": "e24b566cfa3d2b9f9aa32fcc8edc8a7a57784f4a7ecca74dce3c305eb88bb1dc"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0081.bin",
+          "tokens": 2000079,
+          "sha256": "c9564194bceb0261e40464a85a51791dcc9145c27c8b3c004be609ff6d588068"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0082.bin",
+          "tokens": 2000121,
+          "sha256": "944d4eb34154bbea2d87d06dfe423f7ae9eba227d731a81efdf69aa521b74cd5"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0083.bin",
+          "tokens": 2000875,
+          "sha256": "3a3dae1b2121b77795287e6f6429b22f12aa099d38d05df44b206c4df635ced2"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0084.bin",
+          "tokens": 2012273,
+          "sha256": "e73b8eb79d1faa4e0fb8aac14deac3c18bbf7321f640bc0974c9579ac16dd769"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0085.bin",
+          "tokens": 2000900,
+          "sha256": "d86e7e9690d065fda2317c14fd70a2f603fc7fc520eb5a97a782fde73006a737"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0086.bin",
+          "tokens": 2001974,
+          "sha256": "a9eea1cbd96c5998e54793a0c2a5167c0e9f558f2e486bfd5db8e85c15754551"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0087.bin",
+          "tokens": 2000625,
+          "sha256": "595a4edddc27e4ef27280e4bcbafd786fdb04bf54e25e1d02294399f54c05fd2"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0088.bin",
+          "tokens": 2000113,
+          "sha256": "030ab007d54382dfdeace21d75c1fb544f78edb53dc82026c3397038bd5a5a86"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0089.bin",
+          "tokens": 2000377,
+          "sha256": "16142d62556fe4d186a3fa69c2a1ef40a6e786fa620ae8b7198f007ba4ce0fa0"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0090.bin",
+          "tokens": 2000299,
+          "sha256": "3ad9ccb928235ae0ac158559dcb43813f07861f8f457ef8868e356853682ab43"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0091.bin",
+          "tokens": 2000033,
+          "sha256": "cc8c4461c380c17894ec301e71aa6d644d7e15d2007cb47f0d95960f0f0ab344"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0092.bin",
+          "tokens": 2001018,
+          "sha256": "e5a85e65d89d738a28ba51a4d50d908262a1acd1c2f474fb6f885f491bf1b601"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0093.bin",
+          "tokens": 2002842,
+          "sha256": "80c82addd5e76930289f4357dfd2e71ad213f9a7781f2b7beeceeacc81d8629e"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0094.bin",
+          "tokens": 2000963,
+          "sha256": "d030671ca9abdf599c145eaa5276ec17e8455e4bacea4874bdbf87959b4c22ac"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0095.bin",
+          "tokens": 2000243,
+          "sha256": "5a2af0beb409a3f96711d288d8e05b080c3a0ac614a4d02eaeea5b57830fa0c7"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0096.bin",
+          "tokens": 2000917,
+          "sha256": "de646d7336a53581c39ca0d6babbeff0be18113e671ed633759aab3f1864f069"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0097.bin",
+          "tokens": 2002836,
+          "sha256": "1ab496dfa26694905abe1efccd1785d1cf56bc2af6363862b74f4f1b8cbd8207"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0098.bin",
+          "tokens": 2000687,
+          "sha256": "3cfc495a60635654f8d69cb92a58de1871a8cbd351eaddcf49c2a3c7b1d245ab"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0099.bin",
+          "tokens": 2000056,
+          "sha256": "09d47571fe667e17dffbdb924d3ee50641be794086c7b35854fa1771685152ce"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0100.bin",
+          "tokens": 2003011,
+          "sha256": "9cf35eb1f027e3cdc34fbcb9a62f3cbd11b4a031fb180c2944190d9472ffd541"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0101.bin",
+          "tokens": 2000376,
+          "sha256": "58d46defa1dc93ddb05215d58a8513e78ff8e5a57c5b999957a449d280551be1"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0102.bin",
+          "tokens": 2003243,
+          "sha256": "d330a93817751a06065dc2a00032f8a8b678a561893676b436efeba6f493eed3"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0103.bin",
+          "tokens": 2000224,
+          "sha256": "062328a53c00e65cb1d73420984298ea13bad4d1d6f6daa1983787032d5fda6b"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0104.bin",
+          "tokens": 2000135,
+          "sha256": "bd2dd09417f9d8415ab8b7fdf533e31bfc431cd86cd179ed94fc80d798f4b6ae"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0105.bin",
+          "tokens": 2000167,
+          "sha256": "39fe4c332e0c329ea5ae4e5ee76b408b517bfd53429c70537491beb0b7043158"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0106.bin",
+          "tokens": 2000015,
+          "sha256": "842553d814a947617d1a2d5b2e571386d24ca54b7409c2e8318e7dde03cacaa6"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0107.bin",
+          "tokens": 2000049,
+          "sha256": "2a2fd1ddd487034d4720d67c5abe6cae6a699e0b7d7a4bf8557e241a9d735ee0"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0108.bin",
+          "tokens": 2003272,
+          "sha256": "bc6691e016b2ed82b99eeba8813e7ceb38bf2db4f2619dde14bcc4c4220df64d"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0109.bin",
+          "tokens": 2000276,
+          "sha256": "ff463717591d8d6cb6d97ca8da6aef214ea4a0a3da9c522c3c390a732f6195c7"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0110.bin",
+          "tokens": 2001728,
+          "sha256": "a6245b9de8bc595fd3ce12c351c584238f50bed534032d688075682f08446e0a"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0111.bin",
+          "tokens": 2000372,
+          "sha256": "5bf929947dcb17f8d7d856db037cf84d22613a7d7315b2605cb24e827fadb6da"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0112.bin",
+          "tokens": 2000201,
+          "sha256": "9b2efe81f90e3f5de9b493b3e145427c9c6f1bcf7f061daa378d168be91be3d2"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0113.bin",
+          "tokens": 2000018,
+          "sha256": "9ff64fdfd6854c36dbd1a44bc061d0c3fc3216e2577430fecb3975fcf446bdbe"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0114.bin",
+          "tokens": 2000156,
+          "sha256": "9f7bcca63faace62243c16692b2ffebe859a784ed9da518560f423f1451daf1a"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0115.bin",
+          "tokens": 2000964,
+          "sha256": "6009e6a0503da1f518dfd4b070d8c0fe97c820d09ff925aafdde4d9af99ecbdf"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-train\\0116.bin",
+          "tokens": 567241,
+          "sha256": "7da249446e7856539adc2d3830646a0dc0113c14b68ff6fbca7e550b284f30c1"
+        }
+      ],
+      "tokens": 232861902,
+      "documents": 232524,
+      "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+      "packing": "EOS between documents; cross-document attention allowed"
+    },
+    "validation": {
+      "dtype": "uint16",
+      "shards": [
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-validation\\0000.bin",
+          "tokens": 2000511,
+          "sha256": "15e87d0ce1b6579322005b17d4f3a66cd059425cc97f776e4fca153a72875fc1"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-validation\\0001.bin",
+          "tokens": 2000489,
+          "sha256": "ca75cf5699d6899d31940f476a7a40916db4796b332648be2ff0f586b496fb7d"
+        },
+        {
+          "path": "D:\\LubanLM-Data\\chat-v2\\processed\\pretrain-validation\\0002.bin",
+          "tokens": 827786,
+          "sha256": "cf1472fd979baa0642099d22a665c7c189345167a19babf0843248a2413621d0"
+        }
+      ],
+      "tokens": 4828786,
+      "documents": 4727,
+      "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+      "packing": "EOS between documents; cross-document attention allowed"
+    },
+    "created_utc": "2026-10-02T08:21:03.585775+00:00",
+    "legacy_seed": {
+      "repo": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "config": "20231101.zh",
+      "license": "CC-BY-SA-3.0 / GFDL",
+      "limit": 30000,
+      "sha256": "19799c43225462f7c87883ded042a2f8d9d93ae244feac2c79a328a92fad9189"
+    },
+    "requested_documents": 250000,
+    "selection": "first requested records of fixed source revision, streaming; legacy prefix reused",
+    "processed_sha256": {
+      "train": "e918b0ddfb9e19e1c9f279f501e41a2dcee2047d7e62ad5d2ecac5a596dc0ca8",
+      "validation": "424cdbdfe795edb860e7d83d5aee194c1beae5413a8f883866848e101956e136"
+    }
+  },
+  "sft": {
+    "source": {
+      "repo": "BelleGroup/train_0.5M_CN",
+      "revision": "29c35e9b56c7fc91f04a613ed33896f7a19bad54",
+      "license": "see dataset card: GPL-3.0 and additional restrictions",
+      "synthetic": true
+    },
+    "belle_accepted": 50000,
+    "authored_generated": 1000,
+    "authored_validation": "template facts reviewed; arithmetic computed exactly",
+    "statistics": {
+      "train": {
+        "examples": 50536,
+        "input_tokens": 6057826,
+        "supervised_tokens": 2670322
+      },
+      "validation": {
+        "examples": 1019,
+        "input_tokens": 123713,
+        "supervised_tokens": 55672
+      }
+    },
+    "rejected": {
+      "excluded_suite": 28,
+      "duplicate": 480,
+      "length": 96,
+      "filter": 16553
+    },
+    "question_split_disjoint": true,
+    "suite_exact_questions_excluded": true,
+    "created_utc": "2026-10-02T08:21:46.476994+00:00"
+  },
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "created_utc": "2026-10-02T08:21:46.614996+00:00"
+}
