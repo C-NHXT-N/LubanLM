@@ -1,0 +1,3677 @@
+{
+  "created_utc": "2026-10-04T16:25:28.896092+00:00",
+  "training_started": false,
+  "config": {
+    "name": "LubanLM-50M",
+    "status": "runtime-teaching-v1",
+    "vocab_size": 32000,
+    "hidden_size": 512,
+    "num_hidden_layers": 11,
+    "num_attention_heads": 8,
+    "num_key_value_heads": 2,
+    "head_dim": 64,
+    "intermediate_size": 1536,
+    "context_length": 2048,
+    "tie_word_embeddings": true,
+    "linear_bias": false,
+    "pad_token_id": 0,
+    "bos_token_id": 1,
+    "eos_token_id": 2
+  },
+  "parameters": 49558400,
+  "embedding_parameters": 16384000,
+  "embedding_fraction": 0.33059985794537355,
+  "corpus": {
+    "encoded_tokens": 232861902,
+    "documents": 232524,
+    "packing": "EOS between documents; cross-document attention allowed",
+    "cumulative_pretrain_tokens": 808003584,
+    "cumulative_exposures_are_not_unique_data": true
+  },
+  "data": {
+    "train": {
+      "identity": {
+        "examples": 307,
+        "unique_answers": 12,
+        "unique_families": 50,
+        "authored_topics": [
+          "",
+          "chinese",
+          "help",
+          "human",
+          "intro",
+          "name"
+        ],
+        "supervised_tokens": 4434,
+        "source_counts": {
+          "authored-identity-v5": 252,
+          "authored-chat-v4": 25,
+          "authored-chat": 30
+        }
+      },
+      "instruction": {
+        "examples": 588,
+        "unique_answers": 153,
+        "unique_families": 357,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 4211,
+        "source_counts": {
+          "authored-copy-v5": 172,
+          "authored-keyword-v5": 87,
+          "authored-naming-v5": 72,
+          "authored-instruction-v3": 75,
+          "authored-instruction-v4": 182
+        }
+      },
+      "concept": {
+        "examples": 264,
+        "unique_answers": 15,
+        "unique_families": 249,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 3513,
+        "source_counts": {
+          "authored-basic-v5": 18,
+          "authored-facts-v4": 52,
+          "authored-facts": 194
+        }
+      },
+      "daily": {
+        "examples": 289,
+        "unique_answers": 30,
+        "unique_families": 169,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 4678,
+        "source_counts": {
+          "authored-basic-v5": 96,
+          "authored-facts-v4": 23,
+          "authored-daily-v3": 37,
+          "authored-daily-v4": 50,
+          "authored-facts": 83
+        }
+      },
+      "greeting": {
+        "examples": 96,
+        "unique_answers": 12,
+        "unique_families": 13,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 1083,
+        "source_counts": {
+          "authored-basic-v5": 12,
+          "authored-chat-v4": 25,
+          "authored-chat": 59
+        }
+      },
+      "arithmetic": {
+        "examples": 6995,
+        "unique_answers": 88,
+        "unique_families": 910,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 22119,
+        "source_counts": {
+          "authored-arithmetic-v4": 6995
+        }
+      },
+      "public": {
+        "examples": 18351,
+        "unique_answers": 17850,
+        "unique_families": 18351,
+        "authored_topics": null,
+        "supervised_tokens": 471624,
+        "source_counts": {
+          "oasst1": 176,
+          "belle-synthetic": 18175
+        }
+      }
+    },
+    "validation": {
+      "public": {
+        "examples": 568,
+        "unique_answers": 568,
+        "unique_families": 568,
+        "authored_topics": null,
+        "supervised_tokens": 26125,
+        "source_counts": {
+          "oasst1": 31,
+          "belle-synthetic": 537
+        }
+      },
+      "arithmetic": {
+        "examples": 829,
+        "unique_answers": 52,
+        "unique_families": 112,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 2653,
+        "source_counts": {
+          "authored-arithmetic": 7,
+          "authored-arithmetic-v4": 822
+        }
+      },
+      "concept": {
+        "examples": 26,
+        "unique_answers": 12,
+        "unique_families": 21,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 323,
+        "source_counts": {
+          "authored-facts": 16,
+          "authored-facts-v4": 4,
+          "authored-basic-v5": 6
+        }
+      },
+      "daily": {
+        "examples": 21,
+        "unique_answers": 11,
+        "unique_families": 13,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 351,
+        "source_counts": {
+          "authored-facts": 7,
+          "authored-daily-v3": 3,
+          "authored-daily-v4": 10,
+          "authored-facts-v4": 1
+        }
+      },
+      "identity": {
+        "examples": 68,
+        "unique_answers": 7,
+        "unique_families": 11,
+        "authored_topics": [
+          "",
+          "chinese",
+          "help",
+          "human",
+          "name"
+        ],
+        "supervised_tokens": 956,
+        "source_counts": {
+          "authored-chat": 10,
+          "authored-chat-v4": 10,
+          "authored-identity-v5": 48
+        }
+      },
+      "instruction": {
+        "examples": 66,
+        "unique_answers": 25,
+        "unique_families": 30,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 515,
+        "source_counts": {
+          "authored-instruction-v3": 5,
+          "authored-instruction-v4": 14,
+          "authored-copy-v5": 20,
+          "authored-keyword-v5": 9,
+          "authored-naming-v5": 18
+        }
+      },
+      "greeting": {
+        "examples": 22,
+        "unique_answers": 3,
+        "unique_families": 4,
+        "authored_topics": [
+          ""
+        ],
+        "supervised_tokens": 333,
+        "source_counts": {
+          "authored-chat-v4": 10,
+          "authored-basic-v5": 12
+        }
+      }
+    }
+  },
+  "structural_audit": {
+    "checked_pairs": 28490,
+    "errors": {},
+    "examples": [],
+    "token_files_align_with_semantic_files": {
+      "train": true,
+      "validation": true
+    }
+  },
+  "overlap": {
+    "exact_question_overlap": 0,
+    "family_overlap": 0,
+    "validation_answer_seen_in_train_by_task": {
+      "public": {
+        "total": 568,
+        "same_answer": 8
+      },
+      "greeting": {
+        "total": 22,
+        "same_answer": 17
+      },
+      "identity": {
+        "total": 68,
+        "same_answer": 53
+      },
+      "daily": {
+        "total": 21,
+        "same_answer": 11
+      },
+      "concept": {
+        "total": 26,
+        "same_answer": 26
+      },
+      "instruction": {
+        "total": 66,
+        "same_answer": 34
+      },
+      "arithmetic": {
+        "total": 829,
+        "same_answer": 786
+      }
+    },
+    "interpretation": "Shared short answers alone do not prove leakage. Exact ancestor exposure and template-heavy coverage make this unsuitable as an independent capability test.",
+    "validation_questions_in_v5_ancestor_training": {
+      "identity": 58,
+      "instruction": 52,
+      "concept": 15,
+      "greeting": 19,
+      "arithmetic": 336,
+      "daily": 15
+    }
+  },
+  "sampling": {
+    "actual_stage_steps": 2000,
+    "epoch_batches": 3362,
+    "batch_composition": {
+      "public": 2,
+      "greeting": 1,
+      "identity": 1,
+      "daily": 1,
+      "concept": 1,
+      "instruction": 1,
+      "arithmetic": 1
+    },
+    "objective_weights": {
+      "public": 0.3,
+      "greeting": 0.1,
+      "identity": 0.1,
+      "daily": 0.1,
+      "concept": 0.1,
+      "instruction": 0.1,
+      "arithmetic": 0.2
+    },
+    "first_2000_steps": {
+      "public": {
+        "available": 18351,
+        "draws": 4000,
+        "unique_seen": 4000,
+        "coverage": 0.21797177265544113,
+        "max_repeats": 1
+      },
+      "greeting": {
+        "available": 96,
+        "draws": 2000,
+        "unique_seen": 96,
+        "coverage": 1.0,
+        "max_repeats": 21
+      },
+      "identity": {
+        "available": 307,
+        "draws": 2000,
+        "unique_seen": 307,
+        "coverage": 1.0,
+        "max_repeats": 7
+      },
+      "daily": {
+        "available": 289,
+        "draws": 2000,
+        "unique_seen": 289,
+        "coverage": 1.0,
+        "max_repeats": 7
+      },
+      "concept": {
+        "available": 264,
+        "draws": 2000,
+        "unique_seen": 264,
+        "coverage": 1.0,
+        "max_repeats": 8
+      },
+      "instruction": {
+        "available": 588,
+        "draws": 2000,
+        "unique_seen": 588,
+        "coverage": 1.0,
+        "max_repeats": 4
+      },
+      "arithmetic": {
+        "available": 6995,
+        "draws": 2000,
+        "unique_seen": 2000,
+        "coverage": 0.28591851322373124,
+        "max_repeats": 1
+      }
+    },
+    "interpretation": "Stratified epochs are not complete passes over each source. Repeats are exposures, not independent examples."
+  },
+  "stages": {
+    "50m-base-v2": {
+      "step": 195313,
+      "planned_steps": 195313,
+      "supervised_tokens": 400001024,
+      "cumulative_pretrain_tokens": 408002560,
+      "cumulative_sft_tokens": null,
+      "initial_validation_loss": 4.628180889414668,
+      "final_validation_loss": 4.526000711056446,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 3688.8279999999795,
+      "settings": {
+        "init": null,
+        "continue_from": null,
+        "lr": 0.0003,
+        "warmup_steps": 100,
+        "epochs": 2,
+        "sft_sampling": null,
+        "sft_objective": null,
+        "validation_every_steps": null,
+        "early_stop_patience": null,
+        "length": 256
+      }
+    },
+    "50m-base-correction-v6": {
+      "step": 195313,
+      "planned_steps": 195313,
+      "supervised_tokens": 400001024,
+      "cumulative_pretrain_tokens": 808003584,
+      "cumulative_sft_tokens": null,
+      "initial_validation_loss": 4.526000711056446,
+      "final_validation_loss": 4.420605199241834,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 14501.670999999973,
+      "settings": {
+        "init": null,
+        "continue_from": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\last.pt",
+        "lr": 0.0001,
+        "warmup_steps": 1000,
+        "epochs": 2,
+        "sft_sampling": "random",
+        "sft_objective": "token",
+        "validation_every_steps": 0,
+        "early_stop_patience": 0,
+        "length": 256
+      }
+    },
+    "50m-chat-v2": {
+      "step": 11150,
+      "planned_steps": 11150,
+      "supervised_tokens": 2940656,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": null,
+      "initial_validation_loss": 4.830815269612412,
+      "final_validation_loss": 3.6305671260525125,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 891.905999999959,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\last.pt",
+        "continue_from": null,
+        "lr": 5e-05,
+        "warmup_steps": null,
+        "epochs": 2,
+        "sft_sampling": null,
+        "sft_objective": null,
+        "validation_every_steps": null,
+        "early_stop_patience": null,
+        "length": 256
+      }
+    },
+    "50m-chat-v4": {
+      "step": 13631,
+      "planned_steps": 13631,
+      "supervised_tokens": 1170474,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": null,
+      "initial_validation_loss": 3.6635297355442686,
+      "final_validation_loss": 5.191553573591295,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 1159.75,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v2\\last.pt",
+        "continue_from": null,
+        "lr": 5e-05,
+        "warmup_steps": 100,
+        "epochs": 6,
+        "sft_sampling": null,
+        "sft_objective": null,
+        "validation_every_steps": null,
+        "early_stop_patience": null,
+        "length": 256
+      }
+    },
+    "50m-chat-v5": {
+      "step": 12811,
+      "planned_steps": 12811,
+      "supervised_tokens": 1665542,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": null,
+      "initial_validation_loss": 5.185328410013117,
+      "final_validation_loss": 4.4556541711770805,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 1079.2660000000033,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v4\\last.pt",
+        "continue_from": null,
+        "lr": 1e-05,
+        "warmup_steps": 100,
+        "epochs": 2,
+        "sft_sampling": null,
+        "sft_objective": null,
+        "validation_every_steps": null,
+        "early_stop_patience": null,
+        "length": 256
+      }
+    },
+    "50m-chat-v6-token": {
+      "step": 2000,
+      "planned_steps": 2000,
+      "supervised_tokens": 234135,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": 6010807,
+      "initial_validation_loss": 4.079807328646967,
+      "final_validation_loss": 4.155291306701473,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 234.64100000000326,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\last.pt",
+        "continue_from": null,
+        "lr": 1e-05,
+        "warmup_steps": 100,
+        "epochs": 20,
+        "sft_sampling": "stratified",
+        "sft_objective": "token",
+        "validation_every_steps": 1000,
+        "early_stop_patience": 0,
+        "length": 256
+      },
+      "validation_by_task": [
+        {
+          "step": 0,
+          "validation_loss": 4.079807328646967,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:05:50.998477+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.7217173838278335,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5140295258172146,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0011915643209297407,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.001745578185509243,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.0009976693104648627,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.019288737567828843,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.002439565081205275,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7516300034444265
+        },
+        {
+          "step": 1000,
+          "validation_loss": 4.1616298202819175,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:07:33.804327+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.816036653187758,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5273953729232438,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0009037294913798387,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.002527426051352693,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.002348253637879588,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.024106297158699448,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.001474476500495418,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7678274584215439
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.155291306701473,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:09:15.969256+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.80832871749105,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5317061827749736,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0008550706058567614,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.002634933408073805,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.0021223139288644288,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.02023311260029746,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.001328416577017343,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7667441067694476
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.155291306701473,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:09:45.422807+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.80832871749105,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5317061827749736,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0008550706058567614,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.002634933408073805,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.0021223139288644288,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.02023311260029746,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.001328416577017343,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7667441067694476
+        }
+      ]
+    },
+    "50m-chat-v6-balanced": {
+      "step": 2000,
+      "planned_steps": 2000,
+      "supervised_tokens": 234135,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": 6010807,
+      "initial_validation_loss": 4.079807328646967,
+      "final_validation_loss": 4.159695096004046,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 237.03100000001723,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\last.pt",
+        "continue_from": null,
+        "lr": 1e-05,
+        "warmup_steps": 100,
+        "epochs": 20,
+        "sft_sampling": "stratified",
+        "sft_objective": "task-balanced",
+        "validation_every_steps": 1000,
+        "early_stop_patience": 0,
+        "length": 256
+      },
+      "validation_by_task": [
+        {
+          "step": 0,
+          "validation_loss": 4.079807328646967,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:10:53.016371+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.7217173838278335,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5140295258172146,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0011915643209297407,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.001745578185509243,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.0009976693104648627,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.019288737567828843,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.002439565081205275,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7516300034444265
+        },
+        {
+          "step": 1000,
+          "validation_loss": 4.164226934792703,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:12:36.878260+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.818155462971451,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.538609160775541,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0008356741783800232,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.0025657581515673897,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.0024510883320917895,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.020223709772729758,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0016482763143407333,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7692127329280145
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.159695096004046,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:14:20.237806+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.812754704971403,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5406435687245262,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.000785486333666156,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.0026289864146068396,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.002164174010587474,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.016647418110079845,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0014480070991290581,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7681531922377142
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.159695096004046,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:14:49.790114+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.812754704971403,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5406435687245262,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.000785486333666156,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.0026289864146068396,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.002164174010587474,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.016647418110079845,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0014480070991290581,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7681531922377142
+        }
+      ]
+    },
+    "50m-chat-v6-full": {
+      "step": 2000,
+      "planned_steps": 6000,
+      "supervised_tokens": 234135,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": 6244942,
+      "initial_validation_loss": 4.159695096004046,
+      "final_validation_loss": 4.254803224188037,
+      "stop_reason": "validation_patience",
+      "elapsed_seconds": 233.65600000001723,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\last.pt",
+        "continue_from": null,
+        "lr": 1e-05,
+        "warmup_steps": 100,
+        "epochs": 2,
+        "sft_sampling": "stratified",
+        "sft_objective": "task-balanced",
+        "validation_every_steps": 1000,
+        "early_stop_patience": 2,
+        "length": 256
+      },
+      "validation_by_task": [
+        {
+          "step": 0,
+          "validation_loss": 4.159695096004046,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:21:23.264792+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.812754704971403,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5406435687245262,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.000785486333666156,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.0026289864146068396,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.002164174010587474,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.016647418110079845,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0014480070991290581,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7681531922377142
+        },
+        {
+          "step": 1000,
+          "validation_loss": 4.319768065866117,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:23:05.842328+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.998556253338424,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5537840565221827,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.000758378275946913,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.004994119643538851,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.004040980446600515,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.016473340720516965,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0016705595521821273,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7971825269284845
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.254803224188037,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:24:48.635353+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.9214239889886,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5676167680662032,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0007347625892194155,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.007630601842380911,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.004219034505485865,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.015544389682433124,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0018582258669955951,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.788432538791617
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.254803224188037,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:25:16.729745+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.9214239889886,
+              "supervised_tokens": 30467
+            },
+            "arithmetic": {
+              "loss": 0.5676167680662032,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0007347625892194155,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.007630601842380911,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.004219034505485865,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.015544389682433124,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0018582258669955951,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.788432538791617
+        }
+      ]
+    },
+    "50m-chat-v7-clean": {
+      "step": 2000,
+      "planned_steps": 4000,
+      "supervised_tokens": 233204,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": 6244011,
+      "initial_validation_loss": 4.148207098303657,
+      "final_validation_loss": 4.182668349763397,
+      "stop_reason": "validation_patience",
+      "elapsed_seconds": 223.09299999999348,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\last.pt",
+        "continue_from": null,
+        "lr": 1e-05,
+        "warmup_steps": 100,
+        "epochs": 2,
+        "sft_sampling": "stratified",
+        "sft_objective": "task-balanced",
+        "validation_every_steps": 1000,
+        "early_stop_patience": 2,
+        "length": 256
+      },
+      "validation_by_task": [
+        {
+          "step": 0,
+          "validation_loss": 4.148207098303657,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:31:02.164148+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.907551768508254,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.5406222983015595,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0007853360303126898,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.002625931034453659,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.0021645719084156106,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.016647420476362543,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.001447559418240646,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7816921265253712
+        },
+        {
+          "step": 1000,
+          "validation_loss": 4.193376231405126,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:32:41.216768+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.96152624077546,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.5398032090317649,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0008054642488274596,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.0050297843722196724,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.004617589462069195,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.017286070792944832,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.002565086268268906,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7902333492787937
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.182668349763397,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:34:19.689877+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.948799844119822,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.5385784896302921,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0007620042398277866,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.008057936805796589,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.006146277210414098,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.01443153856665764,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0025667658316212015,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7884775509149188
+        },
+        {
+          "step": 2000,
+          "validation_loss": 4.182668349763397,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T07:34:45.088212+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.948799844119822,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.5385784896302921,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.0007620042398277866,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 0.008057936805796589,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.006146277210414098,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.01443153856665764,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.0025667658316212015,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 0.7884775509149188
+        }
+      ]
+    },
+    "50m-v6-base-probe-400m": {
+      "step": 2000,
+      "planned_steps": 2000,
+      "supervised_tokens": 233204,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": 233204,
+      "initial_validation_loss": 5.04857375013392,
+      "final_validation_loss": 3.7653148762193096,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 228.90600000001723,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\last.pt",
+        "continue_from": null,
+        "lr": 1e-05,
+        "warmup_steps": 100,
+        "epochs": 20,
+        "sft_sampling": "stratified",
+        "sft_objective": "task-balanced",
+        "validation_every_steps": 1000,
+        "early_stop_patience": 0,
+        "length": 256
+      },
+      "validation_by_task": [
+        {
+          "step": 0,
+          "validation_loss": 5.04857375013392,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:41:44.743367+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.833987701050972,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 6.645632101102815,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 6.202613157384536,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 5.976438299543158,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 5.668083649798916,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 4.495394243777377,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 6.139461208034206,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 5.708801480098855
+        },
+        {
+          "step": 1000,
+          "validation_loss": 3.819544630692492,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:43:26.050016+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.40152242989061,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.9254160191971897,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.23883380494066067,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 2.1707103996195345,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.6942670647070498,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.4866987796373738,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.5566154428430505,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 1.3534377058336384
+        },
+        {
+          "step": 2000,
+          "validation_loss": 3.7653148762193096,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:45:06.881922+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.362554111535469,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.741465322924669,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.105815434995635,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 2.016227653053751,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.6723106012496489,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.3496619710065786,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.5560629547716262,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 1.257728292791054
+        },
+        {
+          "step": 2000,
+          "validation_loss": 3.7653148762193096,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:45:33.448515+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.362554111535469,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.741465322924669,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.105815434995635,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 2.016227653053751,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.6723106012496489,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.3496619710065786,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.5560629547716262,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 1.257728292791054
+        }
+      ]
+    },
+    "50m-v6-base-probe-extended": {
+      "step": 2000,
+      "planned_steps": 2000,
+      "supervised_tokens": 233204,
+      "cumulative_pretrain_tokens": null,
+      "cumulative_sft_tokens": 233204,
+      "initial_validation_loss": 4.913312061930789,
+      "final_validation_loss": 3.6807095694313894,
+      "stop_reason": "step_target",
+      "elapsed_seconds": 228.2029999999795,
+      "settings": {
+        "init": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-correction-v6\\last.pt",
+        "continue_from": null,
+        "lr": 1e-05,
+        "warmup_steps": 100,
+        "epochs": 20,
+        "sft_sampling": "stratified",
+        "sft_objective": "task-balanced",
+        "validation_every_steps": 1000,
+        "early_stop_patience": 0,
+        "length": 256
+      },
+      "validation_by_task": [
+        {
+          "step": 0,
+          "validation_loss": 4.913312061930789,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:46:31.866020+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.729445096066123,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 6.229102584761222,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 5.969775929170496,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 5.771803874915142,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 5.57823939303474,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 4.393907206266829,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 5.820179157428913,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 5.498921891663351
+        },
+        {
+          "step": 1000,
+          "validation_loss": 3.7398703534626034,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:48:12.137038+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.310373821203789,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.9238974065160048,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.1780362117447351,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 1.8969415297195782,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.7523518010786886,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.3401571550270886,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.6486799981858995,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 1.2929197033536837
+        },
+        {
+          "step": 2000,
+          "validation_loss": 3.6807095694313894,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:49:53.012452+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.268341312956012,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.6997240721632485,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.07815091970489121,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 1.775197291306281,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.7372869035252467,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.23083053146968188,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.6168544682654532,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 1.2009122141986877
+        },
+        {
+          "step": 2000,
+          "validation_loss": 3.6807095694313894,
+          "validation_tokens_target": 0,
+          "full_sft": true,
+          "created_utc": "2026-10-03T11:50:20.039143+00:00",
+          "by_task": {
+            "public": {
+              "loss": 4.268341312956012,
+              "supervised_tokens": 26125
+            },
+            "arithmetic": {
+              "loss": 0.6997240721632485,
+              "supervised_tokens": 2653
+            },
+            "concept": {
+              "loss": 0.07815091970489121,
+              "supervised_tokens": 323
+            },
+            "daily": {
+              "loss": 1.775197291306281,
+              "supervised_tokens": 351
+            },
+            "identity": {
+              "loss": 0.7372869035252467,
+              "supervised_tokens": 956
+            },
+            "instruction": {
+              "loss": 0.23083053146968188,
+              "supervised_tokens": 515
+            },
+            "greeting": {
+              "loss": 0.6168544682654532,
+              "supervised_tokens": 333
+            }
+          },
+          "macro_loss": 1.2009122141986877
+        }
+      ]
+    }
+  },
+  "numeric_log_audit": {
+    "50m-base-v2": {
+      "logged_updates": 2017,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 7.691407203674316,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-base-correction-v6": {
+      "logged_updates": 1970,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 9.68781566619873,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-chat-v2": {
+      "logged_updates": 117,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 51.50216293334961,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-chat-v4": {
+      "logged_updates": 142,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 60.697105407714844,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-chat-v5": {
+      "logged_updates": 134,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 64.95120239257812,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-chat-v6-token": {
+      "logged_updates": 21,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 51.75102615356445,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-chat-v6-balanced": {
+      "logged_updates": 21,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 67.89445495605469,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-chat-v6-full": {
+      "logged_updates": 21,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 59.60847854614258,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-chat-v7-clean": {
+      "logged_updates": 21,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 63.74433517456055,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-v6-base-probe-400m": {
+      "logged_updates": 21,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 43.206417083740234,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    },
+    "50m-v6-base-probe-extended": {
+      "logged_updates": 21,
+      "nonfinite_logged_loss_lr_or_grad_norm": 0,
+      "max_logged_grad_norm": 47.721946716308594,
+      "limits": "Only logged updates are inspected; this does not prove every unlogged intermediate value was correct."
+    }
+  },
+  "development_review": {
+    "answers_sha256": "1a01b6e825181b1a00fab5e73ca8c4fccd583248fbef670447dd7f79cbb61e4c",
+    "marks_sha256": "365ed0b59f1d3570aba8fc7e64297dc46e061091fbd0c64edafe31ede5b7f301",
+    "review_complete": true,
+    "split": "dev",
+    "qualified_rate": 0.7666666666666667,
+    "relevant_readable_rate": 0.8666666666666667,
+    "looping_rate": 0.03333333333333333,
+    "eos_rate": 0.9833333333333333,
+    "category_rates": {
+      "greeting": 0.8,
+      "identity": 0.6,
+      "daily": 0.6,
+      "concept": 0.9,
+      "instruction": 0.7,
+      "arithmetic": 1.0
+    },
+    "passed": false,
+    "development_ready": false,
+    "created_utc": "2026-10-03T07:38:14.095379+00:00",
+    "results": [
+      {
+        "id": "dev-greeting-00",
+        "category": "greeting",
+        "question": "早晨好，来和你说一句话。",
+        "seed": 2026,
+        "answer": "早上好！祝你今天顺利。",
+        "generated_ids": [
+          18405,
+          1272,
+          6303,
+          4655,
+          4282,
+          4208,
+          27134,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-00",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "回应早晨问候并祝顺利，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-greeting-01",
+        "category": "greeting",
+        "question": "晚上见到你真开心。",
+        "seed": 2026,
+        "answer": "晚上好！很高兴和你聊天。",
+        "generated_ids": [
+          12394,
+          1272,
+          6303,
+          14910,
+          1655,
+          315,
+          4282,
+          20762,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-01",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "回应晚上相见并表示高兴，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-greeting-02",
+        "category": "greeting",
+        "question": "认识你让我很高兴。",
+        "seed": 2026,
+        "answer": "您好！很高兴和你聊天。",
+        "generated_ids": [
+          28072,
+          1272,
+          6303,
+          14910,
+          1655,
+          315,
+          4282,
+          20762,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-02",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "友好回应相识，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-greeting-03",
+        "category": "greeting",
+        "question": "刚才你帮了忙，谢啦。",
+        "seed": 2026,
+        "answer": "您好！很高兴和你聊天。",
+        "generated_ids": [
+          28072,
+          1272,
+          6303,
+          14910,
+          1655,
+          315,
+          4282,
+          20762,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-03",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": false,
+          "looping": false,
+          "reason": "可读但仍在初次问候，没有回应感谢或帮忙，语境不符。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-greeting-04",
+        "category": "greeting",
+        "question": "我得离开了，下次见。",
+        "seed": 2026,
+        "answer": "下次见。",
+        "generated_ids": [
+          492,
+          606,
+          1334,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-04",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "回应下次见，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-greeting-05",
+        "category": "greeting",
+        "question": "今天想先向你问候一声。",
+        "seed": 2026,
+        "answer": "一声和你好。",
+        "generated_ids": [
+          289,
+          2158,
+          315,
+          4282,
+          1272,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-05",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": false,
+          "reason": "一声和你好语序无法构成正常问候。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-greeting-06",
+        "category": "greeting",
+        "question": "愿意和我聊个天吗？",
+        "seed": 2026,
+        "answer": "当然愿意和我聊个天。你想和我聊什么呢？",
+        "generated_ids": [
+          20457,
+          5863,
+          681,
+          315,
+          1743,
+          8926,
+          475,
+          495,
+          265,
+          4282,
+          1347,
+          315,
+          1743,
+          8926,
+          9371,
+          22938,
+          4555,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-06",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "肯定愿意聊天并询问话题，代词生硬但核心意愿合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-greeting-07",
+        "category": "greeting",
+        "question": "新朋友你好，咱们认识一下。",
+        "seed": 2026,
+        "answer": "您好！很高兴认识你！",
+        "generated_ids": [
+          28072,
+          1272,
+          6303,
+          14910,
+          1655,
+          8729,
+          4282,
+          6303,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-07",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "友好回应新朋友相识，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-greeting-08",
+        "category": "greeting",
+        "question": "午后好呀。",
+        "seed": 2026,
+        "answer": "午后好，很高兴和你聊天。",
+        "generated_ids": [
+          3095,
+          486,
+          1272,
+          262,
+          14910,
+          1655,
+          315,
+          4282,
+          20762,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-08",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "回应午后问候，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-greeting-09",
+        "category": "greeting",
+        "question": "来和你说说话。",
+        "seed": 2026,
+        "answer": "我可以和你聊天，解释基础知识，并提供简单的日常建议。",
+        "generated_ids": [
+          1743,
+          759,
+          315,
+          4282,
+          20762,
+          262,
+          5629,
+          2962,
+          4553,
+          262,
+          727,
+          1769,
+          5162,
+          5543,
+          584,
+          7290,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-greeting-09",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "说明可以聊天并提供帮助，符合来交流的意愿。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-identity-00",
+        "category": "identity",
+        "question": "这位助手是谁呀？",
+        "seed": 2026,
+        "answer": "我，你可以这样称呼我。",
+        "generated_ids": [
+          1743,
+          262,
+          4282,
+          759,
+          4920,
+          5031,
+          1743,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-00",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": false,
+          "looping": false,
+          "reason": "回答我可以这样称呼我，没有说明助手身份或名字。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-identity-01",
+        "category": "identity",
+        "question": "方便说说你的名字吗？",
+        "seed": 2026,
+        "answer": "我叫LubanLM，你可以这样称呼我。",
+        "generated_ids": [
+          1743,
+          2079,
+          46,
+          4471,
+          735,
+          46,
+          47,
+          262,
+          4282,
+          759,
+          4920,
+          5031,
+          1743,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-01",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "明确给出名字LubanLM，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-identity-02",
+        "category": "identity",
+        "question": "能描述一下自己的用途吗？",
+        "seed": 2026,
+        "answer": "我可以描述一个我提供的问题，因为我需要更具体的信息才能回答这个问题。",
+        "generated_ids": [
+          1743,
+          759,
+          2437,
+          1042,
+          1743,
+          1769,
+          10206,
+          262,
+          2172,
+          1743,
+          1950,
+          929,
+          20462,
+          2350,
+          4813,
+          14906,
+          1932,
+          2365,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-02",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": false,
+          "reason": "描述一个我提供的问题语义紊乱，没有说明自己的用途。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-identity-03",
+        "category": "identity",
+        "question": "跟我说话的是人类吗？",
+        "seed": 2026,
+        "answer": "人类是“人类”的，它是一种人类化、可持续的、可持续的、可持续的、可持续的、可持续的。",
+        "generated_ids": [
+          2469,
+          291,
+          455,
+          2469,
+          462,
+          264,
+          262,
+          792,
+          2570,
+          2469,
+          477,
+          281,
+          473,
+          7785,
+          264,
+          281,
+          473,
+          7785,
+          264,
+          281,
+          473,
+          7785,
+          264,
+          281,
+          473,
+          7785,
+          264,
+          281,
+          473,
+          7785,
+          264,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": true,
+        "grading": {
+          "id": "dev-identity-03",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": true,
+          "reason": "没有说明自己是模型，并持续重复可持续的，语义错误且循环。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-identity-04",
+        "category": "identity",
+        "question": "你有能触碰物品的身体吗？",
+        "seed": 2026,
+        "answer": "我可以做到，我可以为您提供帮助。",
+        "generated_ids": [
+          1743,
+          759,
+          1461,
+          485,
+          262,
+          1743,
+          759,
+          338,
+          28072,
+          1769,
+          6135,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-04",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": false,
+          "looping": false,
+          "reason": "声称可以触碰物品，违反文字模型没有身体的身份事实。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-identity-05",
+        "category": "identity",
+        "question": "应该用哪个名字叫你？",
+        "seed": 2026,
+        "answer": "我叫LubanLM，你可以这样称呼我。",
+        "generated_ids": [
+          1743,
+          2079,
+          46,
+          4471,
+          735,
+          46,
+          47,
+          262,
+          4282,
+          759,
+          4920,
+          5031,
+          1743,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-05",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "明确给出名字LubanLM，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-identity-06",
+        "category": "identity",
+        "question": "能作为中文文字助手帮我吗？",
+        "seed": 2026,
+        "answer": "可以，我是一个中文助手，可以用文字和你交流。",
+        "generated_ids": [
+          759,
+          262,
+          1743,
+          2275,
+          1948,
+          11308,
+          262,
+          6442,
+          2157,
+          315,
+          4282,
+          5098,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-06",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "说明是中文文字助手且可交流，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-identity-07",
+        "category": "identity",
+        "question": "你能讲解基础概念吗？",
+        "seed": 2026,
+        "answer": "我可以用中文聊天，解释简单知识，并给出日常建议。",
+        "generated_ids": [
+          1743,
+          6442,
+          1948,
+          20762,
+          262,
+          5629,
+          5162,
+          4553,
+          262,
+          727,
+          18095,
+          6192,
+          7290,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-07",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "说明可以解释简单知识，符合基础概念讲解用途。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-identity-08",
+        "category": "identity",
+        "question": "日常的小问题你能聊吗？",
+        "seed": 2026,
+        "answer": "我可以用中文聊天，解释简单知识，并给出日常建议。",
+        "generated_ids": [
+          1743,
+          6442,
+          1948,
+          20762,
+          262,
+          5629,
+          5162,
+          4553,
+          262,
+          727,
+          18095,
+          6192,
+          7290,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-08",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "说明中文聊天和日常建议能力，回应日常小问题。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-identity-09",
+        "category": "identity",
+        "question": "请作简短自我介绍。",
+        "seed": 2026,
+        "answer": "我是LubanLM，一个用中文进行文字交流的语言模型。",
+        "generated_ids": [
+          28158,
+          46,
+          4471,
+          735,
+          46,
+          47,
+          262,
+          1042,
+          396,
+          1948,
+          1576,
+          2157,
+          5098,
+          11362,
+          4137,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-identity-09",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "给出LubanLM中文语言模型的简短自我介绍。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-daily-00",
+        "category": "daily",
+        "question": "做事累了怎样歇一会儿？",
+        "seed": 2026,
+        "answer": "累了可以暂时放下工作，喝点水，并适当休息。",
+        "generated_ids": [
+          3864,
+          400,
+          759,
+          21382,
+          1024,
+          492,
+          1296,
+          262,
+          9612,
+          995,
+          613,
+          262,
+          727,
+          18585,
+          10813,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-00",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "建议暂停工作喝水休息，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-daily-01",
+        "category": "daily",
+        "question": "次日得早起，晚上怎样做好准备？",
+        "seed": 2026,
+        "answer": "晚上好！很高兴和你聊天。",
+        "generated_ids": [
+          12394,
+          1272,
+          6303,
+          14910,
+          1655,
+          315,
+          4282,
+          20762,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-01",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": false,
+          "reason": "只回应晚上问候，没有次日早起的准备建议，答非所问。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-daily-02",
+        "category": "daily",
+        "question": "桌子上杂物多，先整理哪一步？",
+        "seed": 2026,
+        "answer": "先清理不需要的东西，再把书本、文具分别放好。",
+        "generated_ids": [
+          937,
+          779,
+          471,
+          11963,
+          264,
+          5839,
+          262,
+          1293,
+          1399,
+          895,
+          433,
+          281,
+          386,
+          946,
+          3135,
+          1024,
+          1272,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-02",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "先清理不需要的物品再分类放置，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-daily-03",
+        "category": "daily",
+        "question": "雨天离开家应准备哪些东西？",
+        "seed": 2026,
+        "answer": "带好雨具，穿合适的鞋，注意湿滑的路面。",
+        "generated_ids": [
+          1384,
+          1272,
+          2702,
+          946,
+          262,
+          2862,
+          535,
+          3370,
+          264,
+          8304,
+          262,
+          4373,
+          5873,
+          3580,
+          264,
+          30517,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-03",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "建议雨具合适鞋并注意湿滑，符合雨天出门。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-daily-04",
+        "category": "daily",
+        "question": "如何逐步开始每天看书？",
+        "seed": 2026,
+        "answer": "每天看书需要根据时间和时间进行安排，例如每天安排一小段阅读时间，先从感兴趣的书开始。",
+        "generated_ids": [
+          9805,
+          1495,
+          895,
+          1950,
+          1933,
+          2212,
+          315,
+          2212,
+          1576,
+          6494,
+          262,
+          1455,
+          9805,
+          6494,
+          31804,
+          1104,
+          7078,
+          2212,
+          262,
+          937,
+          952,
+          28095,
+          26426,
+          1336,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-04",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "开头时间重复生硬，后文每天小段阅读和从兴趣书开始构成有效建议。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-daily-05",
+        "category": "daily",
+        "question": "别人帮忙之后怎样致谢？",
+        "seed": 2026,
+        "answer": "真诚地说声谢谢，并说明对方的帮助对你很有用。",
+        "generated_ids": [
+          1339,
+          8691,
+          18752,
+          2158,
+          3874,
+          3874,
+          262,
+          727,
+          9893,
+          683,
+          6734,
+          6135,
+          683,
+          4282,
+          15531,
+          396,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-05",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "建议真诚道谢并说明帮助，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-daily-06",
+        "category": "daily",
+        "question": "怎样避免出门漏掉必需物品？",
+        "seed": 2026,
+        "answer": "注意：，你需要在门在、在、在等。",
+        "generated_ids": [
+          4373,
+          371,
+          262,
+          4282,
+          1950,
+          297,
+          1103,
+          297,
+          281,
+          297,
+          281,
+          297,
+          465,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-06",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": false,
+          "reason": "你需要在门在在在等无法表达出门检查建议。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-daily-07",
+        "category": "daily",
+        "question": "看书总被手机干扰怎么办？",
+        "seed": 2026,
+        "answer": "给手机、手机和手机。",
+        "generated_ids": [
+          2001,
+          20444,
+          281,
+          20444,
+          315,
+          20444,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-07",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": false,
+          "reason": "只列手机手机和手机，没有完整的减少干扰建议；短重复尚非持续生成循环。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-daily-08",
+        "category": "daily",
+        "question": "出去步行时有什么小提醒？",
+        "seed": 2026,
+        "answer": "提醒：你在走路上，你在走路上。",
+        "generated_ids": [
+          751,
+          7992,
+          371,
+          4282,
+          297,
+          2177,
+          614,
+          377,
+          262,
+          4282,
+          297,
+          2177,
+          614,
+          377,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-08",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": false,
+          "looping": false,
+          "reason": "重复告知你在走路上，可理解但没有任何步行注意事项；两次复述不足以判持续循环。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-daily-09",
+        "category": "daily",
+        "question": "家人过生日，给句祝愿吧。",
+        "seed": 2026,
+        "answer": "祝你生日快乐，愿你平安顺利，每一天都开心。",
+        "generated_ids": [
+          4655,
+          4282,
+          19225,
+          1898,
+          1441,
+          262,
+          5863,
+          4282,
+          7867,
+          27134,
+          262,
+          7876,
+          495,
+          554,
+          720,
+          754,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-daily-09",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "生日祝福平安顺利开心，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-00",
+        "category": "concept",
+        "question": "计算机的常见用途是什么？",
+        "seed": 2026,
+        "answer": "计算机是一种处理信息的工具，可以用来学习、工作和交流。",
+        "generated_ids": [
+          2727,
+          2570,
+          3305,
+          16189,
+          3292,
+          262,
+          759,
+          4031,
+          2990,
+          281,
+          1296,
+          315,
+          5098,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-00",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "信息处理工具支持学习工作交流，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-01",
+        "category": "concept",
+        "question": "键盘负责什么工作？",
+        "seed": 2026,
+        "answer": "键盘用来向电脑输入文字、数字和指令。",
+        "generated_ids": [
+          24233,
+          4031,
+          841,
+          5945,
+          5926,
+          2157,
+          281,
+          4736,
+          315,
+          6563,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-01",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "键盘输入文字数字指令，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-02",
+        "category": "concept",
+        "question": "鼠标通常怎样帮助操作电脑？",
+        "seed": 2026,
+        "answer": "鼠标用来移动指针、点击选项和操作电脑。",
+        "generated_ids": [
+          4603,
+          1274,
+          4031,
+          6108,
+          657,
+          4383,
+          281,
+          995,
+          1924,
+          1422,
+          1823,
+          315,
+          3309,
+          5945,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-02",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "鼠标移动指针点击选项操作电脑，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-03",
+        "category": "concept",
+        "question": "简单介绍浏览器的功能。",
+        "seed": 2026,
+        "answer": "浏览器是一种用来访问网页的软件。",
+        "generated_ids": [
+          20778,
+          2570,
+          4031,
+          7030,
+          10365,
+          30185,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-03",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "浏览器访问网页，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-04",
+        "category": "concept",
+        "question": "联网能给人们带来哪些方便？",
+        "seed": 2026,
+        "answer": "我们可以尝试使用互联网或互联网，例如互联网，互联网和互联网，以帮助人们提高工作和交流能力。",
+        "generated_ids": [
+          4942,
+          759,
+          12982,
+          820,
+          7207,
+          521,
+          7207,
+          262,
+          1455,
+          7207,
+          262,
+          7207,
+          315,
+          7207,
+          262,
+          336,
+          6135,
+          3568,
+          4728,
+          1296,
+          315,
+          5098,
+          2652,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-04",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": false,
+          "looping": false,
+          "reason": "能读出帮助工作交流的意图，但互联网或互联网及重复列举互联网没有说明具体便利；短重复未判持续循环。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-concept-05",
+        "category": "concept",
+        "question": "文件夹能帮助整理什么？",
+        "seed": 2026,
+        "answer": "文件夹用来整理和存放文件。",
+        "generated_ids": [
+          3418,
+          8681,
+          4031,
+          6176,
+          315,
+          21095,
+          3418,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-05",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "文件夹整理存放文件，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-06",
+        "category": "concept",
+        "question": "给手机充电是为了什么？",
+        "seed": 2026,
+        "answer": "给手机充电可以补充电池的电量。",
+        "generated_ids": [
+          2001,
+          20444,
+          2434,
+          780,
+          759,
+          18171,
+          14634,
+          264,
+          780,
+          668,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-06",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "充电补充电池电量，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-07",
+        "category": "concept",
+        "question": "云中水滴落下来会形成什么？",
+        "seed": 2026,
+        "answer": "云中的水滴逐渐增大，降落到地面就形成了雨。",
+        "generated_ids": [
+          1834,
+          950,
+          613,
+          9992,
+          3586,
+          26959,
+          262,
+          16162,
+          485,
+          5860,
+          714,
+          6838,
+          2702,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-07",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "云中水滴增大并落地形成雨，基础解释正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-08",
+        "category": "concept",
+        "question": "光合作用对植物有什么用？",
+        "seed": 2026,
+        "answer": "植物通过光合作用利用光能制造有机物。",
+        "generated_ids": [
+          1832,
+          1653,
+          19344,
+          2257,
+          872,
+          575,
+          3951,
+          6254,
+          442,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-08",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "光合作用利用光能制造有机物，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-concept-09",
+        "category": "concept",
+        "question": "冰块受热会变成什么？",
+        "seed": 2026,
+        "answer": "冰块在热会融化成水。",
+        "generated_ids": [
+          2516,
+          4023,
+          297,
+          1953,
+          576,
+          2267,
+          19747,
+          613,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-concept-09",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "语法略生硬但明确冰受热融化成水，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-instruction-00",
+        "category": "instruction",
+        "question": "回答限定一个字：行。",
+        "seed": 2026,
+        "answer": "行",
+        "generated_ids": [
+          419,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-00",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "仅输出一个字行，符合限制。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-instruction-01",
+        "category": "instruction",
+        "question": "举出两种常见蔬菜即可。",
+        "seed": 2026,
+        "answer": "白菜、胡萝卜。",
+        "generated_ids": [
+          894,
+          2444,
+          281,
+          1791,
+          27412,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-01",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "白菜和胡萝卜是两种常见蔬菜，数量正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-instruction-02",
+        "category": "instruction",
+        "question": "照抄一次：小河慢慢流过。",
+        "seed": 2026,
+        "answer": "小河慢慢流过。",
+        "generated_ids": [
+          548,
+          665,
+          16577,
+          705,
+          815,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-02",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "照抄小河慢慢流过且仅一次，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-instruction-03",
+        "category": "instruction",
+        "question": "用冬天造一句话。",
+        "seed": 2026,
+        "answer": "冬天很冷，出门记得穿暖。",
+        "generated_ids": [
+          18127,
+          1051,
+          2478,
+          262,
+          401,
+          1103,
+          876,
+          598,
+          2862,
+          6832,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-03",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "以冬天造完整句，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-instruction-04",
+        "category": "instruction",
+        "question": "给家里的猫推荐一个名字。",
+        "seed": 2026,
+        "answer": "我叫LubanLM，你可以这样称呼我。",
+        "generated_ids": [
+          1743,
+          2079,
+          46,
+          4471,
+          735,
+          46,
+          47,
+          262,
+          4282,
+          759,
+          4920,
+          5031,
+          1743,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-04",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": false,
+          "reason": "将给猫起名误作自身名字，答非所问。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-instruction-05",
+        "category": "instruction",
+        "question": "仅列出蓝色和红色。",
+        "seed": 2026,
+        "answer": "蓝色：红色\n红色：红色、蓝色、绿色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、黄色、3、3、3、3、3、3、3、3、3、3、3、",
+        "generated_ids": [
+          16248,
+          371,
+          5951,
+          201,
+          5951,
+          371,
+          5951,
+          281,
+          16248,
+          281,
+          9136,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          7879,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281,
+          21,
+          281
+        ],
+        "eos": false,
+        "repeated_flag": true,
+        "grading": {
+          "id": "dev-instruction-05",
+          "seed": 2026,
+          "relevant_readable": false,
+          "correct": false,
+          "looping": true,
+          "reason": "添加多种颜色并持续重复黄色和数字3，违反仅列两色且循环。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-instruction-06",
+        "category": "instruction",
+        "question": "请说一句让人继续学习的鼓励。",
+        "seed": 2026,
+        "answer": "学习时可以先明确一个小目标，再集中注意力完成它。",
+        "generated_ids": [
+          2990,
+          504,
+          759,
+          937,
+          9518,
+          1042,
+          548,
+          5137,
+          262,
+          1293,
+          3765,
+          31340,
+          2477,
+          792,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-06",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": false,
+          "looping": false,
+          "reason": "给出学习步骤建议，可读相关，但不是鼓励继续学习的一句鼓励。"
+        },
+        "qualified": false
+      },
+      {
+        "id": "dev-instruction-07",
+        "category": "instruction",
+        "question": "写一句跟老师打招呼的话。",
+        "seed": 2026,
+        "answer": "老师好，祝您今天愉快。",
+        "generated_ids": [
+          13100,
+          1272,
+          262,
+          4655,
+          28072,
+          4208,
+          13254,
+          1898,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-07",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "向老师问好并祝愉快，合理。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-instruction-08",
+        "category": "instruction",
+        "question": "仅输出两个字：明白。",
+        "seed": 2026,
+        "answer": "明白",
+        "generated_ids": [
+          20368,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-08",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "仅输出两个字明白，符合限制。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-instruction-09",
+        "category": "instruction",
+        "question": "只举一种交通工具。",
+        "seed": 2026,
+        "answer": "公交车。",
+        "generated_ids": [
+          22932,
+          1497,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-instruction-09",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "仅举公交车一种交通工具，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-00",
+        "category": "arithmetic",
+        "question": "6加2的和是多少呢？",
+        "seed": 2026,
+        "answer": "8。",
+        "generated_ids": [
+          26,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-00",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "6+2=8，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-01",
+        "category": "arithmetic",
+        "question": "9减5的差是多少呢？",
+        "seed": 2026,
+        "answer": "4。",
+        "generated_ids": [
+          22,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-01",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "9-5=4，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-02",
+        "category": "arithmetic",
+        "question": "2乘5得多少呢？",
+        "seed": 2026,
+        "answer": "10。",
+        "generated_ids": [
+          723,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-02",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "2×5=10，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-03",
+        "category": "arithmetic",
+        "question": "10除以2应得几？",
+        "seed": 2026,
+        "answer": "5。",
+        "generated_ids": [
+          23,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-03",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "10÷2=5，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-04",
+        "category": "arithmetic",
+        "question": "4加3得多少呢？",
+        "seed": 2026,
+        "answer": "7。",
+        "generated_ids": [
+          25,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-04",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "4+3=7，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-05",
+        "category": "arithmetic",
+        "question": "11减6得多少呢？",
+        "seed": 2026,
+        "answer": "5。",
+        "generated_ids": [
+          23,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-05",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "11-6=5，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-06",
+        "category": "arithmetic",
+        "question": "3乘4的乘积是多少呢？",
+        "seed": 2026,
+        "answer": "12。",
+        "generated_ids": [
+          753,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-06",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "3×4=12，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-07",
+        "category": "arithmetic",
+        "question": "15除以3的商是多少呢？",
+        "seed": 2026,
+        "answer": "5。",
+        "generated_ids": [
+          23,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-07",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "15÷3=5，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-08",
+        "category": "arithmetic",
+        "question": "8加1的和是多少呢？",
+        "seed": 2026,
+        "answer": "9。",
+        "generated_ids": [
+          27,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-08",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "8+1=9，正确。"
+        },
+        "qualified": true
+      },
+      {
+        "id": "dev-arithmetic-09",
+        "category": "arithmetic",
+        "question": "7减5得多少呢？",
+        "seed": 2026,
+        "answer": "2。",
+        "generated_ids": [
+          20,
+          265,
+          2
+        ],
+        "eos": true,
+        "repeated_flag": false,
+        "grading": {
+          "id": "dev-arithmetic-09",
+          "seed": 2026,
+          "relevant_readable": true,
+          "correct": true,
+          "looping": false,
+          "reason": "7-5=2，正确。"
+        },
+        "qualified": true
+      }
+    ]
+  },
+  "base_comparison": {
+    "created_utc": "2026-10-04T06:53:53.677122+00:00",
+    "reviews": {
+      "400m": {
+        "answers_sha256": "395dbc64b65016b0145ddc8289cfbe64c5567ae04018f4025e744066b0842e9b",
+        "marks_sha256": "98025a7dc34ad740a276891851390c138e2f4680f08be5820eb18993ecd6578e",
+        "review_complete": true,
+        "split": "dev",
+        "qualified_rate": 0.45,
+        "relevant_readable_rate": 0.8333333333333334,
+        "looping_rate": 0.0,
+        "eos_rate": 1.0,
+        "category_rates": {
+          "greeting": 0.7,
+          "identity": 0.7,
+          "daily": 0.4,
+          "concept": 0.5,
+          "instruction": 0.3,
+          "arithmetic": 0.1
+        },
+        "passed": false,
+        "development_ready": false,
+        "created_utc": "2026-10-04T06:53:53.646127+00:00"
+      },
+      "extended": {
+        "answers_sha256": "9101eb109ceeedb81394dfe1161b6029a42e7f0aaffeff003d5a1cf4b6374458",
+        "marks_sha256": "9eb8d97a800c6fee53df0216d57939e0c8d61ed71d3af4e916c3c5eae7fbe7f2",
+        "review_complete": true,
+        "split": "dev",
+        "qualified_rate": 0.43333333333333335,
+        "relevant_readable_rate": 0.75,
+        "looping_rate": 0.06666666666666667,
+        "eos_rate": 0.95,
+        "category_rates": {
+          "greeting": 0.5,
+          "identity": 0.7,
+          "daily": 0.2,
+          "concept": 0.7,
+          "instruction": 0.3,
+          "arithmetic": 0.2
+        },
+        "passed": false,
+        "development_ready": false,
+        "created_utc": "2026-10-04T06:53:53.658127+00:00"
+      }
+    },
+    "new_base_tokens": 400001024,
+    "cumulative_base_tokens": 808003584,
+    "base_initial_validation_loss": 4.526000711056446,
+    "base_final_validation_loss": 4.420605199241834,
+    "base_elapsed_minutes": 241.6945166666662,
+    "comparison_steps": 2000,
+    "comparison_supervised_tokens": 233204,
+    "comparison_effective_input_tokens": 810713,
+    "conclusion": "No demonstrated development improvement from this Base extension with the matched short SFT probes. Probe training is much shorter than prior 6.24M-token SFT chain; cannot infer that extended Base is globally worse. Preserve best reviewed chat v7 (46/60).",
+    "gpu_minutes": 881.0590233500003,
+    "pretrain_minutes": 774.1592400166667,
+    "sft_minutes": 98.83388333333332,
+    "closed_loop_complete": false,
+    "periodic_monitoring_enabled": false
+  },
+  "original_budget_minutes": 881.0590233500003,
+  "provenance": {
+    "D:\\LubanLM-Data\\chat-v2\\tokenizers\\vocab-32000\\tokenizer.json": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+    "D:\\LubanLM-Data\\chat-v2\\processed\\sft-v7\\train.jsonl": "c111cbd2010b03321acd32caa55e670618cb79d1d683765dfef85787f3058dfe",
+    "D:\\LubanLM-Data\\chat-v2\\processed\\sft-v7\\validation.jsonl": "56cdfd60607430c5d528fa2e0a0e23677513a1c9eeb666b63867d95c29625245",
+    "D:\\LubanLM-Data\\chat-v2\\processed\\sft-v7\\train-tokens.jsonl": "0511d8955b25111a4a71a02bde8ef189b64eb9e61fd2fca8f0f91908f8d56220",
+    "D:\\LubanLM-Data\\chat-v2\\processed\\sft-v7\\validation-tokens.jsonl": "485ea05e0a24834eb10601ddb1afaefe36b2d8c96d771c3434fdf1b3f97d9bff",
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\base-correction-v6-comparison.json": "f2296f14bf8dabafbee4bb93697f89df072892f83b92e5bfcf0e30a41396c427"
+  }
+}

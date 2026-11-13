@@ -1,0 +1,97 @@
+[
+  {
+    "command": [
+      "-m",
+      "training.train",
+      "--config",
+      "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\config_50m.json",
+      "--stage",
+      "sft",
+      "--init",
+      "D:\\LubanLM-Runs\\checkpoints\\50m-base\\last.pt",
+      "--output",
+      "D:\\LubanLM-Runs\\checkpoints\\50m-chat",
+      "--epochs",
+      "2",
+      "--minutes",
+      "40",
+      "--micro-batch",
+      "2",
+      "--accumulation",
+      "4",
+      "--lr",
+      "5e-5"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "export.prepare",
+      "--checkpoint",
+      "D:\\LubanLM-Runs\\checkpoints\\50m-base\\last.pt",
+      "--output",
+      "D:\\LubanLM-Runs\\exports\\LubanLM-50M-Base"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "export.prepare",
+      "--checkpoint",
+      "D:\\LubanLM-Runs\\checkpoints\\50m-chat\\last.pt",
+      "--output",
+      "D:\\LubanLM-Runs\\exports\\LubanLM-50M-Chat"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "eval.observe",
+      "--base",
+      "D:\\LubanLM-Runs\\checkpoints\\50m-base",
+      "--chat",
+      "D:\\LubanLM-Runs\\checkpoints\\50m-chat\\last.pt"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "eval.lm_harness",
+      "--checkpoint",
+      "D:\\LubanLM-Runs\\checkpoints\\50m-base\\last.pt"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "benchmark.lab"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "scripts.verify_exports"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "scripts.report"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "scripts.audit_docs"
+    ],
+    "exit_code": 0
+  }
+]

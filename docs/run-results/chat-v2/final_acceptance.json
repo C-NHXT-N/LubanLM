@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-10-03T06:47:09.322157+00:00",
+  "capability_passed": false,
+  "exports_passed": false,
+  "closed_loop_complete": false,
+  "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\last.pt",
+  "base_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\last.pt",
+  "rates": {
+    "test": {
+      "qualified_rate": 0.6166666666666667,
+      "relevant_readable_rate": 0.9,
+      "looping_rate": 0.05,
+      "eos_rate": 0.9833333333333333,
+      "category_rates": {
+        "greeting": 0.8,
+        "identity": 1.0,
+        "daily": 0.4,
+        "concept": 0.4,
+        "instruction": 0.5,
+        "arithmetic": 0.6
+      }
+    },
+    "core": {
+      "qualified_rate": 0.8,
+      "relevant_readable_rate": 1.0,
+      "looping_rate": 0.0,
+      "eos_rate": 1.0,
+      "category_rates": {
+        "greeting": 0.0,
+        "identity": 1.0,
+        "concept": 1.0,
+        "arithmetic": 1.0
+      }
+    },
+    "sampling": {
+      "qualified_rate": 0.8333333333333334,
+      "relevant_readable_rate": 0.95,
+      "looping_rate": 0.0,
+      "eos_rate": 1.0,
+      "category_rates": {
+        "greeting": 0.6666666666666666,
+        "identity": 0.9166666666666666,
+        "daily": 0.6666666666666666,
+        "concept": 0.9166666666666666,
+        "instruction": 1.0,
+        "arithmetic": 1.0
+      }
+    }
+  }
+}

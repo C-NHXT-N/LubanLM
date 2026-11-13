@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-06T03:09:44.716003+00:00",
+  "fixtures_only": true,
+  "never_used_for_training": true,
+  "candidates": 700000,
+  "selected": {
+    "test": 1000,
+    "train": 100000,
+    "validation": 5000
+  },
+  "peak_observed_rss_bytes": 77336576,
+  "windows_peak_working_set_bytes": 116240384,
+  "rss_cap_bytes": 3221225472,
+  "seconds": 317.73499999998603
+}

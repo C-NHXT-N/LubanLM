@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-10-03T07:01:20.625905+00:00",
+  "source_sha256": "658bc119eda10df7424953a0de3ec7b5d91d6b4ea4b175013ddeb95565ceee0a",
+  "subset_sha256": "453355b627164988a280e61ea678da757fbf41041dd13b39beeb7d6e7b2b9dc2",
+  "checkpoint_sha256": "9e26eaaa6c15a897bc0e9db3ea77d8adb4c7a202ad0e953d6ab7712a47e43627",
+  "profiles": [
+    {
+      "batching": "legacy",
+      "prefetch": false,
+      "repeats": [
+        {
+          "seconds": 9.414626299985684,
+          "effective_token_s": 6930.280387241627,
+          "supervised_token_s": 2079.2115774186136,
+          "padding_fraction": 0.3965408805031446,
+          "prepare_seconds": 0.0671841002185829,
+          "resources": {
+            "gpu_percent": 43.8125,
+            "card_mib": 2799.125,
+            "power_w": 62.165,
+            "temperature_c": 39.8125,
+            "cpu_one_core_percent": 102.74375,
+            "rss_mib": 1913.0654296875
+          },
+          "valid_inputs": 65246,
+          "targets": 19575
+        },
+        {
+          "seconds": 9.349490599997807,
+          "effective_token_s": 6978.562019198704,
+          "supervised_token_s": 2093.696954998232,
+          "padding_fraction": 0.3965408805031446,
+          "prepare_seconds": 0.06737469974905252,
+          "resources": {
+            "gpu_percent": 45.4375,
+            "card_mib": 2730.5,
+            "power_w": 64.20625,
+            "temperature_c": 41.375,
+            "cpu_one_core_percent": 103.01875,
+            "rss_mib": 1916.3564453125
+          },
+          "valid_inputs": 65246,
+          "targets": 19575
+        },
+        {
+          "seconds": 9.285612699983176,
+          "effective_token_s": 7026.56917837185,
+          "supervised_token_s": 2108.099985694586,
+          "padding_fraction": 0.3965408805031446,
+          "prepare_seconds": 0.0672315001138486,
+          "resources": {
+            "gpu_percent": 46.5625,
+            "card_mib": 2794.125,
+            "power_w": 64.634375,
+            "temperature_c": 42.375,
+            "cpu_one_core_percent": 103.275,
+            "rss_mib": 1916.773681640625
+          },
+          "valid_inputs": 65246,
+          "targets": 19575
+        }
+      ],
+      "median_effective_token_s": 6978.562019198704,
+      "speedup": 1.0
+    },
+    {
+      "batching": "flat",
+      "prefetch": true,
+      "repeats": [
+        {
+          "seconds": 10.008935799996834,
+          "effective_token_s": 6518.774953079491,
+          "supervised_token_s": 1955.75237878998,
+          "padding_fraction": 0.3965408805031446,
+          "prepare_seconds": 0.11019469960592687,
+          "resources": {
+            "gpu_percent": 42.1764705882353,
+            "card_mib": 2797.4117647058824,
+            "power_w": 62.86058823529412,
+            "temperature_c": 43.1764705882353,
+            "cpu_one_core_percent": 102.18235294117648,
+            "rss_mib": 1920.6431525735295
+          },
+          "valid_inputs": 65246,
+          "targets": 19575
+        },
+        {
+          "seconds": 9.717502899991814,
+          "effective_token_s": 6714.27636003638,
+          "supervised_token_s": 2014.4063965256435,
+          "padding_fraction": 0.3965408805031446,
+          "prepare_seconds": 0.10920549975708127,
+          "resources": {
+            "gpu_percent": 42.64705882352941,
+            "card_mib": 2756.705882352941,
+            "power_w": 63.52117647058824,
+            "temperature_c": 44.0,
+            "cpu_one_core_percent": 104.22941176470589,
+            "rss_mib": 1921.9221047794117
+          },
+          "valid_inputs": 65246,
+          "targets": 19575
+        },
+        {
+          "seconds": 9.74282200000016,
+          "effective_token_s": 6696.827674774201,
+          "supervised_token_s": 2009.1714700319556,
+          "padding_fraction": 0.3965408805031446,
+          "prepare_seconds": 0.10911549994489178,
+          "resources": {
+            "gpu_percent": 44.64705882352941,
+            "card_mib": 2803.176470588235,
+            "power_w": 64.05705882352942,
+            "temperature_c": 45.23529411764706,
+            "cpu_one_core_percent": 106.19411764705882,
+            "rss_mib": 1921.90625
+          },
+          "valid_inputs": 65246,
+          "targets": 19575
+        }
+      ],
+      "median_effective_token_s": 6696.827674774201,
+      "speedup": 0.959628596314051
+    },
+    {
+      "batching": "bucketed",
+      "prefetch": true,
+      "repeats": [
+        {
+          "seconds": 9.366294800012838,
+          "effective_token_s": 6950.45387637284,
+          "supervised_token_s": 2089.940624116718,
+          "padding_fraction": 0.03868871825162434,
+          "prepare_seconds": 0.10822070023277774,
+          "resources": {
+            "gpu_percent": 39.1875,
+            "card_mib": 2987.75,
+            "power_w": 58.51125,
+            "temperature_c": 45.125,
+            "cpu_one_core_percent": 102.8625,
+            "rss_mib": 1922.14208984375
+          },
+          "valid_inputs": 65100,
+          "targets": 19575
+        },
+        {
+          "seconds": 9.361033499997575,
+          "effective_token_s": 6954.360327843808,
+          "supervised_token_s": 2091.115259870085,
+          "padding_fraction": 0.03868871825162434,
+          "prepare_seconds": 0.10941380035365,
+          "resources": {
+            "gpu_percent": 38.375,
+            "card_mib": 2991.75,
+            "power_w": 58.728125,
+            "temperature_c": 45.8125,
+            "cpu_one_core_percent": 105.59375,
+            "rss_mib": 1922.767333984375
+          },
+          "valid_inputs": 65100,
+          "targets": 19575
+        },
+        {
+          "seconds": 9.29162410000572,
+          "effective_token_s": 7006.310123970677,
+          "supervised_token_s": 2106.7361087054683,
+          "padding_fraction": 0.03868871825162434,
+          "prepare_seconds": 0.10852090030675754,
+          "resources": {
+            "gpu_percent": 39.375,
+            "card_mib": 2976.0,
+            "power_w": 59.405,
+            "temperature_c": 46.8125,
+            "cpu_one_core_percent": 101.6125,
+            "rss_mib": 1922.764404296875
+          },
+          "valid_inputs": 65100,
+          "targets": 19575
+        }
+      ],
+      "median_effective_token_s": 6954.360327843808,
+      "speedup": 0.9965319945157305
+    }
+  ],
+  "flat_prefetch_adopted": false,
+  "bucketed_adoptable_new_stage": false,
+  "passed": true,
+  "completed_utc": "2026-10-03T07:03:02.129833+00:00"
+}

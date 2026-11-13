@@ -1,0 +1,19 @@
+{
+  "train": {
+    "path": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\docs\\run-results\\general-2b-20261005\\data-pipeline-smoke\\data\\processed\\fineweb-3-4\\train\\manifest.json",
+    "sha256": "717d3353fb9518e4a20438f8d4b39bf110c96df4c996338d54cd37f8c9f96299",
+    "tokens": 1000363,
+    "source_tokens": null,
+    "checked_all_shards": true
+  },
+  "validation": {
+    "path": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\docs\\run-results\\general-2b-20261005\\data-pipeline-smoke\\data\\processed\\fineweb-3-4\\validation\\manifest.json",
+    "sha256": "e44a667e86c52bdcb4d90db6e5875bd91e096edab7025bec6f7d7c3080a840e5",
+    "tokens": 10099,
+    "source_tokens": null,
+    "checked_all_shards": true
+  },
+  "real_source_download_hash_verified": true,
+  "shifted_targets_match": true,
+  "model_training_started": false
+}

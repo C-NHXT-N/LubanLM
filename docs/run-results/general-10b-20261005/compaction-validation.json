@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tokens": 64000000,
+  "exact_boundary_bytes": 128000000,
+  "stream_sha256": "4dbf58425951f857d31fbf4720c75992f0e7ab19ff45cfcc84f97b35a27b0c21",
+  "resume_cleanup": true,
+  "syntax_passed": true
+}

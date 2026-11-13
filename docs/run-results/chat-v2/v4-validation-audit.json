@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-03T03:16:42.646136+00:00",
+  "scope": "Same immutable v4 validation set split by source; no final suite use",
+  "models": {
+    "50m-chat-v2": {
+      "public": {
+        "examples": 718,
+        "supervised_tokens": 30498,
+        "loss": 3.6604714846425748
+      },
+      "basic_authored": {
+        "examples": 28,
+        "supervised_tokens": 332,
+        "loss": 0.6286834019112838
+      },
+      "arithmetic": {
+        "examples": 493,
+        "supervised_tokens": 1597,
+        "loss": 4.3531959222008005
+      }
+    },
+    "50m-chat-v4": {
+      "public": {
+        "examples": 718,
+        "supervised_tokens": 30498,
+        "loss": 5.471280684095264
+      },
+      "basic_authored": {
+        "examples": 28,
+        "supervised_tokens": 332,
+        "loss": 0.0007951441638649257
+      },
+      "arithmetic": {
+        "examples": 493,
+        "supervised_tokens": 1597,
+        "loss": 0.9287588561935868
+      }
+    }
+  }
+}

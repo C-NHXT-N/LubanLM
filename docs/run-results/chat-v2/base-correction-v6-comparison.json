@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-10-04T06:53:53.677122+00:00",
+  "reviews": {
+    "400m": {
+      "answers_sha256": "395dbc64b65016b0145ddc8289cfbe64c5567ae04018f4025e744066b0842e9b",
+      "marks_sha256": "98025a7dc34ad740a276891851390c138e2f4680f08be5820eb18993ecd6578e",
+      "review_complete": true,
+      "split": "dev",
+      "qualified_rate": 0.45,
+      "relevant_readable_rate": 0.8333333333333334,
+      "looping_rate": 0.0,
+      "eos_rate": 1.0,
+      "category_rates": {
+        "greeting": 0.7,
+        "identity": 0.7,
+        "daily": 0.4,
+        "concept": 0.5,
+        "instruction": 0.3,
+        "arithmetic": 0.1
+      },
+      "passed": false,
+      "development_ready": false,
+      "created_utc": "2026-10-04T06:53:53.646127+00:00"
+    },
+    "extended": {
+      "answers_sha256": "9101eb109ceeedb81394dfe1161b6029a42e7f0aaffeff003d5a1cf4b6374458",
+      "marks_sha256": "9eb8d97a800c6fee53df0216d57939e0c8d61ed71d3af4e916c3c5eae7fbe7f2",
+      "review_complete": true,
+      "split": "dev",
+      "qualified_rate": 0.43333333333333335,
+      "relevant_readable_rate": 0.75,
+      "looping_rate": 0.06666666666666667,
+      "eos_rate": 0.95,
+      "category_rates": {
+        "greeting": 0.5,
+        "identity": 0.7,
+        "daily": 0.2,
+        "concept": 0.7,
+        "instruction": 0.3,
+        "arithmetic": 0.2
+      },
+      "passed": false,
+      "development_ready": false,
+      "created_utc": "2026-10-04T06:53:53.658127+00:00"
+    }
+  },
+  "new_base_tokens": 400001024,
+  "cumulative_base_tokens": 808003584,
+  "base_initial_validation_loss": 4.526000711056446,
+  "base_final_validation_loss": 4.420605199241834,
+  "base_elapsed_minutes": 241.6945166666662,
+  "comparison_steps": 2000,
+  "comparison_supervised_tokens": 233204,
+  "comparison_effective_input_tokens": 810713,
+  "conclusion": "No demonstrated development improvement from this Base extension with the matched short SFT probes. Probe training is much shorter than prior 6.24M-token SFT chain; cannot infer that extended Base is globally worse. Preserve best reviewed chat v7 (46/60).",
+  "gpu_minutes": 881.0590233500003,
+  "pretrain_minutes": 774.1592400166667,
+  "sft_minutes": 98.83388333333332,
+  "closed_loop_complete": false,
+  "periodic_monitoring_enabled": false
+}

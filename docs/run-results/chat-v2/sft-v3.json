@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-02T13:24:28.920324+00:00",
+  "normalization": "NFKC; preserve arithmetic operators; ×/÷ mapped to */",
+  "unique_train": 36935,
+  "weighted_train": 44600,
+  "validation": 742,
+  "authored_multiplier": 8,
+  "authored_weighted_fraction": 0.19641255605381167,
+  "arithmetic_train_operations": {
+    "addition": 195,
+    "subtraction": 199,
+    "multiplication": 199
+  },
+  "sources_unique_train": {
+    "oasst1": 725,
+    "authored-arithmetic": 593,
+    "authored-facts": 288,
+    "authored-chat": 98,
+    "authored-instruction-v3": 77,
+    "authored-daily-v3": 39,
+    "belle-synthetic": 35115
+  },
+  "rejected": {
+    "duplicate": 1,
+    "constructive_short_filter": 13320,
+    "context_or_live_request": 878
+  },
+  "question_split_disjoint": true,
+  "suite_exact_questions_excluded": true,
+  "train_sha256": "7fbced874e0765507a8293faf84908b27b81e58068d0b6e95af1379feeb9d51f",
+  "validation_sha256": "426179a7a2160bef8e9c9dec86093270b20c17f2bf857c40430dc3ac10e00c79",
+  "policy": "v2 and fixed probe unchanged; v3 for later full SFT only"
+}

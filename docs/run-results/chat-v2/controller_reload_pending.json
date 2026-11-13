@@ -1,0 +1,9 @@
+{
+  "old_controller_pid": 68784,
+  "handled": true,
+  "reason": "Use SFT v3 and process pending milestone review on restart",
+  "only_reload_when": "awaiting_development_review with no GPU child process",
+  "created_utc": "2026-10-02T13:28:22.964831+00:00",
+  "new_controller_pid": 62352,
+  "handled_utc": "2026-10-02T14:34:02.887870+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "experiment": "linux-assistant-qwen35-2b-quality-20261020",
+  "model": "models/Qwen/Qwen3.5-2B",
+  "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "comparison_model": "models/Qwen/Qwen3-4B-Instruct-2507",
+  "comparison_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "data": "datasets/linux-assistant-unified",
+  "runs": "runs/linux-assistant-qwen35-2b-quality-20261020",
+  "report": "reports/linux-assistant-qwen35-2b-quality-20261020",
+  "export": "exports/linux-assistant-qwen35-2b-quality-20261020",
+  "system_prompt": "你是中文助手，擅长Linux与开发板部署。依据题目和已知信息回答，普通常识、算术和推理问题按题意直接作答。操作建议说明必要步骤和判断依据；只有缺少影响结论的关键条件时才提出具体追问。区分事实与推测，不编造设备状态、命令输出、版本或SDK接口。遵守用户明确指定的格式与最新更正。你只提供建议，不执行命令。",
+  "seed": 20261019,
+  "max_length": 1024,
+  "max_new_tokens": 256,
+  "context_length": 2048,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  },
+  "training": {
+    "learning_rate": 0.0001,
+    "second_learning_rate": 5e-05,
+    "epochs": 2,
+    "micro_batch": 8,
+    "gradient_accumulation": 8,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
+    "save_steps": 16,
+    "max_grad_norm": 1.0,
+    "evaluation_steps": 32,
+    "schedule_note": "Use optimized micro-batch8; save every16 updates, balanced half-development every32 and full current development at end. Semantic review is required; do not rank unequal scopes or format checks."
+  },
+  "acceptance": {
+    "task_min": 0.8,
+    "task_gain": 0.1,
+    "error_reduction": 0.3,
+    "general_max_drop": 0.05,
+    "quant_max_drop": 0.05,
+    "decode_tokens_per_second_min": 4.0,
+    "ttft_p95_seconds_max": 3.0,
+    "combined_rss_gib_max": 3.0,
+    "stability_seconds": 3600,
+    "stability_requests": 100,
+    "multiturn_sessions": 10,
+    "turns_per_session": 5
+  },
+  "training_review": "reports/linux-assistant-rebuild-20261020/content-approval.json",
+  "baseline_report": "reports/linux-assistant-baseline-quality-20261020",
+  "cleanup_record": "reports/linux-assistant-cleanup-20261020/cleanup.json",
+  "require_baseline_semantic_review": true
+}

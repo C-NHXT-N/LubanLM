@@ -1,0 +1,190 @@
+{
+  "settings": {
+    "config": "configs\\config_50m.json",
+    "stage": "pretrain",
+    "output": "D:\\LubanLM-Runs\\checkpoints\\50m-base",
+    "init": null,
+    "resume": null,
+    "minutes": 130.0,
+    "tokens": 8000000,
+    "steps": null,
+    "length": 256,
+    "micro_batch": 2,
+    "accumulation": 4,
+    "lr": 0.0003,
+    "epochs": 2,
+    "gradient_checkpointing": false
+  },
+  "config": {
+    "name": "LubanLM-50M",
+    "status": "runtime-teaching-v1",
+    "vocab_size": 32000,
+    "hidden_size": 512,
+    "num_hidden_layers": 11,
+    "num_attention_heads": 8,
+    "num_key_value_heads": 2,
+    "head_dim": 64,
+    "intermediate_size": 1536,
+    "context_length": 2048,
+    "tie_word_embeddings": true,
+    "linear_bias": false,
+    "pad_token_id": 0,
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "rms_norm_eps": 1e-06,
+    "rope_theta": 1000000.0
+  },
+  "dtype": "torch.bfloat16",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "parameters": 49558400,
+  "dataset": {
+    "dtype": "uint16",
+    "shards": [
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0000.bin",
+        "tokens": 2001824,
+        "sha256": "b45b8e285c5e8d8985eb8dd45f27a70873da022edb32742dcfc6d9682d5ec287"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0001.bin",
+        "tokens": 2009634,
+        "sha256": "47f55a0e81a45129a02ccde8a76327f90427b5ae459a544a558e45d499abf780"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0002.bin",
+        "tokens": 2001759,
+        "sha256": "f38aed87ede3a8dcb2d4a64dc32aad9b1217313eec5d320ed76bff01f221a6d0"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0003.bin",
+        "tokens": 2008554,
+        "sha256": "cbf95f0e0823ffe535848bcf755c7a497dbeb762a270eb9a5217c38d533e8494"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0004.bin",
+        "tokens": 2007437,
+        "sha256": "94ea460e9d2a177c0d1ac50cfae0f19c20664bce0414fce01e7e022a3f9f9747"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0005.bin",
+        "tokens": 2000135,
+        "sha256": "1aeb0f6c8fbf4f8e0c5cb46e90d0e1aaa11987835a49386a68c03c96bc7c96e6"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0006.bin",
+        "tokens": 2007061,
+        "sha256": "9770b9e83662df438c06eac31d82e8e8d99043d3dbc1af3b9e12f715893c3bd4"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0007.bin",
+        "tokens": 2000159,
+        "sha256": "8b4bf953f766ef12a8c161957a972f376e289751b1db2624aba74e00adf2fdde"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0008.bin",
+        "tokens": 2000041,
+        "sha256": "f27bc7aaf12e02ee9da83c5d956ea98096f6aa946b80c0be140aeeddabab7fce"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0009.bin",
+        "tokens": 2000378,
+        "sha256": "cd152f93683fed531e169d0b410ec8d529ac2dea55d51cc113ce6188d69f083e"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0010.bin",
+        "tokens": 2017058,
+        "sha256": "d24c70ffe82a270cc28c05e1383fc3a7cff2d4fb39066a2c08e156bcfbc76d5a"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0011.bin",
+        "tokens": 2009705,
+        "sha256": "7cf03cd1cb85e5d453a97c39305ef1f3d2542e389c93ece10bb185ed1ba17c81"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0012.bin",
+        "tokens": 2000478,
+        "sha256": "9e600a8f17d92c6fcd19631f59b07a005c13caec4802aa68b06f0abb496e037f"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0013.bin",
+        "tokens": 2002939,
+        "sha256": "adea0c4ee0631f37a86119eb7c312a16b3b37c59bd9cb7fabb4a795291e90f16"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0014.bin",
+        "tokens": 2015418,
+        "sha256": "a505a82a047c19518b37159a8e1a3110bce9e8c2ce83a1549872f816a0d84ccf"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0015.bin",
+        "tokens": 2000609,
+        "sha256": "f5616ecd4fad6ac752a18d6afef99002e75dcd63bafa2c076b8496cbee55e277"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0016.bin",
+        "tokens": 2002540,
+        "sha256": "527d84a80aefd3fccb205499021e3fcd9640dc707d646f6589f44519382715d8"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0017.bin",
+        "tokens": 2000946,
+        "sha256": "be20e79d7a39e067a81c3d94ce077be12a7591740ac94814a8f28af43429a3bf"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0018.bin",
+        "tokens": 2000864,
+        "sha256": "eb5ed3588f3e35c93c82c0d42c68b7c15cb202258e4d55f2892d913735da5435"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0019.bin",
+        "tokens": 2000013,
+        "sha256": "50a3372c7c1a99688bb0a6c4be61de146072671b6d28f9c703ae5ba770149698"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0020.bin",
+        "tokens": 2002799,
+        "sha256": "5ad1afa98bf12a28491bba29943f25ae1bc2585123ee46f66dc531900813cccf"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0021.bin",
+        "tokens": 2000732,
+        "sha256": "fb324e403fca8436631600a67335257c7142c6af4f37ad4c597a1abddbc952c3"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0022.bin",
+        "tokens": 2001085,
+        "sha256": "f6ace7a0c3c2b84308149b6a020275e9b4a64b7444e65a6ac5e2643809f97eb7"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0023.bin",
+        "tokens": 2008840,
+        "sha256": "ee772df72d5b1780ccb950b11062892cd4e65f0fbebc905d471c32d45131aee4"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0024.bin",
+        "tokens": 2001287,
+        "sha256": "31562db2da64dfe27676d0e2b74a42df1aa1d472a8500bfc63b8f695f64e2703"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0025.bin",
+        "tokens": 2004438,
+        "sha256": "588345ad2c4632069bdfcebc70c173287963d782161cc3346d1767004ae49f36"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0026.bin",
+        "tokens": 2001253,
+        "sha256": "041b2e282c4304c496d050fa5c628b5d150a3a39d4be72512ca547f6c549ae64"
+      },
+      {
+        "path": "D:\\LubanLM-Data\\processed\\pretrain-train\\0027.bin",
+        "tokens": 1957373,
+        "sha256": "5efeec2f375c10b915b5c394934e8cb37701b92a6c650517a9f575c3d12ab30b"
+      }
+    ],
+    "tokens": 56065359,
+    "documents": 28801,
+    "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+    "packing": "cross-document context allowed; EOS between documents; no per-document block mask"
+  },
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53"
+}

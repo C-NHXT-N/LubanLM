@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-03T06:59:33.397347+00:00",
+  "encoding_version": "prefix-stable-v1",
+  "parent_manifest_sha256": "ed4c08155de09a631e5ceff8afcbbe471ddbb9ca41009e176b8be16cfe0263d9",
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "counts": {
+    "train": 30299,
+    "validation": 1749
+  },
+  "tasks": {
+    "train": {
+      "identity": 307,
+      "instruction": 588,
+      "concept": 264,
+      "daily": 289,
+      "greeting": 96,
+      "arithmetic": 6995,
+      "public": 21760
+    },
+    "validation": {
+      "public": 717,
+      "arithmetic": 829,
+      "concept": 26,
+      "daily": 21,
+      "identity": 68,
+      "instruction": 66,
+      "greeting": 22
+    }
+  },
+  "legacy_prefix_mismatches": 680,
+  "rejected": {
+    "embedded_control_or_role": 12,
+    "frozen_suite_question": 1
+  },
+  "prompt_prefix_verified_all": true,
+  "question_and_family_disjoint": true,
+  "oasst_tree_disjoint": true,
+  "train_sha256": "658bc119eda10df7424953a0de3ec7b5d91d6b4ea4b175013ddeb95565ceee0a",
+  "validation_sha256": "909d2b31efde7e7e9973454560c657ed88ec4ff8097a03c62d983c108a85ffdf",
+  "policy": "Existing v5 semantic pairs only; no final outputs read; unique rows; split by copy payload and question family. Some held-out families were seen by ancestor checkpoints: this validation is not an independent capability test. Public data remains heuristic, not fully fact-certified."
+}

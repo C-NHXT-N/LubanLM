@@ -1,0 +1,484 @@
+{
+  "marks": [
+    {
+      "id": "dev-greeting-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应早上问候并表达聊天意愿，合理且无重复。"
+    },
+    {
+      "id": "dev-greeting-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应晚上问候并主动询问话题；可以略生硬，不影响核心回应。"
+    },
+    {
+      "id": "dev-greeting-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应见面时的友好表达，语义自然。"
+    },
+    {
+      "id": "dev-greeting-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "对感谢表达不客气并愿意帮助，符合语境。"
+    },
+    {
+      "id": "dev-greeting-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应再见并邀请日后交流，没有多余错误内容。"
+    },
+    {
+      "id": "dev-greeting-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "对打招呼给出友好问候，合理回应。"
+    },
+    {
+      "id": "dev-greeting-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "同意陪聊并询问今天情况，合理延续聊天。"
+    },
+    {
+      "id": "dev-greeting-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "初次见面时自我介绍并表示可交流，虽未复述关照仍合理。"
+    },
+    {
+      "id": "dev-greeting-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "核心下午好正确；尾部是显得生硬，但句意可读且没有错误核心事实。"
+    },
+    {
+      "id": "dev-greeting-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应聊天邀请，说明可交流的话题，合理。"
+    },
+    {
+      "id": "dev-identity-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "准确介绍LubanLM为中文文字交流语言模型。"
+    },
+    {
+      "id": "dev-identity-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "明确给出名字LubanLM，符合本模型身份。"
+    },
+    {
+      "id": "dev-identity-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明中文聊天、基础解释和日常建议，符合基础用途。"
+    },
+    {
+      "id": "dev-identity-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "明确自己是语言模型而非真人，无身体，身份正确。"
+    },
+    {
+      "id": "dev-identity-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回答没有身体并用文字交流，正确。"
+    },
+    {
+      "id": "dev-identity-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "给出可用称呼LubanLM，正确。"
+    },
+    {
+      "id": "dev-identity-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "肯定中文助手身份并描述文字交流，正确。"
+    },
+    {
+      "id": "dev-identity-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明可以解释简单知识，回应理解概念的请求。"
+    },
+    {
+      "id": "dev-identity-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明可以给日常建议，合理回应日常问答能力。"
+    },
+    {
+      "id": "dev-identity-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "准确说明自身身份和中文文字交流方式。"
+    },
+    {
+      "id": "dev-daily-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "建议暂停工作、喝水并休息，符合疲劳休息问题。"
+    },
+    {
+      "id": "dev-daily-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "只给任务优先级建议，没有回应早起所需的今晚睡眠或准备安排。"
+    },
+    {
+      "id": "dev-daily-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "先清理不用物品再归类，符合整理桌面问题。"
+    },
+    {
+      "id": "dev-daily-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "建议穿鞋和防滑，却没有回答雨天出门应带的物品，核心请求未满足。"
+    },
+    {
+      "id": "dev-daily-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "给出每日安排阅读时间的可行建议；时间偏长，但开放问题没有时长限制。"
+    },
+    {
+      "id": "dev-daily-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "建议真诚说谢谢，符合表达感谢的问题。"
+    },
+    {
+      "id": "dev-daily-06",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": false,
+      "reason": "回答中文助手身份，完全未提供检查随身物品的方法。"
+    },
+    {
+      "id": "dev-daily-07",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": false,
+      "reason": "把分心问题答成5分，语义不通，没有给学习建议。"
+    },
+    {
+      "id": "dev-daily-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "散步时关注鞋子、天气和交通安全，建议合理。"
+    },
+    {
+      "id": "dev-daily-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "提供一句适用的生日祝福，满足请求。"
+    },
+    {
+      "id": "dev-concept-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "用一句话说明电脑处理信息及常见用途，正确。"
+    },
+    {
+      "id": "dev-concept-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明键盘输入文字、数字和指令，正确。"
+    },
+    {
+      "id": "dev-concept-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明鼠标移动指针、点击和操作电脑，正确。"
+    },
+    {
+      "id": "dev-concept-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明浏览器访问网页，正确。"
+    },
+    {
+      "id": "dev-concept-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明互联网连接计算机并支持信息分享交流，正确。"
+    },
+    {
+      "id": "dev-concept-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明文件夹整理和存放文件，正确。"
+    },
+    {
+      "id": "dev-concept-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明充电补充电池电量，正确。"
+    },
+    {
+      "id": "dev-concept-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "云中水滴增大后落地形成雨，作为简单解释正确。"
+    },
+    {
+      "id": "dev-concept-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "光合作用利用光能制造有机物，正确回应植物需要阳光。"
+    },
+    {
+      "id": "dev-concept-09",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": true,
+      "reason": "输出冰和反复无意义的数字片段，未说明融化；存在无意义重复。"
+    },
+    {
+      "id": "dev-instruction-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "仅给好与句末标点，沿用v4允许句末标点的固定评分口径。"
+    },
+    {
+      "id": "dev-instruction-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "列出苹果、香蕉两种常见水果，数量与内容正确。"
+    },
+    {
+      "id": "dev-instruction-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "原句文字抄写一次，仅增加句末标点；沿用允许句末标点的口径。"
+    },
+    {
+      "id": "dev-instruction-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "一句话使用春天并描写花朵开放，符合造句要求。"
+    },
+    {
+      "id": "dev-instruction-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "明确提供中文宠物名字小白，符合要求。"
+    },
+    {
+      "id": "dev-instruction-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "准确列出红色与蓝色，符合要求。"
+    },
+    {
+      "id": "dev-instruction-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "给出学习方法建议，但没有鼓励表达，未完成请求的学习鼓励。"
+    },
+    {
+      "id": "dev-instruction-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "一句话向老师问好并祝愉快，符合要求。"
+    },
+    {
+      "id": "dev-instruction-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "只给谢谢与句末标点，没有解释，符合既有口径。"
+    },
+    {
+      "id": "dev-instruction-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "公交车是常见交通工具，给出一种，符合要求。"
+    },
+    {
+      "id": "dev-arithmetic-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "2加3为5，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "7减4为3，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "3乘2为6，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "8除以2为4，回答2是核心运算错误。"
+    },
+    {
+      "id": "dev-arithmetic-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "5加4为9，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "9减3为6，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "4乘3为12，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "12除以3为4，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "6加1为7，运算正确。"
+    },
+    {
+      "id": "dev-arithmetic-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "10减8为2，运算正确。"
+    }
+  ]
+}

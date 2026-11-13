@@ -1,0 +1,41 @@
+{
+  "experiment": "linux-assistant-checkpoint-calibration-20261022",
+  "model": "models/Qwen/Qwen3.5-2B",
+  "comparison_model": "models/Qwen/Qwen3-4B",
+  "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "data": "datasets/linux-assistant-unified",
+  "runs": "runs/linux-assistant-checkpoint-calibration-20261022",
+  "report": "reports/linux-assistant-checkpoint-calibration-20261022",
+  "export": "exports/linux-assistant-qwen35-2b-exploration-20261022",
+  "system_prompt": "你是中文助手，擅长Linux与开发板部署。依据题目和已知信息回答，普通常识、算术和推理问题按题意直接作答。操作建议说明必要步骤和判断依据；只有缺少影响结论的关键条件时才提出具体追问。区分事实与推测，不编造设备状态、命令输出、版本或SDK接口。遵守用户明确指定的格式与最新更正。你只提供建议，不执行命令。",
+  "context_length": 2048,
+  "max_new_tokens": 256,
+  "calibration": {
+    "evaluation_manifest_sha256": "fde5214433d307b0ccf5aa748eba74a8649a1ced48b6f031a8ca4d18cf406616",
+    "evaluation_data_hash": "8091fbf6ba4f34a535188124ca7e2665526bc71d21935f07f43484c1ec235e86",
+    "training_run_configuration": "runs/linux-assistant-qwen35-2b-exploration-20261022/lr-1e-4/configuration.json",
+    "training_identity": {
+      "config": "c67ddb3b03ad7e9a7d1468cb119caaeacdb77038ee85b9c0f9abce7ff190fbb4",
+      "manifest": "b8dbdefe719c22db0414fdfd82c6640bd3f96fc3da27128d723a92b12a2b36b2",
+      "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "indices": "df44c8a0c7ccb2e6dbc98abae9c396c8ef471523ae4b46a212bbf303ecb41e42",
+      "smoke": false,
+      "lr": 0.0001
+    },
+    "steps": [16, 32, 48, 61],
+    "diagnostic_max_new_tokens": 1024,
+    "selection_scope": "full_36_development",
+    "prompt_policy": "context_through_last_user_exclude_target_assistant",
+    "reuse_existing": {
+      "baseline_answers": "reports/linux-assistant-qwen35-2b-exploration-baseline-20261022/answers.jsonl",
+      "baseline_identity": "reports/linux-assistant-qwen35-2b-exploration-baseline-20261022/identity.json",
+      "baseline_reviewed": "reports/linux-assistant-qwen35-2b-exploration-baseline-20261022/answers.reviewed.jsonl",
+      "checkpoint_61_answers": "runs/linux-assistant-qwen35-2b-exploration-20261022/lr-1e-4/dev-61.jsonl",
+      "checkpoint_61_identity": "runs/linux-assistant-qwen35-2b-exploration-20261022/lr-1e-4/dev-61.identity.json",
+      "checkpoint_61_reviewed": "runs/linux-assistant-qwen35-2b-exploration-20261022/lr-1e-4/dev-61.reviewed.jsonl"
+    },
+    "document_command_sources": ["tldr-pages", "NL2Bash"],
+    "rk3576_sources": ["project_board_evidence", "project_verified_evidence_and_fixed_rkllm_sdk_1.3.1"],
+    "review_protocol": "reports/linux-assistant-checkpoint-calibration-20261022/scoring-protocol.json"
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "version": "independent-v6-20261003",
+  "policy": "Frozen before corrected training; no expected answers stored; same limited basic single-turn scope. Prior final questions retired.",
+  "dev": [
+    {
+      "id": "dev-greeting-00",
+      "category": "greeting",
+      "question": "早晨好，来和你说一句话。"
+    },
+    {
+      "id": "dev-greeting-01",
+      "category": "greeting",
+      "question": "晚上见到你真开心。"
+    },
+    {
+      "id": "dev-greeting-02",
+      "category": "greeting",
+      "question": "认识你让我很高兴。"
+    },
+    {
+      "id": "dev-greeting-03",
+      "category": "greeting",
+      "question": "刚才你帮了忙，谢啦。"
+    },
+    {
+      "id": "dev-greeting-04",
+      "category": "greeting",
+      "question": "我得离开了，下次见。"
+    },
+    {
+      "id": "dev-greeting-05",
+      "category": "greeting",
+      "question": "今天想先向你问候一声。"
+    },
+    {
+      "id": "dev-greeting-06",
+      "category": "greeting",
+      "question": "愿意和我聊个天吗？"
+    },
+    {
+      "id": "dev-greeting-07",
+      "category": "greeting",
+      "question": "新朋友你好，咱们认识一下。"
+    },
+    {
+      "id": "dev-greeting-08",
+      "category": "greeting",
+      "question": "午后好呀。"
+    },
+    {
+      "id": "dev-greeting-09",
+      "category": "greeting",
+      "question": "来和你说说话。"
+    },
+    {
+      "id": "dev-identity-00",
+      "category": "identity",
+      "question": "这位助手是谁呀？"
+    },
+    {
+      "id": "dev-identity-01",
+      "category": "identity",
+      "question": "方便说说你的名字吗？"
+    },
+    {
+      "id": "dev-identity-02",
+      "category": "identity",
+      "question": "能描述一下自己的用途吗？"
+    },
+    {
+      "id": "dev-identity-03",
+      "category": "identity",
+      "question": "跟我说话的是人类吗？"
+    },
+    {
+      "id": "dev-identity-04",
+      "category": "identity",
+      "question": "你有能触碰物品的身体吗？"
+    },
+    {
+      "id": "dev-identity-05",
+      "category": "identity",
+      "question": "应该用哪个名字叫你？"
+    },
+    {
+      "id": "dev-identity-06",
+      "category": "identity",
+      "question": "能作为中文文字助手帮我吗？"
+    },
+    {
+      "id": "dev-identity-07",
+      "category": "identity",
+      "question": "你能讲解基础概念吗？"
+    },
+    {
+      "id": "dev-identity-08",
+      "category": "identity",
+      "question": "日常的小问题你能聊吗？"
+    },
+    {
+      "id": "dev-identity-09",
+      "category": "identity",
+      "question": "请作简短自我介绍。"
+    },
+    {
+      "id": "dev-daily-00",
+      "category": "daily",
+      "question": "做事累了怎样歇一会儿？"
+    },
+    {
+      "id": "dev-daily-01",
+      "category": "daily",
+      "question": "次日得早起，晚上怎样做好准备？"
+    },
+    {
+      "id": "dev-daily-02",
+      "category": "daily",
+      "question": "桌子上杂物多，先整理哪一步？"
+    },
+    {
+      "id": "dev-daily-03",
+      "category": "daily",
+      "question": "雨天离开家应准备哪些东西？"
+    },
+    {
+      "id": "dev-daily-04",
+      "category": "daily",
+      "question": "如何逐步开始每天看书？"
+    },
+    {
+      "id": "dev-daily-05",
+      "category": "daily",
+      "question": "别人帮忙之后怎样致谢？"
+    },
+    {
+      "id": "dev-daily-06",
+      "category": "daily",
+      "question": "怎样避免出门漏掉必需物品？"
+    },
+    {
+      "id": "dev-daily-07",
+      "category": "daily",
+      "question": "看书总被手机干扰怎么办？"
+    },
+    {
+      "id": "dev-daily-08",
+      "category": "daily",
+      "question": "出去步行时有什么小提醒？"
+    },
+    {
+      "id": "dev-daily-09",
+      "category": "daily",
+      "question": "家人过生日，给句祝愿吧。"
+    },
+    {
+      "id": "dev-concept-00",
+      "category": "concept",
+      "question": "计算机的常见用途是什么？"
+    },
+    {
+      "id": "dev-concept-01",
+      "category": "concept",
+      "question": "键盘负责什么工作？"
+    },
+    {
+      "id": "dev-concept-02",
+      "category": "concept",
+      "question": "鼠标通常怎样帮助操作电脑？"
+    },
+    {
+      "id": "dev-concept-03",
+      "category": "concept",
+      "question": "简单介绍浏览器的功能。"
+    },
+    {
+      "id": "dev-concept-04",
+      "category": "concept",
+      "question": "联网能给人们带来哪些方便？"
+    },
+    {
+      "id": "dev-concept-05",
+      "category": "concept",
+      "question": "文件夹能帮助整理什么？"
+    },
+    {
+      "id": "dev-concept-06",
+      "category": "concept",
+      "question": "给手机充电是为了什么？"
+    },
+    {
+      "id": "dev-concept-07",
+      "category": "concept",
+      "question": "云中水滴落下来会形成什么？"
+    },
+    {
+      "id": "dev-concept-08",
+      "category": "concept",
+      "question": "光合作用对植物有什么用？"
+    },
+    {
+      "id": "dev-concept-09",
+      "category": "concept",
+      "question": "冰块受热会变成什么？"
+    },
+    {
+      "id": "dev-instruction-00",
+      "category": "instruction",
+      "question": "回答限定一个字：行。"
+    },
+    {
+      "id": "dev-instruction-01",
+      "category": "instruction",
+      "question": "举出两种常见蔬菜即可。"
+    },
+    {
+      "id": "dev-instruction-02",
+      "category": "instruction",
+      "question": "照抄一次：小河慢慢流过。"
+    },
+    {
+      "id": "dev-instruction-03",
+      "category": "instruction",
+      "question": "用冬天造一句话。"
+    },
+    {
+      "id": "dev-instruction-04",
+      "category": "instruction",
+      "question": "给家里的猫推荐一个名字。"
+    },
+    {
+      "id": "dev-instruction-05",
+      "category": "instruction",
+      "question": "仅列出蓝色和红色。"
+    },
+    {
+      "id": "dev-instruction-06",
+      "category": "instruction",
+      "question": "请说一句让人继续学习的鼓励。"
+    },
+    {
+      "id": "dev-instruction-07",
+      "category": "instruction",
+      "question": "写一句跟老师打招呼的话。"
+    },
+    {
+      "id": "dev-instruction-08",
+      "category": "instruction",
+      "question": "仅输出两个字：明白。"
+    },
+    {
+      "id": "dev-instruction-09",
+      "category": "instruction",
+      "question": "只举一种交通工具。"
+    },
+    {
+      "id": "dev-arithmetic-00",
+      "category": "arithmetic",
+      "question": "6加2的和是多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-01",
+      "category": "arithmetic",
+      "question": "9减5的差是多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-02",
+      "category": "arithmetic",
+      "question": "2乘5得多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-03",
+      "category": "arithmetic",
+      "question": "10除以2应得几？"
+    },
+    {
+      "id": "dev-arithmetic-04",
+      "category": "arithmetic",
+      "question": "4加3得多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-05",
+      "category": "arithmetic",
+      "question": "11减6得多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-06",
+      "category": "arithmetic",
+      "question": "3乘4的乘积是多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-07",
+      "category": "arithmetic",
+      "question": "15除以3的商是多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-08",
+      "category": "arithmetic",
+      "question": "8加1的和是多少呢？"
+    },
+    {
+      "id": "dev-arithmetic-09",
+      "category": "arithmetic",
+      "question": "7减5得多少呢？"
+    }
+  ],
+  "test": [
+    {
+      "id": "test-greeting-00",
+      "category": "greeting",
+      "question": "清晨见到你，打声招呼。"
+    },
+    {
+      "id": "test-greeting-01",
+      "category": "greeting",
+      "question": "夜里好，和你问候一下。"
+    },
+    {
+      "id": "test-greeting-02",
+      "category": "greeting",
+      "question": "今天结识你，我很开心。"
+    },
+    {
+      "id": "test-greeting-03",
+      "category": "greeting",
+      "question": "谢谢，刚才多亏你帮忙。"
+    },
+    {
+      "id": "test-greeting-04",
+      "category": "greeting",
+      "question": "先聊到这里，再会啦。"
+    },
+    {
+      "id": "test-greeting-05",
+      "category": "greeting",
+      "question": "你好朋友，开始聊吧。"
+    },
+    {
+      "id": "test-greeting-06",
+      "category": "greeting",
+      "question": "可以陪我交流片刻吗？"
+    },
+    {
+      "id": "test-greeting-07",
+      "category": "greeting",
+      "question": "第一次见到这位助手，您好。"
+    },
+    {
+      "id": "test-greeting-08",
+      "category": "greeting",
+      "question": "下午向你问好！"
+    },
+    {
+      "id": "test-greeting-09",
+      "category": "greeting",
+      "question": "我想跟你交流一句。"
+    },
+    {
+      "id": "test-identity-00",
+      "category": "identity",
+      "question": "可以介绍这位中文助手么？"
+    },
+    {
+      "id": "test-identity-01",
+      "category": "identity",
+      "question": "称呼这位助手的名字是什么？"
+    },
+    {
+      "id": "test-identity-02",
+      "category": "identity",
+      "question": "你通常为用户提供哪些服务？"
+    },
+    {
+      "id": "test-identity-03",
+      "category": "identity",
+      "question": "正在回答我的是真人么？"
+    },
+    {
+      "id": "test-identity-04",
+      "category": "identity",
+      "question": "你能伸手拿书吗？"
+    },
+    {
+      "id": "test-identity-05",
+      "category": "identity",
+      "question": "告诉我一个称呼你的名称。"
+    },
+    {
+      "id": "test-identity-06",
+      "category": "identity",
+      "question": "中文文字交流是你支持的功能吗？"
+    },
+    {
+      "id": "test-identity-07",
+      "category": "identity",
+      "question": "我想学个基础概念，能请你讲讲么？"
+    },
+    {
+      "id": "test-identity-08",
+      "category": "identity",
+      "question": "能提供日常生活的小建议吗？"
+    },
+    {
+      "id": "test-identity-09",
+      "category": "identity",
+      "question": "说明一下自己作为助手的身份。"
+    },
+    {
+      "id": "test-daily-00",
+      "category": "daily",
+      "question": "工作后感觉疲劳，怎样适当休息？"
+    },
+    {
+      "id": "test-daily-01",
+      "category": "daily",
+      "question": "第二天需要早出门，今晚应如何准备？"
+    },
+    {
+      "id": "test-daily-02",
+      "category": "daily",
+      "question": "书桌凌乱，给一个整理顺序。"
+    },
+    {
+      "id": "test-daily-03",
+      "category": "daily",
+      "question": "遇到雨天外出，应事先准备什么物品？"
+    },
+    {
+      "id": "test-daily-04",
+      "category": "daily",
+      "question": "开始培养读书习惯，有什么办法？"
+    },
+    {
+      "id": "test-daily-05",
+      "category": "daily",
+      "question": "受到朋友帮助，可以怎样表示谢意？"
+    },
+    {
+      "id": "test-daily-06",
+      "category": "daily",
+      "question": "离家前怎样核对随身用品？"
+    },
+    {
+      "id": "test-daily-07",
+      "category": "daily",
+      "question": "学习被手机打断，怎样减少干扰？"
+    },
+    {
+      "id": "test-daily-08",
+      "category": "daily",
+      "question": "在户外散步，提醒我注意一点。"
+    },
+    {
+      "id": "test-daily-09",
+      "category": "daily",
+      "question": "给过生日的朋友一句祝愿。"
+    },
+    {
+      "id": "test-concept-00",
+      "category": "concept",
+      "question": "电脑主要能帮人做哪些事情？"
+    },
+    {
+      "id": "test-concept-01",
+      "category": "concept",
+      "question": "键盘在电脑上有什么用途呢？"
+    },
+    {
+      "id": "test-concept-02",
+      "category": "concept",
+      "question": "请简单说明电脑鼠标的用途。"
+    },
+    {
+      "id": "test-concept-03",
+      "category": "concept",
+      "question": "上网时浏览器起什么作用？"
+    },
+    {
+      "id": "test-concept-04",
+      "category": "concept",
+      "question": "互联网怎样帮助人们交流信息？"
+    },
+    {
+      "id": "test-concept-05",
+      "category": "concept",
+      "question": "把文件分进文件夹有什么好处？"
+    },
+    {
+      "id": "test-concept-06",
+      "category": "concept",
+      "question": "手机充电时补充的是什么？"
+    },
+    {
+      "id": "test-concept-07",
+      "category": "concept",
+      "question": "雨水如何从云落到地上？"
+    },
+    {
+      "id": "test-concept-08",
+      "category": "concept",
+      "question": "植物得到阳光后能够做什么？"
+    },
+    {
+      "id": "test-concept-09",
+      "category": "concept",
+      "question": "冰块吸收热量会发生什么变化？"
+    },
+    {
+      "id": "test-instruction-00",
+      "category": "instruction",
+      "question": "只答一个字：对。"
+    },
+    {
+      "id": "test-instruction-01",
+      "category": "instruction",
+      "question": "列两种水果名称就好。"
+    },
+    {
+      "id": "test-instruction-02",
+      "category": "instruction",
+      "question": "请抄写一遍：窗外有一只小鸟。"
+    },
+    {
+      "id": "test-instruction-03",
+      "category": "instruction",
+      "question": "写一句话，带上夏天这个词。"
+    },
+    {
+      "id": "test-instruction-04",
+      "category": "instruction",
+      "question": "给宠物兔想一个中文名。"
+    },
+    {
+      "id": "test-instruction-05",
+      "category": "instruction",
+      "question": "用两个颜色名回答：红色、绿色。"
+    },
+    {
+      "id": "test-instruction-06",
+      "category": "instruction",
+      "question": "给学习中的朋友一句打气的话。"
+    },
+    {
+      "id": "test-instruction-07",
+      "category": "instruction",
+      "question": "用一句话对朋友问好。"
+    },
+    {
+      "id": "test-instruction-08",
+      "category": "instruction",
+      "question": "回答仅限收到二字。"
+    },
+    {
+      "id": "test-instruction-09",
+      "category": "instruction",
+      "question": "说出一种能载人的交通工具。"
+    },
+    {
+      "id": "test-arithmetic-00",
+      "category": "arithmetic",
+      "question": "5加3是多少呢？"
+    },
+    {
+      "id": "test-arithmetic-01",
+      "category": "arithmetic",
+      "question": "10减7等于多少呢？"
+    },
+    {
+      "id": "test-arithmetic-02",
+      "category": "arithmetic",
+      "question": "4乘2的积是多少呢？"
+    },
+    {
+      "id": "test-arithmetic-03",
+      "category": "arithmetic",
+      "question": "18除以3的商为多少？"
+    },
+    {
+      "id": "test-arithmetic-04",
+      "category": "arithmetic",
+      "question": "2加6应等于几？"
+    },
+    {
+      "id": "test-arithmetic-05",
+      "category": "arithmetic",
+      "question": "8减5得多少呢？"
+    },
+    {
+      "id": "test-arithmetic-06",
+      "category": "arithmetic",
+      "question": "2乘6的乘积是多少？"
+    },
+    {
+      "id": "test-arithmetic-07",
+      "category": "arithmetic",
+      "question": "20除以5得多少呢？"
+    },
+    {
+      "id": "test-arithmetic-08",
+      "category": "arithmetic",
+      "question": "6加3应等于几？"
+    },
+    {
+      "id": "test-arithmetic-09",
+      "category": "arithmetic",
+      "question": "11减8的差是多少？"
+    }
+  ],
+  "core": [
+    {
+      "id": "core-0",
+      "category": "greeting",
+      "question": "你好"
+    },
+    {
+      "id": "core-1",
+      "category": "identity",
+      "question": "你是谁"
+    },
+    {
+      "id": "core-2",
+      "category": "concept",
+      "question": "Linux是什么"
+    },
+    {
+      "id": "core-3",
+      "category": "concept",
+      "question": "操作系统是什么"
+    },
+    {
+      "id": "core-4",
+      "category": "arithmetic",
+      "question": "1+2是多少"
+    }
+  ]
+}

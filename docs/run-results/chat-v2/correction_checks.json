@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-03T06:59:42.064898+00:00",
+  "prefix_edge_cases": 7,
+  "legacy_crossing_cases": 2,
+  "hf_native_prompt_equal": true,
+  "flat_matches_legacy": true,
+  "prefetch_consumed_state_and_epoch_resume_exact": true,
+  "functional": {
+    "manual": {
+      "causal_max_error": 0.0,
+      "cache_max_error": 1.1920928955078125e-07,
+      "padding_max_error": 5.960464477539063e-08
+    },
+    "sdpa": {
+      "causal_max_error": 0.0,
+      "cache_max_error": 0.0,
+      "padding_max_error": 0.0
+    },
+    "weighted_sft_loss_error": 1.7881393432617188e-07,
+    "weighted_sft_gradient_l2_error": 0.008364964375689937,
+    "optimized_resume_exact": true,
+    "nonfinite_update_rejected": true
+  },
+  "gpu_disk_weights_optimizer_rng_sampler_exact": true,
+  "passed": true
+}

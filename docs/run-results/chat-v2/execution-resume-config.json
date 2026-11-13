@@ -1,0 +1,17 @@
+{
+  "name": "execution-resume-check",
+  "status": "runtime-teaching-v1",
+  "vocab_size": 32000,
+  "hidden_size": 64,
+  "num_hidden_layers": 2,
+  "num_attention_heads": 4,
+  "num_key_value_heads": 2,
+  "head_dim": 16,
+  "intermediate_size": 128,
+  "context_length": 2048,
+  "tie_word_embeddings": true,
+  "linear_bias": false,
+  "pad_token_id": 0,
+  "bos_token_id": 1,
+  "eos_token_id": 2
+}

@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-04T18:24:18.701262+00:00",
+  "controller": {
+    "pid": 70308,
+    "started_utc": "2026-10-04T18:08:30.391727+00:00",
+    "plan": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\50m-general-pretrain-2b.json",
+    "plan_sha256": "b9086100ca3425a11f7f995d234283b51edfd3d2ec8412bb7c8a5fe75b3a4cbb",
+    "status": "preparing_cpu_data",
+    "cumulative_target": 2000000000,
+    "historical_gpu_minutes": 881.3897566833335,
+    "new_gpu_minutes_cap": 900,
+    "capability_status": "not_accepted",
+    "historical_ledger_sha256": "4c5fb9d1955774509b0cbd424c389b3f05df7a295d846b9b65efb3ed1520f624",
+    "historical_ledger": "D:\\LubanLM-Runs\\chat-v2\\reports\\gpu_budget.json",
+    "parent_checkpoint_sha256": "e8ac25d710866d49d59fd71c698cbb4a7f015ea4fe40fc21a35adad52e3acbb9",
+    "parent_tokens": 808003584,
+    "updated_utc": "2026-10-04T18:08:32.989633+00:00"
+  },
+  "preparation_snapshot": {
+    "updated_utc": "2026-10-04T18:24:15.949511+00:00",
+    "downloaded_bytes": 1135690317,
+    "booked_download_bytes": 1135690317,
+    "timings_seconds": {
+      "download_wait": 1.0,
+      "clean_dedup_encode_write": 883.5949999999999
+    },
+    "elapsed_seconds": 942,
+    "stage": "encoding",
+    "source": "fineweb-4-5",
+    "counts": {
+      "raw_documents": 237653,
+      "invalid_character_or_control": 1273,
+      "consecutive_repeat": 3570,
+      "chinese_ratio": 32405,
+      "train_documents": 185520,
+      "validation_documents": 1310,
+      "duplicate_lines": 252,
+      "same_lead_duplicate": 3553,
+      "exact_duplicate_or_legacy": 71,
+      "length": 7042,
+      "markup_or_code_density": 161,
+      "heldout_cap_excluded": 2491,
+      "too_few_tokens": 5
+    },
+    "train_tokens": 285551963,
+    "validation_tokens": 2009392,
+    "file": "4_5/001625.parquet"
+  },
+  "gpu_training_started": false,
+  "new_gpu_minutes_used": 2.023966666666667,
+  "source_code_sha256": {
+    "scripts/prepare_general_2b.py": "2800ab47d643edd42f25e88a903e9b586ad5ad89cb6b50ba36938d9bf15440fc",
+    "scripts/run_general_2b.py": "92ff2d99dc6e07d57987c1608c15bdf9858d2a7101701a13ff03d59315e78fdc",
+    "scripts/benchmark_general_pretrain.py": "69bd69fe2b25b835652fb455a9c6bf2f63e37a2965c96f6a183f8b029a37973a",
+    "scripts/restart_general_2b_optimized.ps1": "561525463a09cfb544756afb02458e2d448170a1e3f97ea526eff75c4f118651",
+    "training/train.py": "5b8289ca338ca9367a5c43164be344cf89a4faf5428d6318dc27d74771ffd523",
+    "configs/50m-general-pretrain-2b.json": "b9086100ca3425a11f7f995d234283b51edfd3d2ec8412bb7c8a5fe75b3a4cbb"
+  },
+  "historical_startup_preserved": "startup.json",
+  "benchmarks": {
+    "batch8": {
+      "micro_batch": 8,
+      "accumulation": 1,
+      "length": 256,
+      "status": "completed",
+      "steps": 100,
+      "seconds": 8.09299999999348,
+      "tokens_per_second": 25305.819844330283,
+      "tokens_per_hour": 91100951.43958902,
+      "peak_allocated_mib": 2204.01025390625,
+      "peak_reserved_mib": 2348.0,
+      "loss_first": 5.539923191070557,
+      "loss_last": 4.6310224533081055,
+      "max_gradient_norm": 10.670204162597656,
+      "all_updates_finite": true,
+      "heldout_numeric_loss": 5.104121804237366
+    },
+    "batch24": {
+      "micro_batch": 24,
+      "accumulation": 1,
+      "length": 256,
+      "status": "completed",
+      "steps": 100,
+      "seconds": 15.516000000061467,
+      "tokens_per_second": 39597.83449326927,
+      "tokens_per_hour": 142552204.1757694,
+      "peak_allocated_mib": 5221.46728515625,
+      "peak_reserved_mib": 5678.0,
+      "loss_first": 5.346482753753662,
+      "loss_last": 3.9896671772003174,
+      "max_gradient_norm": 5.790628433227539,
+      "all_updates_finite": true,
+      "heldout_numeric_loss": 4.805967569351196
+    }
+  },
+  "controller_stderr_bytes": 0
+}

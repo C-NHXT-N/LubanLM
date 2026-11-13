@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-07T04:07:45.113363+00:00",
+  "review": {
+    "inspected": 200,
+    "rejected": 0,
+    "minor": 157,
+    "samples_sha256": "9c08537902f5345c1d09b5a2e3f64c74585fb6efcc4bab31081cf9b43c04c2b6",
+    "artifact_sha256": {
+      "train": "1c7f2ff833274d10594933338d04351048bce4decb4cd59b27788284107bd857",
+      "validation": "aa40aa9977ae4eba06c4ab15e60463ea2438ae58def05dbac36d954df93a210c"
+    },
+    "factual_correctness_of_entire_dataset_not_certified": true
+  },
+  "manifests": {
+    "train": {
+      "path": "D:\\LubanLM-Data\\general-10b-teaching-v2\\processed\\pretrain-train\\manifest.json",
+      "sha256": "1c7f2ff833274d10594933338d04351048bce4decb4cd59b27788284107bd857",
+      "tokens": 10000101826,
+      "source_tokens": {
+        "wiki": 185181818,
+        "fineweb-4-5": 5814854098,
+        "fineweb-3-4": 2000032807,
+        "cosmopedia-simple": 2000033103
+      },
+      "checked_all_shards": true
+    },
+    "validation": {
+      "path": "D:\\LubanLM-Data\\general-10b-teaching-v2\\processed\\pretrain-validation\\manifest.json",
+      "sha256": "aa40aa9977ae4eba06c4ab15e60463ea2438ae58def05dbac36d954df93a210c",
+      "tokens": 18816974,
+      "source_tokens": {
+        "wiki": 3812056,
+        "fineweb-4-5": 5002621,
+        "fineweb-3-4": 5000915,
+        "cosmopedia-simple": 5001382
+      },
+      "checked_all_shards": true
+    }
+  },
+  "parent_unchanged": true,
+  "initial_rejections": 10
+}

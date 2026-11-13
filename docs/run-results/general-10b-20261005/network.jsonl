@@ -1,0 +1,16 @@
+{"timestamp": 1791191911.992668, "event": "physical_adapter", "index": 10, "name": "WLAN", "ip": "1", "description": "Intel(R) Wi-Fi 6 AX200 160MHz"}
+{"timestamp": 1791191964.997968, "event": "physical_adapter", "index": 10, "name": "WLAN", "ip": "10.183.83.36", "description": "Intel(R) Wi-Fi 6 AX200 160MHz"}
+{"timestamp": 1791191965.1015723, "event": "https_connection", "host": "dns.alidns.com", "remote_ip": "223.5.5.5", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791191965.7649593, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791191966.8187966, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791191969.5666227, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791193689.631629, "event": "physical_adapter", "index": 10, "name": "WLAN", "ip": "10.183.83.36", "description": "Intel(R) Wi-Fi 6 AX200 160MHz"}
+{"timestamp": 1791193737.8288677, "event": "physical_adapter", "index": 10, "name": "WLAN", "ip": "10.183.83.36", "description": "Intel(R) Wi-Fi 6 AX200 160MHz"}
+{"timestamp": 1791193737.978029, "event": "https_connection", "host": "dns.alidns.com", "remote_ip": "223.5.5.5", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791193738.5929008, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791193740.1398792, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791193888.5896118, "event": "physical_adapter", "index": 10, "name": "WLAN", "ip": "10.183.83.36", "description": "Intel(R) Wi-Fi 6 AX200 160MHz"}
+{"timestamp": 1791193888.693227, "event": "https_connection", "host": "dns.alidns.com", "remote_ip": "223.5.5.5", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791193889.9026084, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791193892.8555522, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}
+{"timestamp": 1791193894.5879302, "event": "https_connection", "host": "hf-mirror.com", "remote_ip": "160.16.86.14", "local_ip": "10.183.83.36", "interface_index": 10}

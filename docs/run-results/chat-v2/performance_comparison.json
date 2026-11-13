@@ -1,0 +1,790 @@
+{
+  "started_utc": "2026-10-02T14:17:29.203483+00:00",
+  "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\source.pt",
+  "checkpoint_sha256": "da3c39f94b3d8240329679fa8b82d9e422141323fa80c836da0173ef19e25bed",
+  "checkpoint_step": 53810,
+  "checkpoint_tokens": 110202880,
+  "effective_batch": 8,
+  "functional_checks": {
+    "manual": {
+      "causal_max_error": 0.0,
+      "cache_max_error": 1.1920928955078125e-07,
+      "padding_max_error": 5.960464477539063e-08
+    },
+    "sdpa": {
+      "causal_max_error": 0.0,
+      "cache_max_error": 0.0,
+      "padding_max_error": 0.0
+    },
+    "weighted_sft_loss_error": 1.7881393432617188e-07,
+    "weighted_sft_gradient_l2_error": 0.008364964375689937,
+    "optimized_resume_exact": true,
+    "nonfinite_update_rejected": true
+  },
+  "tests": [
+    {
+      "name": "baseline-2x4",
+      "profile": {
+        "execution": "legacy",
+        "attention_backend": "manual",
+        "optimizer_backend": "loop",
+        "pin_memory": false,
+        "micro_batch": 2,
+        "accumulation": 4
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 37.29582920001121,
+          "tokens_per_second": 5491.23063873154,
+          "supervised_tokens_per_second": 5491.23063873154,
+          "data_prepare_percent": 0.1131539386420666,
+          "peak_allocated_mib": 1353.8681640625,
+          "peak_reserved_mib": 1424.0,
+          "resources": {
+            "gpu_percent": 36.37096774193548,
+            "card_mib": 2405.1935483870966,
+            "power_w": 36.46741935483871,
+            "temperature_c": 50.54838709677419,
+            "cpu_one_core_percent": 101.66129032258064,
+            "rss_mib": 2656.701612903226,
+            "card_peak_mib": 2411.0
+          }
+        },
+        {
+          "seconds": 36.776970999955665,
+          "tokens_per_second": 5568.702218577133,
+          "supervised_tokens_per_second": 5568.702218577133,
+          "data_prepare_percent": 0.09678339154365846,
+          "peak_allocated_mib": 1348.3681640625,
+          "peak_reserved_mib": 1488.0,
+          "resources": {
+            "gpu_percent": 35.87096774193548,
+            "card_mib": 2469.451612903226,
+            "power_w": 36.67693548387097,
+            "temperature_c": 50.95161290322581,
+            "cpu_one_core_percent": 102.77419354838709,
+            "rss_mib": 2593.2760206653224,
+            "card_peak_mib": 2476.0
+          }
+        },
+        {
+          "seconds": 36.33449839998502,
+          "tokens_per_second": 5636.516506860169,
+          "supervised_tokens_per_second": 5636.516506860169,
+          "data_prepare_percent": 0.09844941231275796,
+          "peak_allocated_mib": 1355.3681640625,
+          "peak_reserved_mib": 1488.0,
+          "resources": {
+            "gpu_percent": 35.98360655737705,
+            "card_mib": 2469.0,
+            "power_w": 36.980327868852456,
+            "temperature_c": 50.98360655737705,
+            "cpu_one_core_percent": 102.51639344262296,
+            "rss_mib": 2593.5433529713114,
+            "card_peak_mib": 2469.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0,
+      "gradient_relative_l2": 0.0,
+      "median_tokens_per_second": 5568.702218577133
+    },
+    {
+      "name": "optimized-2x4",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "manual",
+        "optimizer_backend": "loop",
+        "pin_memory": false,
+        "micro_batch": 2,
+        "accumulation": 4
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 35.97889039997244,
+          "tokens_per_second": 5692.226684126892,
+          "supervised_tokens_per_second": 5692.226684126892,
+          "data_prepare_percent": 0.09933713853186098,
+          "peak_allocated_mib": 1355.36865234375,
+          "peak_reserved_mib": 1488.0,
+          "resources": {
+            "gpu_percent": 36.78333333333333,
+            "card_mib": 2470.3333333333335,
+            "power_w": 37.297666666666665,
+            "temperature_c": 50.43333333333333,
+            "cpu_one_core_percent": 102.22,
+            "rss_mib": 2657.758203125,
+            "card_peak_mib": 2476.0
+          }
+        },
+        {
+          "seconds": 35.529635399987455,
+          "tokens_per_second": 5764.202128572148,
+          "supervised_tokens_per_second": 5764.202128572148,
+          "data_prepare_percent": 0.09751971739317386,
+          "peak_allocated_mib": 1357.36865234375,
+          "peak_reserved_mib": 1488.0,
+          "resources": {
+            "gpu_percent": 37.983333333333334,
+            "card_mib": 2469.0,
+            "power_w": 37.025166666666664,
+            "temperature_c": 47.31666666666667,
+            "cpu_one_core_percent": 102.34333333333333,
+            "rss_mib": 2590.8125,
+            "card_peak_mib": 2469.0
+          }
+        },
+        {
+          "seconds": 35.42840790003538,
+          "tokens_per_second": 5780.671843280756,
+          "supervised_tokens_per_second": 5780.671843280756,
+          "data_prepare_percent": 0.09625270200044976,
+          "peak_allocated_mib": 1351.86865234375,
+          "peak_reserved_mib": 1488.0,
+          "resources": {
+            "gpu_percent": 36.71666666666667,
+            "card_mib": 2469.0,
+            "power_w": 36.76716666666667,
+            "temperature_c": 45.3,
+            "cpu_one_core_percent": 102.88666666666667,
+            "rss_mib": 2590.81640625,
+            "card_peak_mib": 2469.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0,
+      "gradient_relative_l2": 0.0,
+      "median_tokens_per_second": 5764.202128572148
+    },
+    {
+      "name": "optimized-4x2",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "manual",
+        "optimizer_backend": "loop",
+        "pin_memory": false,
+        "micro_batch": 4,
+        "accumulation": 2
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 19.34737440000754,
+          "tokens_per_second": 10585.415662391906,
+          "supervised_tokens_per_second": 10585.415662391906,
+          "data_prepare_percent": 0.1506783259414759,
+          "peak_allocated_mib": 1802.13232421875,
+          "peak_reserved_mib": 1866.0,
+          "resources": {
+            "gpu_percent": 42.78787878787879,
+            "card_mib": 2847.5454545454545,
+            "power_w": 68.74818181818182,
+            "temperature_c": 48.84848484848485,
+            "cpu_one_core_percent": 101.85454545454546,
+            "rss_mib": 2656.91015625,
+            "card_peak_mib": 2854.0
+          }
+        },
+        {
+          "seconds": 19.31008239998482,
+          "tokens_per_second": 10605.858419338541,
+          "supervised_tokens_per_second": 10605.858419338541,
+          "data_prepare_percent": 0.15353533395498029,
+          "peak_allocated_mib": 1802.63232421875,
+          "peak_reserved_mib": 1866.0,
+          "resources": {
+            "gpu_percent": 39.696969696969695,
+            "card_mib": 2847.0,
+            "power_w": 68.81484848484848,
+            "temperature_c": 49.57575757575758,
+            "cpu_one_core_percent": 103.22424242424242,
+            "rss_mib": 2590.9973958333335,
+            "card_peak_mib": 2847.0
+          }
+        },
+        {
+          "seconds": 18.966205600008834,
+          "tokens_per_second": 10798.153532613007,
+          "supervised_tokens_per_second": 10798.153532613007,
+          "data_prepare_percent": 0.15556142738330303,
+          "peak_allocated_mib": 1802.63232421875,
+          "peak_reserved_mib": 1866.0,
+          "resources": {
+            "gpu_percent": 42.84375,
+            "card_mib": 2847.0,
+            "power_w": 69.7228125,
+            "temperature_c": 50.21875,
+            "cpu_one_core_percent": 102.140625,
+            "rss_mib": 2591.0,
+            "card_peak_mib": 2847.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0003966093063354492,
+      "gradient_relative_l2": 0.008340061811071461,
+      "median_tokens_per_second": 10605.858419338541
+    },
+    {
+      "name": "optimized-8x1",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "manual",
+        "optimizer_backend": "loop",
+        "pin_memory": false,
+        "micro_batch": 8,
+        "accumulation": 1
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 10.96771960001206,
+          "tokens_per_second": 18672.979203422998,
+          "supervised_tokens_per_second": 18672.979203422998,
+          "data_prepare_percent": 0.24903535799394017,
+          "peak_allocated_mib": 2523.603515625,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 64.89473684210526,
+            "card_mib": 3795.0,
+            "power_w": 92.27,
+            "temperature_c": 53.0,
+            "cpu_one_core_percent": 102.66315789473684,
+            "rss_mib": 2657.0536595394738,
+            "card_peak_mib": 3795.0
+          }
+        },
+        {
+          "seconds": 11.299104899982922,
+          "tokens_per_second": 18125.329555999568,
+          "supervised_tokens_per_second": 18125.329555999568,
+          "data_prepare_percent": 0.24285286662293712,
+          "peak_allocated_mib": 2519.603515625,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 64.42105263157895,
+            "card_mib": 3795.0,
+            "power_w": 91.19473684210526,
+            "temperature_c": 53.26315789473684,
+            "cpu_one_core_percent": 102.42105263157895,
+            "rss_mib": 2590.9296875,
+            "card_peak_mib": 3795.0
+          }
+        },
+        {
+          "seconds": 10.754559499968309,
+          "tokens_per_second": 19043.08586517221,
+          "supervised_tokens_per_second": 19043.08586517221,
+          "data_prepare_percent": 0.2508749885261892,
+          "peak_allocated_mib": 2517.603515625,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 66.57894736842105,
+            "card_mib": 3795.315789473684,
+            "power_w": 94.62052631578948,
+            "temperature_c": 54.31578947368421,
+            "cpu_one_core_percent": 103.77894736842104,
+            "rss_mib": 2590.9296875,
+            "card_peak_mib": 3801.0
+          }
+        }
+      ],
+      "loss_abs_error": 4.3272972106933594e-05,
+      "gradient_relative_l2": 0.008630431172697867,
+      "median_tokens_per_second": 18672.979203422998
+    },
+    {
+      "name": "fused-adamw",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "manual",
+        "optimizer_backend": "fused",
+        "pin_memory": false,
+        "micro_batch": 8,
+        "accumulation": 1
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 9.568112500011921,
+          "tokens_per_second": 21404.430602142776,
+          "supervised_tokens_per_second": 21404.430602142776,
+          "data_prepare_percent": 0.2935281134627324,
+          "peak_allocated_mib": 2517.16357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 68.9375,
+            "card_mib": 3795.75,
+            "power_w": 99.010625,
+            "temperature_c": 55.1875,
+            "cpu_one_core_percent": 102.5125,
+            "rss_mib": 2657.0546875,
+            "card_peak_mib": 3801.0
+          }
+        },
+        {
+          "seconds": 8.960109800042119,
+          "tokens_per_second": 22856.862758427054,
+          "supervised_tokens_per_second": 22856.862758427054,
+          "data_prepare_percent": 0.27836712565056015,
+          "peak_allocated_mib": 2522.66357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 74.6875,
+            "card_mib": 3797.125,
+            "power_w": 103.019375,
+            "temperature_c": 55.6875,
+            "cpu_one_core_percent": 102.86875,
+            "rss_mib": 2590.9296875,
+            "card_peak_mib": 3802.0
+          }
+        },
+        {
+          "seconds": 8.963578300026711,
+          "tokens_per_second": 22848.018184812387,
+          "supervised_tokens_per_second": 22848.018184812387,
+          "data_prepare_percent": 0.2731643455822062,
+          "peak_allocated_mib": 2520.16357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 74.9375,
+            "card_mib": 3795.625,
+            "power_w": 103.26875,
+            "temperature_c": 55.9375,
+            "cpu_one_core_percent": 103.35625,
+            "rss_mib": 2590.9375,
+            "card_peak_mib": 3797.0
+          }
+        }
+      ],
+      "loss_abs_error": 4.3272972106933594e-05,
+      "gradient_relative_l2": 0.008630431172697867,
+      "median_tokens_per_second": 22848.018184812387
+    },
+    {
+      "name": "sdpa",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "sdpa",
+        "optimizer_backend": "fused",
+        "pin_memory": false,
+        "micro_batch": 8,
+        "accumulation": 1
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 8.27116180001758,
+          "tokens_per_second": 24760.729502300957,
+          "supervised_tokens_per_second": 24760.729502300957,
+          "data_prepare_percent": 0.31178328433142344,
+          "peak_allocated_mib": 2204.16357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 66.57142857142857,
+            "card_mib": 3795.0,
+            "power_w": 94.38857142857142,
+            "temperature_c": 55.142857142857146,
+            "cpu_one_core_percent": 101.35,
+            "rss_mib": 2657.88671875,
+            "card_peak_mib": 3795.0
+          }
+        },
+        {
+          "seconds": 8.188950499985367,
+          "tokens_per_second": 25009.30980109917,
+          "supervised_tokens_per_second": 25009.30980109917,
+          "data_prepare_percent": 0.305130676989222,
+          "peak_allocated_mib": 2204.16357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 67.14285714285714,
+            "card_mib": 3795.0,
+            "power_w": 95.67785714285715,
+            "temperature_c": 54.857142857142854,
+            "cpu_one_core_percent": 103.05,
+            "rss_mib": 2591.78515625,
+            "card_peak_mib": 3795.0
+          }
+        },
+        {
+          "seconds": 8.136037000047509,
+          "tokens_per_second": 25171.960255196,
+          "supervised_tokens_per_second": 25171.960255196,
+          "data_prepare_percent": 0.3111010955314436,
+          "peak_allocated_mib": 2204.16357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 67.07142857142857,
+            "card_mib": 3795.0,
+            "power_w": 96.085,
+            "temperature_c": 55.785714285714285,
+            "cpu_one_core_percent": 103.30714285714285,
+            "rss_mib": 2591.78515625,
+            "card_peak_mib": 3795.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0005208253860473633,
+      "gradient_relative_l2": 0.009516649598752815,
+      "median_tokens_per_second": 25009.30980109917
+    },
+    {
+      "name": "pinned-transfer",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "sdpa",
+        "optimizer_backend": "fused",
+        "pin_memory": true,
+        "micro_batch": 8,
+        "accumulation": 1
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 7.850820300052874,
+          "tokens_per_second": 26086.44602381495,
+          "supervised_tokens_per_second": 26086.44602381495,
+          "data_prepare_percent": 0.36716800736706945,
+          "peak_allocated_mib": 2208.16357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 71.85714285714286,
+            "card_mib": 3795.0,
+            "power_w": 98.40928571428572,
+            "temperature_c": 55.5,
+            "cpu_one_core_percent": 102.24285714285715,
+            "rss_mib": 2657.921875,
+            "card_peak_mib": 3795.0
+          }
+        },
+        {
+          "seconds": 7.520879499963485,
+          "tokens_per_second": 27230.85777414654,
+          "supervised_tokens_per_second": 27230.85777414654,
+          "data_prepare_percent": 0.3671631742471875,
+          "peak_allocated_mib": 2207.66357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 72.6923076923077,
+            "card_mib": 3795.0,
+            "power_w": 99.94538461538461,
+            "temperature_c": 55.84615384615385,
+            "cpu_one_core_percent": 103.07692307692308,
+            "rss_mib": 2591.80859375,
+            "card_peak_mib": 3795.0
+          }
+        },
+        {
+          "seconds": 7.407815999991726,
+          "tokens_per_second": 27646.47502046875,
+          "supervised_tokens_per_second": 27646.47502046875,
+          "data_prepare_percent": 0.36589327025743845,
+          "peak_allocated_mib": 2209.66357421875,
+          "peak_reserved_mib": 2814.0,
+          "resources": {
+            "gpu_percent": 74.23076923076923,
+            "card_mib": 3795.0,
+            "power_w": 101.7776923076923,
+            "temperature_c": 55.84615384615385,
+            "cpu_one_core_percent": 104.70769230769231,
+            "rss_mib": 2591.827824519231,
+            "card_peak_mib": 3795.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0005208253860473633,
+      "gradient_relative_l2": 0.009516649598752815,
+      "median_tokens_per_second": 27230.85777414654
+    },
+    {
+      "name": "sft-baseline-2x4",
+      "profile": {
+        "execution": "legacy",
+        "attention_backend": "manual",
+        "optimizer_backend": "loop",
+        "pin_memory": false,
+        "micro_batch": 2,
+        "accumulation": 4
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 38.05799390003085,
+          "tokens_per_second": 1783.9878838160453,
+          "supervised_tokens_per_second": 708.4451185425762,
+          "data_prepare_percent": 0.18016083399717253,
+          "peak_allocated_mib": 1766.22998046875,
+          "peak_reserved_mib": 2826.0,
+          "resources": {
+            "gpu_percent": 35.296875,
+            "card_mib": 3808.234375,
+            "power_w": 27.945,
+            "temperature_c": 44.984375,
+            "cpu_one_core_percent": 102.10312499999999,
+            "rss_mib": 3007.866943359375,
+            "card_peak_mib": 3814.0
+          }
+        },
+        {
+          "seconds": 38.210321700025816,
+          "tokens_per_second": 1776.875906280426,
+          "supervised_tokens_per_second": 705.6208584598696,
+          "data_prepare_percent": 0.17987574331781284,
+          "peak_allocated_mib": 1766.35498046875,
+          "peak_reserved_mib": 2826.0,
+          "resources": {
+            "gpu_percent": 34.40625,
+            "card_mib": 3807.0,
+            "power_w": 27.07015625,
+            "temperature_c": 42.578125,
+            "cpu_one_core_percent": 102.371875,
+            "rss_mib": 2940.9246826171875,
+            "card_peak_mib": 3807.0
+          }
+        },
+        {
+          "seconds": 37.344853800022975,
+          "tokens_per_second": 1818.0550488581168,
+          "supervised_tokens_per_second": 721.973639109103,
+          "data_prepare_percent": 0.17933421407439176,
+          "peak_allocated_mib": 1765.60498046875,
+          "peak_reserved_mib": 2828.0,
+          "resources": {
+            "gpu_percent": 33.76190476190476,
+            "card_mib": 3807.5396825396824,
+            "power_w": 27.277460317460317,
+            "temperature_c": 41.507936507936506,
+            "cpu_one_core_percent": 102.96507936507936,
+            "rss_mib": 2940.9430183531745,
+            "card_peak_mib": 3813.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0,
+      "gradient_relative_l2": 0.0,
+      "median_tokens_per_second": 1783.9878838160453
+    },
+    {
+      "name": "sft-optimized-2x4",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "sdpa",
+        "optimizer_backend": "fused",
+        "pin_memory": true,
+        "micro_batch": 2,
+        "accumulation": 4
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 30.578516400011722,
+          "tokens_per_second": 2220.349709313365,
+          "supervised_tokens_per_second": 881.7301548347737,
+          "data_prepare_percent": 0.24369396869474277,
+          "peak_allocated_mib": 1546.55224609375,
+          "peak_reserved_mib": 2828.0,
+          "resources": {
+            "gpu_percent": 33.90384615384615,
+            "card_mib": 3809.326923076923,
+            "power_w": 29.872307692307693,
+            "temperature_c": 41.03846153846154,
+            "cpu_one_core_percent": 101.7826923076923,
+            "rss_mib": 3002.09765625,
+            "card_peak_mib": 3816.0
+          }
+        },
+        {
+          "seconds": 30.618638499989174,
+          "tokens_per_second": 2217.4402039471483,
+          "supervised_tokens_per_second": 880.574751878975,
+          "data_prepare_percent": 0.24948398628157298,
+          "peak_allocated_mib": 1546.80224609375,
+          "peak_reserved_mib": 2828.0,
+          "resources": {
+            "gpu_percent": 32.96153846153846,
+            "card_mib": 3809.0,
+            "power_w": 29.674230769230768,
+            "temperature_c": 40.92307692307692,
+            "cpu_one_core_percent": 102.25961538461539,
+            "rss_mib": 2936.2388822115386,
+            "card_peak_mib": 3809.0
+          }
+        },
+        {
+          "seconds": 29.588598000002094,
+          "tokens_per_second": 2294.633899179515,
+          "supervised_tokens_per_second": 911.2293864007377,
+          "data_prepare_percent": 0.24380235962093424,
+          "peak_allocated_mib": 1546.42724609375,
+          "peak_reserved_mib": 2828.0,
+          "resources": {
+            "gpu_percent": 33.98,
+            "card_mib": 3810.14,
+            "power_w": 29.8902,
+            "temperature_c": 41.04,
+            "cpu_one_core_percent": 102.208,
+            "rss_mib": 2937.00671875,
+            "card_peak_mib": 3815.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0012628055932957238,
+      "gradient_relative_l2": 0.009242797667586697,
+      "median_tokens_per_second": 2220.349709313365
+    },
+    {
+      "name": "sft-optimized-4x2",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "sdpa",
+        "optimizer_backend": "fused",
+        "pin_memory": true,
+        "micro_batch": 4,
+        "accumulation": 2
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 15.872831500018947,
+          "tokens_per_second": 4290.160832358028,
+          "supervised_tokens_per_second": 1698.6257303851437,
+          "data_prepare_percent": 0.428685959152763,
+          "peak_allocated_mib": 2221.611328125,
+          "peak_reserved_mib": 2828.0,
+          "resources": {
+            "gpu_percent": 35.074074074074076,
+            "card_mib": 3810.777777777778,
+            "power_w": 44.855185185185185,
+            "temperature_c": 43.851851851851855,
+            "cpu_one_core_percent": 103.08148148148148,
+            "rss_mib": 3003.1571180555557,
+            "card_peak_mib": 3816.0
+          }
+        },
+        {
+          "seconds": 15.296077900042292,
+          "tokens_per_second": 4451.925548823971,
+          "supervised_tokens_per_second": 1762.6740773806764,
+          "data_prepare_percent": 0.42591245114817633,
+          "peak_allocated_mib": 2220.361328125,
+          "peak_reserved_mib": 2828.0,
+          "resources": {
+            "gpu_percent": 36.96153846153846,
+            "card_mib": 3809.0,
+            "power_w": 47.20076923076923,
+            "temperature_c": 45.38461538461539,
+            "cpu_one_core_percent": 102.3576923076923,
+            "rss_mib": 2937.0572415865386,
+            "card_peak_mib": 3809.0
+          }
+        },
+        {
+          "seconds": 15.235885999980383,
+          "tokens_per_second": 4469.513620677372,
+          "supervised_tokens_per_second": 1769.6378143046434,
+          "data_prepare_percent": 0.42375284277602837,
+          "peak_allocated_mib": 2223.330078125,
+          "peak_reserved_mib": 2828.0,
+          "resources": {
+            "gpu_percent": 34.03846153846154,
+            "card_mib": 3809.0,
+            "power_w": 48.34923076923077,
+            "temperature_c": 46.53846153846154,
+            "cpu_one_core_percent": 101.9076923076923,
+            "rss_mib": 2937.0579927884614,
+            "card_peak_mib": 3809.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0010250722329452344,
+      "gradient_relative_l2": 0.009904695478279248,
+      "median_tokens_per_second": 4451.925548823971
+    },
+    {
+      "name": "sft-optimized-8x1",
+      "profile": {
+        "execution": "optimized",
+        "attention_backend": "sdpa",
+        "optimizer_backend": "fused",
+        "pin_memory": true,
+        "micro_batch": 8,
+        "accumulation": 1
+      },
+      "passed": true,
+      "repeats": [
+        {
+          "seconds": 7.838237099989783,
+          "tokens_per_second": 8700.680922255962,
+          "supervised_tokens_per_second": 3439.8040855430545,
+          "data_prepare_percent": 0.7766695386784863,
+          "peak_allocated_mib": 3383.42333984375,
+          "peak_reserved_mib": 4262.0,
+          "resources": {
+            "gpu_percent": 56.642857142857146,
+            "card_mib": 5243.0,
+            "power_w": 75.84571428571428,
+            "temperature_c": 50.642857142857146,
+            "cpu_one_core_percent": 102.46428571428571,
+            "rss_mib": 3052.1847098214284,
+            "card_peak_mib": 5243.0
+          }
+        },
+        {
+          "seconds": 7.638151399965864,
+          "tokens_per_second": 8928.600184634306,
+          "supervised_tokens_per_second": 3529.911700901935,
+          "data_prepare_percent": 0.7564356446487821,
+          "peak_allocated_mib": 3384.64990234375,
+          "peak_reserved_mib": 4262.0,
+          "resources": {
+            "gpu_percent": 55.0,
+            "card_mib": 5243.0,
+            "power_w": 78.28769230769231,
+            "temperature_c": 52.0,
+            "cpu_one_core_percent": 103.3923076923077,
+            "rss_mib": 2986.951923076923,
+            "card_peak_mib": 5243.0
+          }
+        },
+        {
+          "seconds": 7.639834299974609,
+          "tokens_per_second": 8926.633395730409,
+          "supervised_tokens_per_second": 3529.1341331957433,
+          "data_prepare_percent": 0.7662051029698521,
+          "peak_allocated_mib": 3385.04833984375,
+          "peak_reserved_mib": 4262.0,
+          "resources": {
+            "gpu_percent": 57.69230769230769,
+            "card_mib": 5243.0,
+            "power_w": 78.67923076923077,
+            "temperature_c": 52.92307692307692,
+            "cpu_one_core_percent": 102.63076923076923,
+            "rss_mib": 2986.963641826923,
+            "card_peak_mib": 5243.0
+          }
+        }
+      ],
+      "loss_abs_error": 0.0006215271987315418,
+      "gradient_relative_l2": 0.009554828648029992,
+      "median_tokens_per_second": 8926.633395730409
+    }
+  ],
+  "sampling_sequence_equal": true,
+  "selected": "pinned-transfer",
+  "passed": true,
+  "sft_speedup": 5.003752254547751,
+  "attention_operators": [
+    "aten::scaled_dot_product_attention",
+    "aten::_scaled_dot_product_efficient_attention",
+    "aten::_efficient_attention_forward",
+    "aten::log_softmax",
+    "aten::_log_softmax",
+    "aten::_log_softmax_backward_data",
+    "aten::_scaled_dot_product_efficient_attention_backward",
+    "aten::_efficient_attention_backward"
+  ],
+  "speedup": 4.889982747381371,
+  "completed_utc": "2026-10-02T14:30:59.251218+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "filter_equivalence_documents": 11901,
+  "serial_and_parallel_token_shards_identical": true,
+  "fixed_source_order_identical": true,
+  "sources_consumed": 2,
+  "tokens": {
+    "train": 1000087,
+    "validation": 5695
+  }
+}

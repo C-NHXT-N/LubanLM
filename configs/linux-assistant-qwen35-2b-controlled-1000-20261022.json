@@ -1,0 +1,81 @@
+{
+  "experiment": "linux-assistant-qwen35-2b-controlled-1000-20261022",
+  "experiment_scope": "controlled_1000_skill_rebuild",
+  "model": "models/Qwen/Qwen3.5-2B",
+  "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "comparison_model": "models/Qwen/Qwen3-4B-Instruct-2507",
+  "comparison_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "data": "datasets/staging/linux-assistant-1000-250-250-20261022",
+  "runs": "runs/linux-assistant-qwen35-2b-controlled-1000-20261022",
+  "report": "reports/linux-assistant-qwen35-2b-controlled-1000-20261022",
+  "export": "exports/linux-assistant-qwen35-2b-controlled-1000-20261022",
+  "baseline_report": "reports/linux-assistant-qwen35-2b-controlled-1000-baseline-20261022",
+  "training_review": "reports/linux-assistant-review-and-launch-20261022/training-approval.json",
+  "cleanup_record": "reports/linux-assistant-cleanup-20261020/cleanup.json",
+  "require_baseline_semantic_review": true,
+  "selection_protocol_id": "controlled-eval-axes-v1",
+  "system_prompt": "你是中文助手，擅长Linux与开发板部署。依据题目和已知信息回答，普通常识、算术和推理问题按题意直接作答。操作建议说明必要步骤和判断依据；只有缺少影响结论的关键条件时才提出具体追问。区分事实与推测，不编造设备状态、命令输出、版本或SDK接口。遵守用户明确指定的格式与最新更正。你只提供建议，不执行命令。",
+  "seed": 20261019,
+  "max_length": 1024,
+  "max_new_tokens": 256,
+  "context_length": 2048,
+  "lora": {"r": 16, "alpha": 32, "dropout": 0.05},
+  "training": {
+    "learning_rate": 0.0001,
+    "second_learning_rate": 0.00005,
+    "epochs": 2,
+    "micro_batch": 4,
+    "gradient_accumulation": 8,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
+    "checkpoint_steps": [63, 125, 188, 250],
+    "full_development_at_each_checkpoint": true,
+    "max_grad_norm": 1.0,
+    "optimizer_mode": "adamw_fused",
+    "gradient_check_mode": "aggregated",
+    "length_bucket_within_update": true,
+    "micro_batch_token_budget": 1600,
+    "gpu_reserve_mib": 2048,
+    "allocator_max_memory_fraction": 0.9
+  },
+  "dataset_contract": {
+    "training_total": 1000,
+    "training_scenarios": {
+      "environment_check": 120,
+      "linux_operation": 240,
+      "deployment": 120,
+      "troubleshooting": 220,
+      "interaction": 100,
+      "general": 200
+    },
+    "multiturn_min": 150,
+    "document_records_max": 100,
+    "document_supervised_token_fraction_max": 0.15,
+    "command_and_troubleshooting_min": 500,
+    "evaluation": {
+      "total": 250,
+      "capabilities": {
+        "command_generation": 50,
+        "log_troubleshooting": 50,
+        "sdk_grounded": 30,
+        "interaction": 20,
+        "general": 100
+      },
+      "general_subtypes": {
+        "general_arithmetic": 30,
+        "general_reasoning": 30,
+        "general_instruction": 20,
+        "general_knowledge": 20
+      }
+    }
+  },
+  "acceptance": {
+    "task_min": 0.8,
+    "command_min": 0.8,
+    "troubleshooting_min": 0.8,
+    "task_gain": 0.1,
+    "error_reduction": 0.3,
+    "general_max_drop": 0.05
+  },
+  "baseline": {"pilot_samples": 12, "batch_candidates": [1, 2, 4]}
+}

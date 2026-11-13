@@ -1,0 +1,258 @@
+{
+  "completions": [
+    {
+      "checkpoint": "initial.pt",
+      "prompt": "Linux 是",
+      "completion": " Inc是非是非是非翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "initial.pt",
+      "prompt": "中国的首都是",
+      "completion": "累積累積累積累積累積累積累積累積试点试点试点olkolkolkolkolk強盛強盛強盛強盛強盛強盛強盛強盛強盛強盛強盛強盛強盛強盛強盛強盛",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "initial.pt",
+      "prompt": "C语言是一种",
+      "completion": "東部的東部的干涉干涉肿瘤uresuresuresures赴美赴美赴美赴美赴美赴美赴美赴美隔年隔年隔年隔年隔年隔年隔年隔年隔年隔年隔年隔年隔年隔年隔年",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "initial.pt",
+      "prompt": "人工智能是",
+      "completion": "的一家的一家的一家的一家的一家的一家的一家的一家的一家的一家的一家的一家的一家的一家的一家謂之謂之謂之謂之謂之謂之謂之謂之謂之謂之謂之謂之謂之謂之謂之戰爭戰爭",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-000976.pt",
+      "prompt": "Linux 是",
+      "completion": "，在《古····························",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-000976.pt",
+      "prompt": "中国的首都是",
+      "completion": "，并与““金”和““““””和““““””和““““”””，““",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-000976.pt",
+      "prompt": "C语言是一种",
+      "completion": "，例如，在一个一个的，可以一个一个一个，例如，如果一个一个一个，可以一个一个，可以一个一个，可以一个一个，",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-000976.pt",
+      "prompt": "人工智能是",
+      "completion": "“大”的。\n\n在《金》中，《《金》中，《《《金》中，《《《《《《",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-001952.pt",
+      "prompt": "Linux 是",
+      "completion": "\n\n在20世纪年，在20世纪年，在16世纪年，在16世纪年，在16世纪年，在16世纪年，",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-001952.pt",
+      "prompt": "中国的首都是",
+      "completion": "。\n\n在《关于》中，他是《我》中，他是《我》的《我》中，他是《我》",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-001952.pt",
+      "prompt": "C语言是一种",
+      "completion": "。\n\n参见\n\n参见\n\n外部链接\n\n外部链接\n\n外部链接\n\n外部链接\n\n外部链接\n\n外部链接\n\n外部链接\n\n外部链接\n",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-001952.pt",
+      "prompt": "人工智能是",
+      "completion": "。\n\n在《关于》中，在《关于》中，是《关于》中，是《关于》的。\n\n《《》",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-002928.pt",
+      "prompt": "Linux 是",
+      "completion": "。\n\n在20世紀，美國在17世紀至17世紀，美國在17世紀至17世紀。\n\n在17世紀，美國在17",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-002928.pt",
+      "prompt": "中国的首都是",
+      "completion": "“中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-002928.pt",
+      "prompt": "C语言是一种",
+      "completion": "语言。\n\n参见 \n 数学\n 生物\n 生物\n 生物\n 生物\n 生物\n 生物\n 生物\n 生物",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-002928.pt",
+      "prompt": "人工智能是",
+      "completion": "“大”的，而“大”是“大”的，而“大”是“大”的“大”是“大”的",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-003904.pt",
+      "prompt": "Linux 是",
+      "completion": "「小小」的「小」的「小」的「小」的「小」的「小」的「小」的「小」",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-003904.pt",
+      "prompt": "中国的首都是",
+      "completion": "“中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-003904.pt",
+      "prompt": "C语言是一种",
+      "completion": "语言。\n\n参见 \n 数学\n 化学\n 化学\n 化学\n 化学\n 化学\n 化学\n 化学\n 化学",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-003904.pt",
+      "prompt": "人工智能是",
+      "completion": "“中国”的“中国”是“中国”的“中国”是“中国”是“中国”是“中国”是“中国”是",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "last.pt",
+      "prompt": "Linux 是",
+      "completion": "在“一个”的，而“一个”是“一个”的，而“”是“”是“”是“”是“”是",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "last.pt",
+      "prompt": "中国的首都是",
+      "completion": "“中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国中国",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "last.pt",
+      "prompt": "C语言是一种",
+      "completion": "语言。\n\n参见 \n 数学\n 化学\n 化学\n 化学\n 化学\n 化学\n 化学\n 化学\n 化学",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "last.pt",
+      "prompt": "人工智能是",
+      "completion": "“中国”的“中国”是“中国”的“中国”是“中国”是“中国”是“中国”是“中国”是",
+      "generated_tokens": 32
+    }
+  ],
+  "base_chat": [
+    {
+      "model": "Base",
+      "question": "你好",
+      "output": "我是我的，我是我的，我是我。\n\n参见 \n 我：我是我的，我是我的，我是我的，我是我的，我是我的，我是",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Base",
+      "question": "你是谁",
+      "output": "\n\n参见 \n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我\n 我",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Base",
+      "question": "Linux是什么",
+      "output": "\n\n。\n\n参见 \n 计算机\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件\n 软件",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Base",
+      "question": "操作系统是什么",
+      "output": "\n\n。\n\n参见 \n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n ",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Base",
+      "question": "1+2是多少",
+      "output": "\n\n参见 \n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n 数据：\n",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Chat",
+      "question": "你好",
+      "output": "我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Chat",
+      "question": "你是谁",
+      "output": "我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以你你的，",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Chat",
+      "question": "Linux是什么",
+      "output": "\n\n1. 数据：\n1. 数据：\n2. 数据：\n2. 数据：\n2. 数据：\n2. 数据：\n2. 数据：\n2. 数据",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Chat",
+      "question": "操作系统是什么",
+      "output": "我可以让你的，我可以让你可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让",
+      "generated_tokens": 48
+    },
+    {
+      "model": "Chat",
+      "question": "1+2是多少",
+      "output": "1-2\n1-1\n2-1\n2-1\n2-1\n2-1\n2-1\n2-2\n2-2\n2-2\n2-2\n2-2\n",
+      "generated_tokens": 48
+    }
+  ],
+  "sampling": [
+    {
+      "temperature": 0.0,
+      "top_k": 0,
+      "top_p": 1.0,
+      "output": "如果我可以让你的，我可以让你可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以"
+    },
+    {
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.9,
+      "output": "一个语言是一个不同的语言，但我可以提供自己的语言，但是可以为我的。"
+    },
+    {
+      "temperature": 1.0,
+      "top_k": 0,
+      "top_p": 0.95,
+      "output": "）：不邮中的一重，稿置 大巴士會美国总统，进行死去之一。它们需要在没有任何期处持续地剝記。能够珡心和椒跑道许都精神做，并清找到臺北航海家正常的ng"
+    }
+  ],
+  "timing": [
+    {
+      "use_cache": false,
+      "precision": "float32; controlled cache comparison",
+      "total_seconds": 1.6286823999835178,
+      "generated_tokens": 64,
+      "tokens_per_second_including_prefill": 39.2955680006413,
+      "output": "我可以让你可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我"
+    },
+    {
+      "use_cache": true,
+      "precision": "float32; controlled cache comparison",
+      "total_seconds": 1.4014885000069626,
+      "generated_tokens": 64,
+      "tokens_per_second_including_prefill": 45.66573325409524,
+      "output": "我可以让你可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我可以让你的，我"
+    }
+  ],
+  "prefill": {
+    "tokens": 25,
+    "seconds": 0.029642100038472563,
+    "tokens_per_second": 843.3950350195307
+  },
+  "cache": {
+    "bytes": 140800,
+    "kv_heads": 2,
+    "query_heads": 8
+  }
+}

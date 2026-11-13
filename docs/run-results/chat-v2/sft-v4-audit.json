@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-02T19:06:04.051956+00:00",
+  "all_rule_arithmetic_results_verified": true,
+  "integer_division_verified": true,
+  "token_masks_and_eos_verified": true,
+  "question_split_disjoint": true,
+  "arithmetic_group_split_disjoint": true,
+  "suite_same_questions_excluded": true,
+  "unique_train": 11895,
+  "validation": 1239,
+  "controller_pid": 66432,
+  "child_pid": 58808,
+  "awake_pid": 72016
+}

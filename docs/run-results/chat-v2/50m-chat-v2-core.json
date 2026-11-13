@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-10-03T06:44:39.564833+00:00",
+  "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\last.pt",
+  "checkpoint_sha256": "9e26eaaa6c15a897bc0e9db3ea77d8adb4c7a202ad0e953d6ab7712a47e43627",
+  "split": "core",
+  "suite_sha256": "b53382ff61390eaa5249a7ad36cfe283918eabfcde790af7ba5b23ee2573c689",
+  "status": "awaiting_review",
+  "results": [
+    {
+      "id": "core-0",
+      "category": "greeting",
+      "question": "你好",
+      "seed": 2026,
+      "answer": "我是LubanLM，一个用中文进行文字交流的语言模型。",
+      "generated_ids": [
+        28158,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        1042,
+        396,
+        1948,
+        1576,
+        2157,
+        5098,
+        11362,
+        4137,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "core-1",
+      "category": "identity",
+      "question": "你是谁",
+      "seed": 2026,
+      "answer": "我是LubanLM，一个用中文进行文字交流的语言模型。",
+      "generated_ids": [
+        28158,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        1042,
+        396,
+        1948,
+        1576,
+        2157,
+        5098,
+        11362,
+        4137,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "core-2",
+      "category": "concept",
+      "question": "Linux是什么",
+      "seed": 2026,
+      "answer": "Linux是一种开源操作系统内核，日常也用来指基于它的操作系统。",
+      "generated_ids": [
+        9388,
+        2570,
+        29140,
+        5617,
+        21666,
+        262,
+        6192,
+        493,
+        4031,
+        657,
+        4626,
+        2548,
+        5617,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "core-3",
+      "category": "concept",
+      "question": "操作系统是什么",
+      "seed": 2026,
+      "answer": "操作系统管理电脑的硬件和软件，帮助用户运行程序。",
+      "generated_ids": [
+        5617,
+        1418,
+        5945,
+        264,
+        10106,
+        315,
+        2647,
+        262,
+        6135,
+        4306,
+        4435,
+        2778,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "core-4",
+      "category": "arithmetic",
+      "question": "1+2是多少",
+      "seed": 2026,
+      "answer": "3。",
+      "generated_ids": [
+        21,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    }
+  ]
+}

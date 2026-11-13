@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-02T18:58:51.287462+00:00",
+  "parent_manifest_sha256": "4d978d1e0f8adba11bb638c3d207b438d2dd6eb6ffcec24f70b31a139be2170f",
+  "unique_train": 11895,
+  "weighted_train": 18174,
+  "validation": 1239,
+  "inherited_v3_validation": 742,
+  "added_validation": 497,
+  "basics_multiplier": 8,
+  "sources_unique_train": {
+    "authored-arithmetic-v4": 7332,
+    "authored-facts-v4": 79,
+    "authored-instruction-v3": 77,
+    "authored-daily-v3": 39,
+    "authored-instruction-v4": 192,
+    "authored-daily-v4": 58,
+    "authored-chat-v4": 66,
+    "authored-facts": 288,
+    "authored-chat": 98,
+    "belle-synthetic": 3647,
+    "oasst1": 19
+  },
+  "weighted_sources": {
+    "authored-arithmetic-v4": 7332,
+    "authored-facts-v4": 632,
+    "authored-instruction-v3": 616,
+    "authored-daily-v3": 312,
+    "authored-instruction-v4": 1536,
+    "authored-daily-v4": 464,
+    "authored-chat-v4": 528,
+    "authored-facts": 2304,
+    "authored-chat": 784,
+    "belle-synthetic": 3647,
+    "oasst1": 19
+  },
+  "public_selected": 3666,
+  "public_eligible": 24573,
+  "rejected": {
+    "duplicate_or_validation_question": 120
+  },
+  "arithmetic_operation_counts": {
+    "+": 2478,
+    "-": 2490,
+    "*": 942,
+    "/": 1422
+  },
+  "arithmetic_group_split_disjoint": true,
+  "question_split_disjoint": true,
+  "suite_exact_questions_excluded": true,
+  "tokenizer_sha256": "425c93bdcdd27eb98c3e220a1258917271f091c03212b9a806e18e557b141c53",
+  "train_sha256": "a51ddd62f54d80134a1354e56de4f75d836efc7a4403e58ae23af205087e7681",
+  "validation_sha256": "6603a42738f185e2cbb53b08607b7d016a7f7a3a286b5b878a62cf94586522b3",
+  "policy": "General curriculum from development error types; no final-answer tuning; v2/v3 and fixed probe immutable; public filtering is heuristic, not semantic certification"
+}

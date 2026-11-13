@@ -1,0 +1,19 @@
+{
+  "version": "teaching-clean-v2",
+  "plan_sha256": "1f9ad458aeb4a2123007aee490d34ef5d359dfe5fa2c9e941de9b59d6309a5b5",
+  "code": {
+    "scripts/corpus_quality.py": "96dcd3d2c89992fb613b1f10f6847a2b66cb840c01e3718bc60c87cfc7831e7a",
+    "scripts/prepare_general_10b.py": "6b858aa7b286a754bd49080d5c5f3864433190b1a5a34e229b90cf36ff1259f2",
+    "scripts/prepare_general_2b.py": "2800ab47d643edd42f25e88a903e9b586ad5ad89cb6b50ba36938d9bf15440fc",
+    "scripts/prepare_sft_100k.py": "9a84dee16bf90f8b68d5dc3f5ec709ddba563fad019e08280dd7fede870d924c",
+    "sft/template.py": "aa732d51ffb0c0f84817ef81bb48ec47be7eee1a02712e4468dd21be379cfc33",
+    "data/prepare.py": "278439470d3086399349b7d4c29cc4f40b40d0252570a82198b710b4becf45af",
+    "eval/chat_suite.py": "6312643a2f22f373ac1a087fcb52b80da1e524bdf7aa57c23c5ce97265f3b9cf",
+    "configs/known-bad-corpus.json": "96e9f9aa7614370050676836199669ad80e7119477e60d1f7e0cbde1bcdace5d",
+    "scripts/balanced_sft.py": "eeae37aab3c2b2babaa0d3c17df19ca99eb7aaf66d9c8edc6f29f28a14d78687",
+    "scripts/content_review_gate.py": "96fb3280ee9c5cefdefae17bd1facb921552986b61993fefb84213d176b390b2",
+    "scripts/run_general_10b.py": "69c052052bb34d19ac9109cc36e6f4953015c9ad35a0aa61035d42564e53a15a",
+    "training/batches.py": "8c211f0b86d4f37c758b1b725d58c00b3d94da8328c4da0667dc57199b8f0698",
+    "training/train.py": "e8c72de507a1c164a43febf990f76bfd4bd3e557c7b15cfb23761f9b0b11a873"
+  }
+}

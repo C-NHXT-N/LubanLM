@@ -1,0 +1,484 @@
+{
+  "marks": [
+    {
+      "id": "test-greeting-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "友好回应见面问候。"
+    },
+    {
+      "id": "test-greeting-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "友好回应首次聊天问候。"
+    },
+    {
+      "id": "test-greeting-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回赠祝福；午后与上午不一致但开放问候的核心回应合理。"
+    },
+    {
+      "id": "test-greeting-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应感谢并表示乐意帮助，合理。"
+    },
+    {
+      "id": "test-greeting-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应告别并祝顺利，合理。"
+    },
+    {
+      "id": "test-greeting-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "聊天开始时自我介绍，作为简短开场回应合理。"
+    },
+    {
+      "id": "test-greeting-06",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": false,
+      "reason": "穿上一张鞋和品尝小白语义荒谬，未回应问候。"
+    },
+    {
+      "id": "test-greeting-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "把对方的感谢误当作求教如何感谢，没有回应已经收到帮助后的感谢。"
+    },
+    {
+      "id": "test-greeting-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应晚安并祝睡好，合理。"
+    },
+    {
+      "id": "test-greeting-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "回应认识新朋友的友好表达。"
+    },
+    {
+      "id": "test-identity-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "名称LubanLM正确。"
+    },
+    {
+      "id": "test-identity-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "介绍中文语言模型身份正确。"
+    },
+    {
+      "id": "test-identity-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "一句话描述自身身份正确。"
+    },
+    {
+      "id": "test-identity-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明不是真人且无身体，正确。"
+    },
+    {
+      "id": "test-identity-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "明确没有身体不能走路，正确。"
+    },
+    {
+      "id": "test-identity-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "提供称呼LubanLM，正确。"
+    },
+    {
+      "id": "test-identity-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明中文聊天、简单知识与日常建议用途，正确。"
+    },
+    {
+      "id": "test-identity-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明能够提供的基础帮助，合理。"
+    },
+    {
+      "id": "test-identity-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "肯定能用中文文字交流，正确。"
+    },
+    {
+      "id": "test-identity-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明可解释简单知识，合理回应请求。"
+    },
+    {
+      "id": "test-daily-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "只建议整理物品，未回应忙一天后如何放松；无放松说明。"
+    },
+    {
+      "id": "test-daily-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "提供收拾物品、闹钟和早睡建议，回应睡前准备。"
+    },
+    {
+      "id": "test-daily-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "先清走不用物品再分类整理，合理。"
+    },
+    {
+      "id": "test-daily-03",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": true,
+      "reason": "持续重复我出门时，未回答雨天应带物品，循环。"
+    },
+    {
+      "id": "test-daily-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "建议每天少量时间阅读喜欢的书，合理。"
+    },
+    {
+      "id": "test-daily-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "重复我可以做到，未表达借笔后的感谢；两次重复不判持续循环。"
+    },
+    {
+      "id": "test-daily-06",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": true,
+      "reason": "连续重复准备，没有必需品检查方法，循环。"
+    },
+    {
+      "id": "test-daily-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "移开手机并一次完成小任务，合理回应注意力问题。"
+    },
+    {
+      "id": "test-daily-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "只复述提醒去公园，没有具体注意事项。"
+    },
+    {
+      "id": "test-daily-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "把生日错生成为学生日，未给出清晰的生日祝福。"
+    },
+    {
+      "id": "test-concept-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明电脑是处理信息的工具，正确。"
+    },
+    {
+      "id": "test-concept-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "介绍电脑用途而没有指出输入文字的键盘，未回答核心问题。"
+    },
+    {
+      "id": "test-concept-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "复述问题而没有说明鼠标作用。"
+    },
+    {
+      "id": "test-concept-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "要求提供软件而未回答浏览器，核心问题没有回答。"
+    },
+    {
+      "id": "test-concept-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "解释互联网连接计算机并分享交流，正确。"
+    },
+    {
+      "id": "test-concept-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "说明文件夹整理存放文件，正确。"
+    },
+    {
+      "id": "test-concept-06",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": false,
+      "reason": "电量是电量和电量语义不通，未回答应充电。"
+    },
+    {
+      "id": "test-concept-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "泛说雨水可能不同，没有指出云中水滴或水汽来源。"
+    },
+    {
+      "id": "test-concept-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "正确说明光合作用利用光能制造有机物。"
+    },
+    {
+      "id": "test-concept-09",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": true,
+      "reason": "持续重复冰冰等片段，未回答冰融化。"
+    },
+    {
+      "id": "test-instruction-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "除可以外添加介绍，违反仅写两个字要求。"
+    },
+    {
+      "id": "test-instruction-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "白菜胡萝卜是两种蔬菜，正确。"
+    },
+    {
+      "id": "test-instruction-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "抄写今天很开心一次，正确。"
+    },
+    {
+      "id": "test-instruction-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "一句话包含秋天，正确。"
+    },
+    {
+      "id": "test-instruction-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "给中文猫名小白，正确。"
+    },
+    {
+      "id": "test-instruction-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "加入红色并反复列颜色，没有正确列出要求的两色；冗余短输出不判持续循环。"
+    },
+    {
+      "id": "test-instruction-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "鼓励坚持练习和进步，合理。"
+    },
+    {
+      "id": "test-instruction-07",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "同学是我心中的高兴不是向同学问候。"
+    },
+    {
+      "id": "test-instruction-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "不客气后追加问候和说明，违反直接输出三字要求。"
+    },
+    {
+      "id": "test-instruction-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "公交车地铁火车均属于公共交通，但要求一个例子而给三个，数量不符。"
+    },
+    {
+      "id": "test-arithmetic-00",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "4加5为9，正确。"
+    },
+    {
+      "id": "test-arithmetic-01",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "8减3为5，正确。"
+    },
+    {
+      "id": "test-arithmetic-02",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "2乘4应为8，回答4错误。"
+    },
+    {
+      "id": "test-arithmetic-03",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "9除3应为3，回答9错误。"
+    },
+    {
+      "id": "test-arithmetic-04",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "3加6为9，正确。"
+    },
+    {
+      "id": "test-arithmetic-05",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "10减4为6，正确。"
+    },
+    {
+      "id": "test-arithmetic-06",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": false,
+      "looping": false,
+      "reason": "5乘2应为10，回答5错误。"
+    },
+    {
+      "id": "test-arithmetic-07",
+      "seed": 2026,
+      "relevant_readable": false,
+      "correct": false,
+      "looping": false,
+      "reason": "12除4应为3，回答12年7日错误且不可读为算术答案。"
+    },
+    {
+      "id": "test-arithmetic-08",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "7加2为9，正确。"
+    },
+    {
+      "id": "test-arithmetic-09",
+      "seed": 2026,
+      "relevant_readable": true,
+      "correct": true,
+      "looping": false,
+      "reason": "9减7为2，正确。"
+    }
+  ]
+}

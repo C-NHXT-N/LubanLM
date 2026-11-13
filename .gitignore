@@ -1,0 +1,67 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model and runtime artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.rkllm
+*.onnx
+*.engine
+*.bin
+*.parquet
+*.arrow
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.tmp
+*.log
+*.lock
+*.zip
+
+# Local datasets, caches, and run outputs
+/.cache/
+/data/raw/
+/data/processed/
+/data/cache/
+# Existing docs/run-results are referenced teaching evidence and remain shareable.
+/D-drive-audit-*/
+/C-drive-audit-*/
+/C-drive-cleanup-*/
+/C-drive-recent-audit-*/
+/Baidu-sync-diagnostic-*/
+/.storage-audit/
+/.revision-backups/
+/P0-storage-migration-*/
+/P0B-Results/
+/diagnostics/LubanLM-V2-Cleanup-Audit-*/
+/experiments/*/data/
+/experiments/*/runs/
+/experiments/*/logs/
+/experiments/*/tests/tmp*/
+/experiments/*/tokenizer/
+
+# Exported model folders and generated benchmarks
+/export/*/model/
+/benchmark/results/
+
+# Generated integration/cleanup audit outputs
+/diagnostics/LubanLM-V2-Integration-Cleanup-*/
+
+# Keep future lab artifacts outside the tutorial repository.
+/datasets/
+/runs/
+/provenance/
+/archives/
+/exports/
+/.migration-staging*/
+*.zip.sha256

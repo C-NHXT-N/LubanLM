@@ -1,0 +1,54 @@
+{
+  "repo": "jingyaogong/minimind_dataset",
+  "revision": "312afb4f76391145c6902f765bb51691c09a12f5",
+  "file": "sft_t2t_mini.jsonl",
+  "byte_offset": 800000000,
+  "blob": {
+    "rfilename": "sft_t2t_mini.jsonl",
+    "blobId": "544ebd9f79664e0afd68bd35650c5dc12a0d0b53",
+    "size": 1739201170,
+    "lfs": {
+      "sha256": "abb1e76b2056e14728beb78db96b7b3c491a0bef1ed3e34a9b381b28f29fa518",
+      "size": 1739201170,
+      "pointerSize": 135
+    }
+  },
+  "counts": {
+    "raw_rows": 2000,
+    "unsupported_experience_or_english": 34,
+    "supplement_not_daily_context": 1771,
+    "specialized_or_unstable": 20,
+    "supplement_complex_or_factual": 44,
+    "too_long_or_incomplete": 81,
+    "supplement_incompatible_context": 28,
+    "unstable_or_specialized_fact": 7,
+    "unverified_exact_constraint": 1,
+    "persona": 4,
+    "unverified_precision_task": 1,
+    "specialized_or_persona": 5,
+    "accepted_daily": 1,
+    "absolute_financial_claim": 1,
+    "unexpected_script": 2
+  },
+  "samples": [
+    {
+      "task": "daily",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我应该是几岁呢？，我已经进行过自我测试了，显示的结果是：悲观、内敛、敏感，喜欢文学、艺术类的书籍，有时喜欢思考哲学问题。人际关系中能感觉到不安全感，但会选择适当时候表达自我，不喜欢被误解和排斥。我经常在安静的环境中思考人生的意义和未来的方向。我在青春期时经历了一些挫折，包括家庭变化、学习压力以及人际交往中的困难。但我也意识到自己具备坚韧的品质，并开始尝试从中学习和成长。我觉得自己对内心世界有强烈的好奇心，渴望理解这个世界以及自己在这个世界中的位置。"
+        },
+        {
+          "role": "assistant",
+          "content": "根据你描述的个性特点、兴趣爱好、情感体验以及成长经历，你可能是一个正在青春期或已经度过青春期，年龄在13岁到25岁之间的个体。青春期通常指的是从大约10岁到19岁或20岁的一段时期，这是个体在生理、心理和社会方面发生重大变化的阶段。你提到的对文学、艺术的兴趣，对哲学问题的思考，以及在人际关系中感受到的不安全感，这些都是青春期个体常见的特征。\n\n你提到的坚韧品质、从挫折中学习和成长的意愿，以及对内心世界的好奇心，这些都是成熟和自我意识发展的表现，这可能意味着你已经度过了青春期的早期阶段，进入了青春期的后期或成年早期。在这个阶段，个体开始更加深入地探索自我，思考人生的意义和未来的方向，这与你描述的情况相符。\n\n重要的是，你的自我认知和自我探索是一个积极的过程，表明你正在努力理解自己和周围的世界。记住，每个人的成长路径都是独一无二的，没有固定的年龄来定义这些阶段。关键是保持开放的心态，继续学习和成长，无论你现在处于哪个年龄段。"
+        }
+      ]
+    }
+  ],
+  "physical_interface": {
+    "index": 10,
+    "name": "WLAN",
+    "ip": "10.183.83.36",
+    "description": "Intel(R) Wi-Fi 6 AX200 160MHz"
+  }
+}

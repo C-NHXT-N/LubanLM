@@ -1,0 +1,5 @@
+{
+  "loss_absolute_error": 0.0,
+  "clipped_gradient_max_absolute_error": 0.0,
+  "passed": true
+}

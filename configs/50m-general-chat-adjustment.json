@@ -1,0 +1,242 @@
+{
+  "version": "general-chat-plan-v8",
+  "created_date": "2026-10-05",
+  "status": "authorized_2b_pipeline_preparing_new_corpus",
+  "training_started": false,
+  "objective": "通用中文日常短聊天：理解当前问题，表达连贯，无字符乱码，无退化重复，回答能自然结束。编程和嵌入式知识没有专门配额。",
+  "model_config": "configs/config_50m.json",
+  "preserve_architecture_and_tokenizer": true,
+  "data": {
+    "status": "requires_new_audited_data",
+    "pilot_unique_examples": 5000,
+    "full_unique_examples_target_range": [
+      50000,
+      100000
+    ],
+    "counts_are_experiment_targets_not_verified_sufficiency": true,
+    "mixture_by_unique_example": {
+      "daily_conversation_and_emotional_response": 0.5,
+      "everyday_explanation_and_practical_suggestions": 0.25,
+      "simple_instruction_rewrite_extract_and_classify": 0.15,
+      "greeting_identity_clarification_and_uncertainty": 0.05,
+      "simple_verified_arithmetic": 0.05
+    },
+    "answer_tokens_target_range": [
+      8,
+      80
+    ],
+    "max_answer_tokens": 96,
+    "max_total_tokens": 256,
+    "encoding_version": "prefix-stable-v1",
+    "supervise_answer_and_eos_only": true,
+    "split_group_keys": [
+      "source_conversation_or_tree",
+      "semantic_intent_family",
+      "paraphrase_parent",
+      "copy_payload"
+    ],
+    "ancestor_exposure_check": true,
+    "exclude_all_existing_development_and_test_questions": true,
+    "exclude_diagnostic_questions": "docs/run-results/chat-diagnosis-20261005/probe-definition.json",
+    "teacher_policy": "可使用Qwen等教师生成简洁中文回答，再独立审阅；只保留最终答复，不加入长思维链。回答文本SFT与跨词表logit蒸馏不同。",
+    "quality_checks": [
+      "题答对应",
+      "完整上下文",
+      "中文语句连贯",
+      "没有角色身份冲突",
+      "没有退化重复",
+      "已核算的运算",
+      "来源和版本可追溯",
+      "没有用开发或验收失败题补答案"
+    ],
+    "multi_turn": "当前模板和CLI仅支持单轮。多轮数据必须等模板、轮次边界、标签mask与历史输入一并实现后再使用。"
+  },
+  "experiments": {
+    "learning_sanity": {
+      "purpose": "检查128条新数据能否拟合，区分优化故障与泛化问题；拟合成功不代表聊天达标",
+      "examples": 128,
+      "learning_rate_candidates": [
+        1e-05,
+        5e-05
+      ],
+      "minutes_cap_total": 8,
+      "evaluate_teacher_forced_loss_and_free_generation": true
+    },
+    "matched_general_sft": {
+      "purpose": "相同新数据和训练量比较未经历模板强化的Base与当前Chat候选",
+      "initializations": [
+        "D:/LubanLM-Runs/chat-v2/checkpoints/50m-base-correction-v6/last.pt",
+        "D:/LubanLM-Runs/chat-v2/checkpoints/50m-chat-v7-clean/last.pt"
+      ],
+      "settings_supported_by_current_training_cli": {
+        "stage": "sft",
+        "execution": "optimized",
+        "attention_backend": "sdpa",
+        "optimizer_backend": "fused",
+        "pin_memory": true,
+        "micro_batch": 8,
+        "accumulation": 1,
+        "sft_batching": "flat",
+        "sft_sampling": "random",
+        "sft_objective": "token",
+        "epochs": 2,
+        "steps": null,
+        "lr": 3e-05,
+        "warmup_steps": 100,
+        "full_sft_validation": true,
+        "source_validation": true,
+        "validation_micro_batch": 2,
+        "validation_every_steps": 1000,
+        "early_stop_patience": 0,
+        "length": 256
+      },
+      "minutes_cap_each": 20,
+      "reason_for_random_sampler": "经类别配额选取独立语义样本后完整无放回遍历；不使用旧固定2+1+1+1+1+1+1抽样反复强化少量模板",
+      "reason_for_disabling_old_patience": "旧macro验证含祖先已见模板，不能决定新泛化实验是否已充分训练。使用全新隔离验证，人工判定一致恶化时停止。",
+      "comparison_requires_same_examples_and_supervised_tokens": true,
+      "do_not_infer_winner_if_one_arm_hits_time_cap_early": true,
+      "checkpoint_selection": "保存初始、中间、末次；根据新开发题语义和语句质量选择，不能自动使用末次"
+    },
+    "fresh_language_pretraining_if_needed": {
+      "condition": "新短SFT能够拟合训练集，但两个候选在新日常开发集仍出现明显语句紊乱",
+      "tokens_cap": 100000000,
+      "minutes_cap": 90,
+      "data_requirement": "新增且去重的通用中文短文本、日常叙述和简单知识解释；不再仅重复原Wiki",
+      "control": "新增语料与同Wiki续训使用匹配Token、学习率及后续SFT预算；需要先建设数据源选择和固定验证支持",
+      "status": "conditional_not_implemented_or_started",
+      "token_cap_scope": "100M is a first new-corpus diagnostic pilot, not a recommended total pretraining ceiling; see pretraining_token_budget_revision"
+    }
+  },
+  "evaluation": {
+    "old_scores_remain_historical": true,
+    "primary": [
+      "回应当前问题",
+      "语句连贯",
+      "没有核心常识错误",
+      "无字符乱码",
+      "无退化重复",
+      "自然结束"
+    ],
+    "arithmetic_is_secondary_regression_metric": true,
+    "proposed_new_holdout_questions": 300,
+    "holdout_has_no_ancestor_training_exposure": true,
+    "greedy_without_repetition_penalty_and_sampling_three_seeds": true,
+    "output_length_and_eos_reported_separately": true,
+    "stop_on_repeat_is_runtime_guard_not_a_capability_pass": true,
+    "suggested_targets": {
+      "appropriate_coherent_answers_rate": 0.9,
+      "character_replacement_outputs": 0,
+      "degenerate_repetition_rate_max": 0.01,
+      "eos_within_answer_budget_rate": 0.98
+    },
+    "targets_are_not_current_results": true
+  },
+  "budget": {
+    "original_used_gpu_minutes": 881.05902335,
+    "this_diagnostic_gpu_minutes": 0.3307333333333334,
+    "combined_used_gpu_minutes": 881.3897566833335,
+    "original_total_cap_minutes": 1440,
+    "remaining_total_minutes": 558.6102433166665,
+    "remaining_sft_and_probe_minutes_after_diagnostic": 80.83538333333335,
+    "new_sft_sanity_and_matched_comparison_cap_minutes": 48,
+    "new_development_evaluation_cap_minutes": 12,
+    "final_acceptance_reserve_is_preserved": true,
+    "preserve_old_ledger": true
+  },
+  "pretraining_token_budget_revision": {
+    "date": "2026-10-05",
+    "status": "superseded_by_latest_2b_authorization",
+    "best_chat_base_tokens": 408002560,
+    "extended_experimental_base_tokens": 808003584,
+    "reason": "400M is a small early experiment for general Chinese chat. Increase diverse corpus coverage and cumulative training together; repeating the existing Wiki is not sufficient evidence of benefit.",
+    "reference": "https://arxiv.org/html/2203.15556v1",
+    "reference_interpretation": "About 20 tokens per parameter is only a rough compute-efficiency reference. Extrapolation to 50M is not a validated chat sufficiency threshold.",
+    "first_stage_cumulative_tokens": 1000000000,
+    "second_stage_cumulative_tokens": 1400000000,
+    "budget_conditional_upper_target_tokens": 1500000000,
+    "existing_pretrain_minutes_remaining": 425.8407599833333,
+    "measured_tokens_per_second_including_stage_validation": 27583.098802889734,
+    "estimates_from_extended_base": {
+      "1000000000": {
+        "additional_tokens": 191996416,
+        "hours": 1.9335150904868759
+      },
+      "1400000000": {
+        "additional_tokens": 591996416,
+        "hours": 5.961746722658334
+      },
+      "1500000000": {
+        "additional_tokens": 691996416,
+        "hours": 6.968804630701198
+      },
+      "2000000000": {
+        "additional_tokens": 1191996416,
+        "hours": 12.004094170915522
+      },
+      "5000000000": {
+        "additional_tokens": 4191996416,
+        "hours": 42.21583141220146
+      }
+    },
+    "time_estimates_are_not_guarantees": true,
+    "all_pilots_and_control_arms_count_toward_existing_budget": false,
+    "data_priority": [
+      "新增去重通用中文文本",
+      "简单日常叙述与短故事",
+      "基础知识的清楚解释",
+      "经过审阅的问答文本"
+    ],
+    "new_corpus_target_range_tokens": [
+      500000000,
+      1000000000
+    ],
+    "new_corpus_target_is_dataset_construction_proposal_not_current_inventory": true,
+    "checkpoint_every_added_tokens": 100000000,
+    "evaluation": "Use fixed new-domain validation and matched short SFT development probes. Stop or revise the mixture if actual language quality and chat results fail to improve; Wiki loss alone is insufficient.",
+    "later_2b_to_5b": "Only consider after the mixed-corpus experiment demonstrates gains and GPU budget is expanded; not an unconditional minimum.",
+    "preserve_sft_and_final_evaluation_reserves": true,
+    "budget_override": "本轮使用独立900分钟账本，保留旧账本并汇总历史和新增耗时。"
+  },
+  "latest_user_revision": {
+    "date": "2026-10-05",
+    "authorized_cumulative_pretraining_tokens": 2000000000,
+    "measured_tokens_per_hour": 99299155.69040304,
+    "execution_plan": "configs/50m-general-pretrain-2b.json",
+    "changes": "先进行新增混合通用中文Base续训至累计20亿；旧1B/1.4B建议和原预算估算保留为历史，不再作为本轮上限。短聊天SFT数据需要继续语义清洗。",
+    "status": "preparing_cpu_data",
+    "controller_pid": 70308,
+    "started_utc": "2026-10-04T18:08:30.391727+00:00",
+    "training_gpu_started": false,
+    "report": "docs/训练量预估与流水线提速.md",
+    "plan_sha256": "b9086100ca3425a11f7f995d234283b51edfd3d2ec8412bb7c8a5fe75b3a4cbb",
+    "optimization": {
+      "micro_batch": 24,
+      "download_workers": 4,
+      "warmup_steps": 334,
+      "benchmark_tokens_per_hour": 142552204.1757694,
+      "benchmark_relative_to_same_run_batch8": 1.5647718484070805,
+      "benchmark_steps_per_configuration": 100,
+      "benchmark_is_not_full_run_throughput": true,
+      "remaining_pretraining_hours_estimate": [
+        9,
+        10
+      ],
+      "sft_not_yet_started": true
+    }
+  },
+  "engineering_budget_estimate": {
+    "cumulative_pretrain_tokens": 5000000000,
+    "unique_short_sft_examples": 50000,
+    "pretrain_exploration_range": [
+      2000000000,
+      10000000000
+    ],
+    "unique_short_sft_examples_range": [
+      30000,
+      100000
+    ],
+    "not_a_verified_sufficiency_threshold": true,
+    "current_authorized_pretrain_target_unchanged": 2000000000,
+    "decision_gate": "Complete new short SFT and isolated development evaluation after 2B; increase pretraining only if language and chat gains justify it."
+  }
+}

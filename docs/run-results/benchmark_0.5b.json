@@ -1,0 +1,44 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "config": {
+    "name": "LubanLM-0.5B",
+    "status": "design_candidate_not_deployment_validated",
+    "vocab_size": 32000,
+    "hidden_size": 1024,
+    "num_hidden_layers": 30,
+    "num_attention_heads": 16,
+    "num_key_value_heads": 4,
+    "head_dim": 64,
+    "intermediate_size": 4096,
+    "context_length": 2048,
+    "tie_word_embeddings": true,
+    "linear_bias": false,
+    "pad_token_id": null,
+    "bos_token_id": null,
+    "eos_token_id": null,
+    "rms_norm_eps": 1e-06,
+    "rope_theta": 1000000.0
+  },
+  "attempts": [
+    {
+      "sequence_length": 256,
+      "micro_batch": 1,
+      "accumulation": 4,
+      "gradient_checkpointing": true,
+      "status": "passed",
+      "measured_steps": 10,
+      "warmup_steps": 3,
+      "seconds": 17.34374670003308,
+      "tokens_per_second": 590.4145267516199,
+      "peak_allocated_mib": 8527.08984375,
+      "peak_reserved_mib": 8738.0,
+      "parameters": 488964864,
+      "training_tokens_estimate": {
+        "24h": 51011815.11133996,
+        "36h": 76517722.66700993,
+        "48h": 102023630.22267991
+      }
+    }
+  ],
+  "data": "random IDs, performance only; not language quality"
+}

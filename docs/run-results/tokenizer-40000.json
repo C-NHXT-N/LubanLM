@@ -1,0 +1,45 @@
+{
+  "tokenizer_dir": "vocab-40000",
+  "evaluation_file": "tokenizer-eval.jsonl",
+  "hidden_size": 512,
+  "target_vocab_size": 40000,
+  "vocab_size_including_special_tokens": 40000,
+  "embedding_parameters": 20480000,
+  "special_token_ids": {
+    "<pad>": 0,
+    "<bos>": 1,
+    "<eos>": 2
+  },
+  "by_category": {
+    "中文": {
+      "records": 100,
+      "characters": 398342,
+      "utf8_bytes": 1066427,
+      "tokens": 254745,
+      "roundtrip_failures": 0,
+      "characters_per_token": 1.5637,
+      "utf8_bytes_per_token": 4.1863,
+      "roundtrip_ok": true
+    },
+    "代码": {
+      "records": 1,
+      "characters": 56,
+      "utf8_bytes": 56,
+      "tokens": 28,
+      "roundtrip_failures": 0,
+      "characters_per_token": 2.0,
+      "utf8_bytes_per_token": 2.0,
+      "roundtrip_ok": true
+    },
+    "英文": {
+      "records": 1,
+      "characters": 71,
+      "utf8_bytes": 71,
+      "tokens": 25,
+      "roundtrip_failures": 0,
+      "characters_per_token": 2.84,
+      "utf8_bytes_per_token": 2.84,
+      "roundtrip_ok": true
+    }
+  }
+}

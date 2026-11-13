@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-05T10:47:06.585969+00:00",
+  "train_sha256": "5d5e1e73a4241041c50b3deb4dd84302e1b69e8816c1ea5bc5a538d77fec8984",
+  "validation_sha256": "1dc88585aaecb2776ded4c7dfe373b237361c1aa4e9d4e4ba7c276a971419502",
+  "test_sha256": "dd3f399375e7925c9e09bd5c8dc4cc63ca49ef29014dbad2e99926871fad22a6",
+  "plan_sha256": "d7c48457bb5d4f1a90cdd8a8cd3ea8029722636a14f1505c2047dc6cfca8c436",
+  "examples": {
+    "train": 100000,
+    "validation": 5000,
+    "test": 1000
+  },
+  "structural_audit_all_rows": true,
+  "unique_questions_and_group_disjoint": true,
+  "manually_inspected_distinct_conversations": 67,
+  "explicitly_rejected": 18,
+  "inspected_conversations_retained_in_final_data": 49,
+  "known_review_errors_removed": true,
+  "review_decisions": "docs/run-results/general-10b-20261005/sft-review-final-decisions.json",
+  "population_accuracy_estimate": null,
+  "limitations": "Limited content review and rule filtering, not semantic verification of all 100,000 conversations. Targeted exclusions/replacements are not an unbiased accuracy test. Final model capability remains unaccepted.",
+  "manifest_sha256": "eef52b68424e1675c4c4d336c48e88e45001223c56b4dfc93dfee7c70a279739"
+}

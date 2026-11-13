@@ -1,0 +1,42 @@
+{
+  "sft_groups": [
+    "7eda7ddb34dec19f5038d6e5dfa81a0aaafcfb099c3bb90cca34a28001f74ce9",
+    "7c90477f9dac339e3f928d57c0f042b13c06febf24ff29a180324c962ce8aa75",
+    "50af6b68b6ce79c9f40d9146e4d66356438a720a4027a691dc2b89f446169678",
+    "6a84b99106757ac299d38eda7438a85a4e6010d9bdc625fb38669429ee289c1f",
+    "c670a051000d8e2cff9024a942772cc9bcdef97d22a3f0edd0ee4ba60f79dfab",
+    "f8efc4a17242f3d14a479a4be1612e3b53d587cd5ed1ce2e9f967e189e57d944",
+    "5c31433a2ddf36c60dfaaf2ecfb9a9ba0468840ff6a25989626d16ee3478e942"
+  ],
+  "old_row_indices": [
+    {
+      "index": 3041,
+      "group": "7eda7ddb34dec19f5038d6e5dfa81a0aaafcfb099c3bb90cca34a28001f74ce9"
+    },
+    {
+      "index": 17612,
+      "group": "7c90477f9dac339e3f928d57c0f042b13c06febf24ff29a180324c962ce8aa75"
+    },
+    {
+      "index": 71258,
+      "group": "50af6b68b6ce79c9f40d9146e4d66356438a720a4027a691dc2b89f446169678"
+    },
+    {
+      "index": 73750,
+      "group": "6a84b99106757ac299d38eda7438a85a4e6010d9bdc625fb38669429ee289c1f"
+    },
+    {
+      "index": 76034,
+      "group": "c670a051000d8e2cff9024a942772cc9bcdef97d22a3f0edd0ee4ba60f79dfab"
+    },
+    {
+      "index": 78238,
+      "group": "f8efc4a17242f3d14a479a4be1612e3b53d587cd5ed1ce2e9f967e189e57d944"
+    },
+    {
+      "index": 95138,
+      "group": "5c31433a2ddf36c60dfaaf2ecfb9a9ba0468840ff6a25989626d16ee3478e942"
+    }
+  ],
+  "note": "Confirmed bad examples; zero-based positions corresponding to prior one-based audit row numbers"
+}

@@ -1,0 +1,27 @@
+{
+  "source": {
+    "path": "LubanLM/docs/run-results/generation_observations.json",
+    "sha256": "2b1b477b622db8878d28bddbd6c5578350865f89b9347326449de76fb53f78c9"
+  },
+  "scope": "2026-10-02 8M-token historical experiment; not final 5B model",
+  "records": [
+    {
+      "checkpoint": "initial.pt",
+      "prompt": "Linux 是",
+      "completion": " Inc是非是非是非翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家翻译家",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "step-001952.pt",
+      "prompt": "Linux 是",
+      "completion": "\n\n在20世纪年，在20世纪年，在16世纪年，在16世纪年，在16世纪年，在16世纪年，",
+      "generated_tokens": 32
+    },
+    {
+      "checkpoint": "last.pt",
+      "prompt": "Linux 是",
+      "completion": "在“一个”的，而“一个”是“一个”的，而“”是“”是“”是“”是“”是",
+      "generated_tokens": 32
+    }
+  ]
+}

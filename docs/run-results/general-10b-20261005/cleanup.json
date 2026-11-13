@@ -1,0 +1,525 @@
+{
+  "timestamp": "2026-10-05T17:16:24.1524458+08:00",
+  "before_free_bytes": 64939352064,
+  "parent": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\last.pt",
+  "parent_sha256": "D85B1E0FAC15857BF30AED59FF1EF80E4EF9B5CE5666F2EEA0C4B1C7A7B5B789",
+  "preserved_steps": [
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-correction-v6\\step-048829.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-correction-v6\\step-097658.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\step-048829.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\step-097658.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-pretrain-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-pretrain-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-pretrain-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-sft-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-sft-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-sft-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-sft-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-sft-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-sft-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-continue-v2\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-continue-v2\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-continue-v2-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-sft-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-sft-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-sft-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\50m-base\\step-000976.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\50m-base\\step-001952.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\50m-base\\step-002928.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\50m-base\\step-003904.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\verification-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\verification-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\verification-resumed\\step-000003.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\verification-sft-continuous\\step-000002.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\verification-sft-continuous\\step-000003.pt",
+    "D:\\LubanLM-Runs\\checkpoints\\verification-sft-resumed\\step-000003.pt"
+  ],
+  "deletions": [
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-correction-v6\\step-146487.pt",
+      "bytes": 595186361,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\step-146487.pt",
+      "bytes": 595101689,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v2\\step-002787.pt",
+      "bytes": 595018233,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v2\\step-005574.pt",
+      "bytes": 595022137,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v2\\step-008361.pt",
+      "bytes": 595026041,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v2\\step-011148.pt",
+      "bytes": 595029881,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v4\\step-003407.pt",
+      "bytes": 594939833,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v4\\step-006814.pt",
+      "bytes": 594944505,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v4\\step-010221.pt",
+      "bytes": 594949241,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v4\\step-013628.pt",
+      "bytes": 594953913,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\step-003202.pt",
+      "bytes": 595038841,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\step-006404.pt",
+      "bytes": 595043257,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\step-009606.pt",
+      "bytes": 595047673,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v5\\step-012808.pt",
+      "bytes": 595052153,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\step-000500.pt",
+      "bytes": 594970553,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\step-001000.pt",
+      "bytes": 594971513,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\step-001500.pt",
+      "bytes": 594972473,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\step-002000.pt",
+      "bytes": 594973433,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-full\\step-001500.pt",
+      "bytes": 594972473,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-token\\step-000500.pt",
+      "bytes": 594970489,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-token\\step-001000.pt",
+      "bytes": 594971513,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-token\\step-001500.pt",
+      "bytes": 594972473,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-token\\step-002000.pt",
+      "bytes": 594973433,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v7-clean\\step-001000.pt",
+      "bytes": 594961657,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-100m\\step-000156.pt",
+      "bytes": 594894137,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-100m\\step-000312.pt",
+      "bytes": 594894585,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-100m\\step-000468.pt",
+      "bytes": 594894841,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-100m\\step-000624.pt",
+      "bytes": 594895289,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-200m\\step-000156.pt",
+      "bytes": 594894393,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-200m\\step-000312.pt",
+      "bytes": 594894841,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-200m\\step-000468.pt",
+      "bytes": 594895097,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-200m\\step-000624.pt",
+      "bytes": 594895545,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-final\\step-000156.pt",
+      "bytes": 594894393,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-final\\step-000312.pt",
+      "bytes": 594894841,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-final\\step-000468.pt",
+      "bytes": 594895097,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-probe-final\\step-000624.pt",
+      "bytes": 594895545,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-400m\\step-000500.pt",
+      "bytes": 594960633,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-400m\\step-001000.pt",
+      "bytes": 594961593,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-400m\\step-001500.pt",
+      "bytes": 594962553,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-400m\\step-002000.pt",
+      "bytes": 594963577,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-extended\\step-000500.pt",
+      "bytes": 594960633,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-extended\\step-001000.pt",
+      "bytes": 594961657,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-extended\\step-001500.pt",
+      "bytes": 594962617,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-v6-base-probe-extended\\step-002000.pt",
+      "bytes": 594963577,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\continuous\\step-000001.pt",
+      "bytes": 991678,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\continuous\\step-000004.pt",
+      "bytes": 992254,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\continuous\\step-000005.pt",
+      "bytes": 992446,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\continuous\\step-000006.pt",
+      "bytes": 992638,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\resumed\\step-000004.pt",
+      "bytes": 992766,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\resumed\\step-000005.pt",
+      "bytes": 992958,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\correction-resume-check\\resumed\\step-000006.pt",
+      "bytes": 993214,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-pretrain-continuous\\step-000001.pt",
+      "bytes": 25537598,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-pretrain-continuous\\step-000004.pt",
+      "bytes": 25538046,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-pretrain-resumed\\step-000004.pt",
+      "bytes": 25538430,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-sft-continuous\\step-000001.pt",
+      "bytes": 25669246,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-sft-continuous\\step-000004.pt",
+      "bytes": 25669694,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\performance-switch\\verify-sft-resumed\\step-000004.pt",
+      "bytes": 25670014,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-continuous\\step-000001.pt",
+      "bytes": 25521790,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-continuous\\step-000004.pt",
+      "bytes": 25522238,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-resumed\\step-000004.pt",
+      "bytes": 25522558,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-sft-continuous\\step-000001.pt",
+      "bytes": 25519358,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-sft-continuous\\step-000004.pt",
+      "bytes": 25519806,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-17eb322656-sft-resumed\\step-000004.pt",
+      "bytes": 25520062,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-continue-v2\\step-000001.pt",
+      "bytes": 25522046,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-continue-v2\\step-000004.pt",
+      "bytes": 25522494,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-continue-v2-resumed\\step-000004.pt",
+      "bytes": 25522814,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-continuous\\step-000001.pt",
+      "bytes": 25537022,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-continuous\\step-000004.pt",
+      "bytes": 25537470,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-resumed\\step-000004.pt",
+      "bytes": 25537790,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-sft-continuous\\step-000001.pt",
+      "bytes": 25668798,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-sft-continuous\\step-000004.pt",
+      "bytes": 25669182,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\verification-ee10bf044b-sft-resumed\\step-000004.pt",
+      "bytes": 25669438,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\50m-chat\\step-000047.pt",
+      "bytes": 594881145,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\50m-chat\\step-000094.pt",
+      "bytes": 594881529,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\50m-chat\\step-000141.pt",
+      "bytes": 594882105,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\50m-chat\\step-000188.pt",
+      "bytes": 594882489,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\verification-continuous\\step-000001.pt",
+      "bytes": 25521406,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\verification-continuous\\step-000004.pt",
+      "bytes": 25521854,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\verification-resumed\\step-000004.pt",
+      "bytes": 25522174,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\verification-sft-continuous\\step-000001.pt",
+      "bytes": 25518910,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\verification-sft-continuous\\step-000004.pt",
+      "bytes": 25519358,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\checkpoints\\verification-sft-resumed\\step-000004.pt",
+      "bytes": 25519614,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-016277.pt",
+      "bytes": 595002361,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-032554.pt",
+      "bytes": 595034105,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-048831.pt",
+      "bytes": 595065785,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-065108.pt",
+      "bytes": 595097529,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-081385.pt",
+      "bytes": 595129337,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-097662.pt",
+      "bytes": 595161401,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-113939.pt",
+      "bytes": 595193401,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-130216.pt",
+      "bytes": 595225465,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-146493.pt",
+      "bytes": 595257273,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-162770.pt",
+      "bytes": 595289337,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Runs\\general-2b-v1\\checkpoints\\50m-general-base-2b\\step-179047.pt",
+      "bytes": 595321401,
+      "reason": "unreferenced intermediate checkpoint"
+    },
+    {
+      "path": "D:\\LubanLM-Data\\cache\\pip",
+      "bytes": 2713812892.0,
+      "reason": "download cache or superseded incomplete CPU preparation"
+    },
+    {
+      "path": "D:\\LubanLM-Data\\general-2b-v1\\before-optimization-20261005-020830",
+      "bytes": 919324066.0,
+      "reason": "download cache or superseded incomplete CPU preparation"
+    }
+  ],
+  "status": "completed",
+  "after_free_bytes": 104376221696,
+  "released_bytes": 39436869632
+}

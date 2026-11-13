@@ -1,0 +1,2046 @@
+{
+  "questions": [
+    {
+      "id": "final-000",
+      "question": "我打算整理书包，但只有十分钟。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-001",
+      "question": "我打算整理书包，但我今天很疲惫。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-002",
+      "question": "我打算整理书包，但明天一早要出门。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-003",
+      "question": "我打算整理书包，但不知道从哪里开始。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-004",
+      "question": "我打算整理书包，但想分成两小步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-005",
+      "question": "我打算整理书包，但经常忘记最后一步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-006",
+      "question": "我打算整理书包，但想和室友一起做。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-007",
+      "question": "我打算整理书包，但希望不花钱。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-008",
+      "question": "我打算整理书包，但今天外面下雨。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-009",
+      "question": "我打算整理书包，但需要一条简短建议。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-010",
+      "question": "我打算准备早餐，但只有十分钟。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-011",
+      "question": "我打算准备早餐，但我今天很疲惫。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-012",
+      "question": "我打算准备早餐，但明天一早要出门。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-013",
+      "question": "我打算准备早餐，但不知道从哪里开始。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-014",
+      "question": "我打算准备早餐，但想分成两小步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-015",
+      "question": "我打算准备早餐，但经常忘记最后一步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-016",
+      "question": "我打算准备早餐，但想和室友一起做。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-017",
+      "question": "我打算准备早餐，但希望不花钱。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-018",
+      "question": "我打算准备早餐，但今天外面下雨。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-019",
+      "question": "我打算准备早餐，但需要一条简短建议。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-020",
+      "question": "我打算去图书馆，但只有十分钟。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-021",
+      "question": "我打算去图书馆，但我今天很疲惫。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-022",
+      "question": "我打算去图书馆，但明天一早要出门。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-023",
+      "question": "我打算去图书馆，但不知道从哪里开始。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-024",
+      "question": "我打算去图书馆，但想分成两小步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-025",
+      "question": "我打算去图书馆，但经常忘记最后一步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-026",
+      "question": "我打算去图书馆，但想和室友一起做。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-027",
+      "question": "我打算去图书馆，但希望不花钱。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-028",
+      "question": "我打算去图书馆，但今天外面下雨。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-029",
+      "question": "我打算去图书馆，但需要一条简短建议。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-030",
+      "question": "我打算洗衣服，但只有十分钟。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-031",
+      "question": "我打算洗衣服，但我今天很疲惫。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-032",
+      "question": "我打算洗衣服，但明天一早要出门。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-033",
+      "question": "我打算洗衣服，但不知道从哪里开始。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-034",
+      "question": "我打算洗衣服，但想分成两小步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-035",
+      "question": "我打算洗衣服，但经常忘记最后一步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-036",
+      "question": "我打算洗衣服，但想和室友一起做。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-037",
+      "question": "我打算洗衣服，但希望不花钱。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-038",
+      "question": "我打算洗衣服，但今天外面下雨。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-039",
+      "question": "我打算洗衣服，但需要一条简短建议。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-040",
+      "question": "我打算整理电脑文件，但只有十分钟。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-041",
+      "question": "我打算整理电脑文件，但我今天很疲惫。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-042",
+      "question": "我打算整理电脑文件，但明天一早要出门。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-043",
+      "question": "我打算整理电脑文件，但不知道从哪里开始。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-044",
+      "question": "我打算整理电脑文件，但想分成两小步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-045",
+      "question": "我打算整理电脑文件，但经常忘记最后一步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-046",
+      "question": "我打算整理电脑文件，但想和室友一起做。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-047",
+      "question": "我打算整理电脑文件，但希望不花钱。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-048",
+      "question": "我打算整理电脑文件，但今天外面下雨。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-049",
+      "question": "我打算整理电脑文件，但需要一条简短建议。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-050",
+      "question": "我打算计划周末散步，但只有十分钟。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-051",
+      "question": "我打算计划周末散步，但我今天很疲惫。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-052",
+      "question": "我打算计划周末散步，但明天一早要出门。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-053",
+      "question": "我打算计划周末散步，但不知道从哪里开始。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-054",
+      "question": "我打算计划周末散步，但想分成两小步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-055",
+      "question": "我打算计划周末散步，但经常忘记最后一步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-056",
+      "question": "我打算计划周末散步，但想和室友一起做。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-057",
+      "question": "我打算计划周末散步，但希望不花钱。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-058",
+      "question": "我打算计划周末散步，但今天外面下雨。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-059",
+      "question": "我打算计划周末散步，但需要一条简短建议。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-060",
+      "question": "我打算给朋友写感谢短信，但只有十分钟。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-061",
+      "question": "我打算给朋友写感谢短信，但我今天很疲惫。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-062",
+      "question": "我打算给朋友写感谢短信，但明天一早要出门。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-063",
+      "question": "我打算给朋友写感谢短信，但不知道从哪里开始。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-064",
+      "question": "我打算给朋友写感谢短信，但想分成两小步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-065",
+      "question": "我打算给朋友写感谢短信，但经常忘记最后一步。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-066",
+      "question": "我打算给朋友写感谢短信，但想和室友一起做。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-067",
+      "question": "我打算给朋友写感谢短信，但希望不花钱。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-068",
+      "question": "我打算给朋友写感谢短信，但今天外面下雨。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-069",
+      "question": "我打算给朋友写感谢短信，但需要一条简短建议。给我一个具体可行的建议。",
+      "category": "daily"
+    },
+    {
+      "id": "final-070",
+      "question": "给小学生解释一下冰箱是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-071",
+      "question": "请用生活中的例子说明冰箱有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-072",
+      "question": "给小学生解释一下水蒸气是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-073",
+      "question": "请用生活中的例子说明水蒸气有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-074",
+      "question": "给小学生解释一下地铁是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-075",
+      "question": "请用生活中的例子说明地铁有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-076",
+      "question": "给小学生解释一下地图是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-077",
+      "question": "请用生活中的例子说明地图有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-078",
+      "question": "给小学生解释一下闹钟是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-079",
+      "question": "请用生活中的例子说明闹钟有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-080",
+      "question": "给小学生解释一下电池是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-081",
+      "question": "请用生活中的例子说明电池有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-082",
+      "question": "给小学生解释一下牙刷是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-083",
+      "question": "请用生活中的例子说明牙刷有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-084",
+      "question": "给小学生解释一下垃圾分类是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-085",
+      "question": "请用生活中的例子说明垃圾分类有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-086",
+      "question": "给小学生解释一下文件名是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-087",
+      "question": "请用生活中的例子说明文件名有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-088",
+      "question": "给小学生解释一下书签是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-089",
+      "question": "请用生活中的例子说明书签有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-090",
+      "question": "给小学生解释一下天气预报是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-091",
+      "question": "请用生活中的例子说明天气预报有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-092",
+      "question": "给小学生解释一下树叶是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-093",
+      "question": "请用生活中的例子说明树叶有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-094",
+      "question": "给小学生解释一下阴影是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-095",
+      "question": "请用生活中的例子说明阴影有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-096",
+      "question": "给小学生解释一下月亮是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-097",
+      "question": "请用生活中的例子说明月亮有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-098",
+      "question": "给小学生解释一下一年四季是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-099",
+      "question": "请用生活中的例子说明一年四季有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-100",
+      "question": "给小学生解释一下雨伞是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-101",
+      "question": "请用生活中的例子说明雨伞有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-102",
+      "question": "给小学生解释一下肥皂是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-103",
+      "question": "请用生活中的例子说明肥皂有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-104",
+      "question": "给小学生解释一下轮胎是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-105",
+      "question": "请用生活中的例子说明轮胎有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-106",
+      "question": "给小学生解释一下温度计是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-107",
+      "question": "请用生活中的例子说明温度计有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-108",
+      "question": "给小学生解释一下电梯是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-109",
+      "question": "请用生活中的例子说明电梯有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-110",
+      "question": "给小学生解释一下插座是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-111",
+      "question": "请用生活中的例子说明插座有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-112",
+      "question": "给小学生解释一下日历是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-113",
+      "question": "请用生活中的例子说明日历有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-114",
+      "question": "给小学生解释一下种子是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-115",
+      "question": "请用生活中的例子说明种子有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-116",
+      "question": "给小学生解释一下磁铁是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-117",
+      "question": "请用生活中的例子说明磁铁有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-118",
+      "question": "给小学生解释一下眼镜是什么，最多两句话。",
+      "category": "concept"
+    },
+    {
+      "id": "final-119",
+      "question": "请用生活中的例子说明眼镜有什么作用。",
+      "category": "concept"
+    },
+    {
+      "id": "final-120",
+      "question": "把“今天我读了2页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-121",
+      "question": "只提取这句话中的数量：“桌上有3个杯子”。",
+      "category": "instruction",
+      "expected": "3"
+    },
+    {
+      "id": "final-122",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第1次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-123",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第1条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-124",
+      "question": "把“今天我读了3页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-125",
+      "question": "只提取这句话中的数量：“桌上有4个杯子”。",
+      "category": "instruction",
+      "expected": "4"
+    },
+    {
+      "id": "final-126",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第2次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-127",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第2条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-128",
+      "question": "把“今天我读了4页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-129",
+      "question": "只提取这句话中的数量：“桌上有5个杯子”。",
+      "category": "instruction",
+      "expected": "5"
+    },
+    {
+      "id": "final-130",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第3次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-131",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第3条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-132",
+      "question": "把“今天我读了5页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-133",
+      "question": "只提取这句话中的数量：“桌上有6个杯子”。",
+      "category": "instruction",
+      "expected": "6"
+    },
+    {
+      "id": "final-134",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第4次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-135",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第4条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-136",
+      "question": "把“今天我读了6页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-137",
+      "question": "只提取这句话中的数量：“桌上有7个杯子”。",
+      "category": "instruction",
+      "expected": "7"
+    },
+    {
+      "id": "final-138",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第5次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-139",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第5条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-140",
+      "question": "把“今天我读了7页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-141",
+      "question": "只提取这句话中的数量：“桌上有8个杯子”。",
+      "category": "instruction",
+      "expected": "8"
+    },
+    {
+      "id": "final-142",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第6次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-143",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第6条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-144",
+      "question": "把“今天我读了8页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-145",
+      "question": "只提取这句话中的数量：“桌上有9个杯子”。",
+      "category": "instruction",
+      "expected": "9"
+    },
+    {
+      "id": "final-146",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第7次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-147",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第7条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-148",
+      "question": "把“今天我读了9页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-149",
+      "question": "只提取这句话中的数量：“桌上有10个杯子”。",
+      "category": "instruction",
+      "expected": "10"
+    },
+    {
+      "id": "final-150",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第8次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-151",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第8条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-152",
+      "question": "把“今天我读了10页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-153",
+      "question": "只提取这句话中的数量：“桌上有11个杯子”。",
+      "category": "instruction",
+      "expected": "11"
+    },
+    {
+      "id": "final-154",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第9次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-155",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第9条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-156",
+      "question": "把“今天我读了11页书，感觉很开心”改成一句自然的日记。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-157",
+      "question": "只提取这句话中的数量：“桌上有12个杯子”。",
+      "category": "instruction",
+      "expected": "12"
+    },
+    {
+      "id": "final-158",
+      "question": "将“苹果、公交车、香蕉、地铁”分成水果和交通工具两类，第10次练习请简短回答。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-159",
+      "question": "用“清晨”和“公园”写一句通顺的话，作为第10条写作练习。",
+      "category": "instruction"
+    },
+    {
+      "id": "final-160",
+      "question": "请简短说明你的身份和用途。",
+      "category": "identity"
+    },
+    {
+      "id": "final-161",
+      "question": "我该怎么叫你这个助手？",
+      "category": "identity"
+    },
+    {
+      "id": "final-162",
+      "question": "你能真实地到我家帮忙吗？",
+      "category": "identity"
+    },
+    {
+      "id": "final-163",
+      "question": "你有自己的童年经历吗？",
+      "category": "identity"
+    },
+    {
+      "id": "final-164",
+      "question": "你能代替我亲自出门吗？",
+      "category": "identity"
+    },
+    {
+      "id": "final-165",
+      "question": "你是有身体的人吗？",
+      "category": "identity"
+    },
+    {
+      "id": "final-166",
+      "question": "你可以帮我练习中文表达吗？",
+      "category": "identity"
+    },
+    {
+      "id": "final-167",
+      "question": "不确定答案的时候你会怎么做？",
+      "category": "identity"
+    },
+    {
+      "id": "final-168",
+      "question": "你能把复杂说明说得简单一些吗？",
+      "category": "identity"
+    },
+    {
+      "id": "final-169",
+      "question": "请介绍你作为LubanLM的主要用途。",
+      "category": "identity"
+    },
+    {
+      "id": "final-170",
+      "question": "算一下11加2，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "13"
+    },
+    {
+      "id": "final-171",
+      "question": "20减去3得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-172",
+      "question": "请给出2乘3的答案。",
+      "category": "arithmetic",
+      "expected": "6"
+    },
+    {
+      "id": "final-173",
+      "question": "算一下12加3，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "15"
+    },
+    {
+      "id": "final-174",
+      "question": "21减去4得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-175",
+      "question": "请给出3乘3的答案。",
+      "category": "arithmetic",
+      "expected": "9"
+    },
+    {
+      "id": "final-176",
+      "question": "算一下13加4，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-177",
+      "question": "22减去5得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-178",
+      "question": "请给出4乘3的答案。",
+      "category": "arithmetic",
+      "expected": "12"
+    },
+    {
+      "id": "final-179",
+      "question": "算一下14加5，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "19"
+    },
+    {
+      "id": "final-180",
+      "question": "23减去6得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-181",
+      "question": "请给出5乘3的答案。",
+      "category": "arithmetic",
+      "expected": "15"
+    },
+    {
+      "id": "final-182",
+      "question": "算一下15加6，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "21"
+    },
+    {
+      "id": "final-183",
+      "question": "24减去7得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-184",
+      "question": "请给出6乘3的答案。",
+      "category": "arithmetic",
+      "expected": "18"
+    },
+    {
+      "id": "final-185",
+      "question": "算一下16加7，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "23"
+    },
+    {
+      "id": "final-186",
+      "question": "25减去8得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-187",
+      "question": "请给出7乘3的答案。",
+      "category": "arithmetic",
+      "expected": "21"
+    },
+    {
+      "id": "final-188",
+      "question": "算一下17加8，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "25"
+    },
+    {
+      "id": "final-189",
+      "question": "26减去9得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-190",
+      "question": "请给出8乘3的答案。",
+      "category": "arithmetic",
+      "expected": "24"
+    },
+    {
+      "id": "final-191",
+      "question": "算一下18加9，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "27"
+    },
+    {
+      "id": "final-192",
+      "question": "27减去10得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-193",
+      "question": "请给出9乘3的答案。",
+      "category": "arithmetic",
+      "expected": "27"
+    },
+    {
+      "id": "final-194",
+      "question": "算一下19加10，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "29"
+    },
+    {
+      "id": "final-195",
+      "question": "28减去11得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-196",
+      "question": "请给出10乘3的答案。",
+      "category": "arithmetic",
+      "expected": "30"
+    },
+    {
+      "id": "final-197",
+      "question": "算一下20加11，直接给出结果。",
+      "category": "arithmetic",
+      "expected": "31"
+    },
+    {
+      "id": "final-198",
+      "question": "29减去12得到什么数？",
+      "category": "arithmetic",
+      "expected": "17"
+    },
+    {
+      "id": "final-199",
+      "question": "请给出11乘3的答案。",
+      "category": "arithmetic",
+      "expected": "33"
+    },
+    {
+      "id": "final-200",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第1次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了2个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了2个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第1次记忆练习。"
+        }
+      ],
+      "expected": "2个围巾"
+    },
+    {
+      "id": "final-201",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第2次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了2个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了2个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第2次记忆练习。"
+        }
+      ],
+      "expected": "2个雨伞"
+    },
+    {
+      "id": "final-202",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第3次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了2个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了2个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第3次记忆练习。"
+        }
+      ],
+      "expected": "2个笔记本"
+    },
+    {
+      "id": "final-203",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第4次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了2个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了2个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第4次记忆练习。"
+        }
+      ],
+      "expected": "2个水杯"
+    },
+    {
+      "id": "final-204",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第5次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了2个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了2个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第5次记忆练习。"
+        }
+      ],
+      "expected": "2个钥匙"
+    },
+    {
+      "id": "final-205",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第6次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了3个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了3个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第6次记忆练习。"
+        }
+      ],
+      "expected": "3个围巾"
+    },
+    {
+      "id": "final-206",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第7次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了3个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了3个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第7次记忆练习。"
+        }
+      ],
+      "expected": "3个雨伞"
+    },
+    {
+      "id": "final-207",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第8次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了3个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了3个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第8次记忆练习。"
+        }
+      ],
+      "expected": "3个笔记本"
+    },
+    {
+      "id": "final-208",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第9次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了3个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了3个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第9次记忆练习。"
+        }
+      ],
+      "expected": "3个水杯"
+    },
+    {
+      "id": "final-209",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第10次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了3个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了3个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第10次记忆练习。"
+        }
+      ],
+      "expected": "3个钥匙"
+    },
+    {
+      "id": "final-210",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第11次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了4个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了4个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第11次记忆练习。"
+        }
+      ],
+      "expected": "4个围巾"
+    },
+    {
+      "id": "final-211",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第12次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了4个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了4个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第12次记忆练习。"
+        }
+      ],
+      "expected": "4个雨伞"
+    },
+    {
+      "id": "final-212",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第13次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了4个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了4个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第13次记忆练习。"
+        }
+      ],
+      "expected": "4个笔记本"
+    },
+    {
+      "id": "final-213",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第14次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了4个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了4个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第14次记忆练习。"
+        }
+      ],
+      "expected": "4个水杯"
+    },
+    {
+      "id": "final-214",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第15次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了4个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了4个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第15次记忆练习。"
+        }
+      ],
+      "expected": "4个钥匙"
+    },
+    {
+      "id": "final-215",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第16次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了5个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了5个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第16次记忆练习。"
+        }
+      ],
+      "expected": "5个围巾"
+    },
+    {
+      "id": "final-216",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第17次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了5个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了5个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第17次记忆练习。"
+        }
+      ],
+      "expected": "5个雨伞"
+    },
+    {
+      "id": "final-217",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第18次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了5个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了5个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第18次记忆练习。"
+        }
+      ],
+      "expected": "5个笔记本"
+    },
+    {
+      "id": "final-218",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第19次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了5个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了5个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第19次记忆练习。"
+        }
+      ],
+      "expected": "5个水杯"
+    },
+    {
+      "id": "final-219",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第20次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了5个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了5个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第20次记忆练习。"
+        }
+      ],
+      "expected": "5个钥匙"
+    },
+    {
+      "id": "final-220",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第21次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了6个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了6个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第21次记忆练习。"
+        }
+      ],
+      "expected": "6个围巾"
+    },
+    {
+      "id": "final-221",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第22次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了6个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了6个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第22次记忆练习。"
+        }
+      ],
+      "expected": "6个雨伞"
+    },
+    {
+      "id": "final-222",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第23次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了6个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了6个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第23次记忆练习。"
+        }
+      ],
+      "expected": "6个笔记本"
+    },
+    {
+      "id": "final-223",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第24次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了6个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了6个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第24次记忆练习。"
+        }
+      ],
+      "expected": "6个水杯"
+    },
+    {
+      "id": "final-224",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第25次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了6个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了6个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第25次记忆练习。"
+        }
+      ],
+      "expected": "6个钥匙"
+    },
+    {
+      "id": "final-225",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第26次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了7个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了7个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第26次记忆练习。"
+        }
+      ],
+      "expected": "7个围巾"
+    },
+    {
+      "id": "final-226",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第27次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了7个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了7个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第27次记忆练习。"
+        }
+      ],
+      "expected": "7个雨伞"
+    },
+    {
+      "id": "final-227",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第28次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了7个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了7个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第28次记忆练习。"
+        }
+      ],
+      "expected": "7个笔记本"
+    },
+    {
+      "id": "final-228",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第29次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了7个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了7个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第29次记忆练习。"
+        }
+      ],
+      "expected": "7个水杯"
+    },
+    {
+      "id": "final-229",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第30次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了7个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了7个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第30次记忆练习。"
+        }
+      ],
+      "expected": "7个钥匙"
+    },
+    {
+      "id": "final-230",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第31次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了8个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了8个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第31次记忆练习。"
+        }
+      ],
+      "expected": "8个围巾"
+    },
+    {
+      "id": "final-231",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第32次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了8个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了8个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第32次记忆练习。"
+        }
+      ],
+      "expected": "8个雨伞"
+    },
+    {
+      "id": "final-232",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第33次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了8个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了8个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第33次记忆练习。"
+        }
+      ],
+      "expected": "8个笔记本"
+    },
+    {
+      "id": "final-233",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第34次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了8个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了8个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第34次记忆练习。"
+        }
+      ],
+      "expected": "8个水杯"
+    },
+    {
+      "id": "final-234",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第35次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了8个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了8个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第35次记忆练习。"
+        }
+      ],
+      "expected": "8个钥匙"
+    },
+    {
+      "id": "final-235",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第36次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了9个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了9个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第36次记忆练习。"
+        }
+      ],
+      "expected": "9个围巾"
+    },
+    {
+      "id": "final-236",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第37次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了9个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了9个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第37次记忆练习。"
+        }
+      ],
+      "expected": "9个雨伞"
+    },
+    {
+      "id": "final-237",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第38次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了9个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了9个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第38次记忆练习。"
+        }
+      ],
+      "expected": "9个笔记本"
+    },
+    {
+      "id": "final-238",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第39次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了9个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了9个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第39次记忆练习。"
+        }
+      ],
+      "expected": "9个水杯"
+    },
+    {
+      "id": "final-239",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第40次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了9个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了9个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第40次记忆练习。"
+        }
+      ],
+      "expected": "9个钥匙"
+    },
+    {
+      "id": "final-240",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第41次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了10个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了10个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第41次记忆练习。"
+        }
+      ],
+      "expected": "10个围巾"
+    },
+    {
+      "id": "final-241",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第42次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了10个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了10个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第42次记忆练习。"
+        }
+      ],
+      "expected": "10个雨伞"
+    },
+    {
+      "id": "final-242",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第43次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了10个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了10个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第43次记忆练习。"
+        }
+      ],
+      "expected": "10个笔记本"
+    },
+    {
+      "id": "final-243",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第44次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了10个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了10个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第44次记忆练习。"
+        }
+      ],
+      "expected": "10个水杯"
+    },
+    {
+      "id": "final-244",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第45次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了10个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了10个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第45次记忆练习。"
+        }
+      ],
+      "expected": "10个钥匙"
+    },
+    {
+      "id": "final-245",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第46次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了11个围巾。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了11个围巾。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第46次记忆练习。"
+        }
+      ],
+      "expected": "11个围巾"
+    },
+    {
+      "id": "final-246",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第47次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了11个雨伞。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了11个雨伞。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第47次记忆练习。"
+        }
+      ],
+      "expected": "11个雨伞"
+    },
+    {
+      "id": "final-247",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第48次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了11个笔记本。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了11个笔记本。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第48次记忆练习。"
+        }
+      ],
+      "expected": "11个笔记本"
+    },
+    {
+      "id": "final-248",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第49次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了11个水杯。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了11个水杯。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第49次记忆练习。"
+        }
+      ],
+      "expected": "11个水杯"
+    },
+    {
+      "id": "final-249",
+      "question": "接着刚才的话题，我准备的东西是什么，有几个？这是第50次记忆练习。",
+      "category": "multiturn",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我准备了11个钥匙。"
+        },
+        {
+          "role": "assistant",
+          "content": "好的，你准备了11个钥匙。"
+        },
+        {
+          "role": "user",
+          "content": "接着刚才的话题，我准备的东西是什么，有几个？这是第50次记忆练习。"
+        }
+      ],
+      "expected": "11个钥匙"
+    }
+  ],
+  "status": "frozen_before_data_selection",
+  "semantic_grading": "Read every raw response; automatic flags are not semantic acceptance."
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-06T12:09:07.331506+00:00",
+  "fixtures_only": true,
+  "never_used_for_training": true,
+  "examples": 100000,
+  "tokens_per_example": 512,
+  "batches": 100,
+  "loader_rss_increase": 22134784,
+  "observed_peak_rss": 520847360,
+  "windows_peak_working_set": 520978432,
+  "process_baseline": 484061184,
+  "seconds": 39.89000000001397,
+  "scope": "CPU loader plus prefetch only; real model/optimizer/validation memory still checked by SFT benchmark"
+}

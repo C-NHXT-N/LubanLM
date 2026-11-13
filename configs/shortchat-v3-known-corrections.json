@@ -1,0 +1,6 @@
+[
+  {"id":"b4fb967bd2fd6859c598bc03e2e88fc4c5825e1fc0d05addfbcd3191e649f8bb","family":"3de8befa05c0123e3ae6486cae810a9107c9dd093c02d64dbf5d9a6a9039acbc","category":"instruction","usable":false,"reason":"求职邮件编造用户未提供的学士学位和工作经验，并改变输入邮箱；移除整个问题家族。"},
+  {"id":"57d1db5891a1225bbc055744c30e5f7b22786107e1057b690ec7e139459b34c4","category":"instruction","usable":true,"reason":"用户要求润色旅游文本，回答与给定场景相关，适合作为创意改写；引用中的你可以看到并非感知能力询问。"},
+  {"id":"63d007dc525357e4eb67561255d24ac22368bab1472bfd2d103776ed71ca1d13","category":"instruction","usable":true,"reason":"用户要求虚构故事续写，回答以松鼠情节收尾；不是关于助手感知或身份的问题。"},
+  {"id":"f958d0440bd58e9159aa088260486dcd8dc5e8da3d43fcb70912b65d2e215bd3","family":"183a13349ccf4b4dd2a52b4084cc206c03ad92ec550bdc44b7851b1347d96a54","usable":false,"reason":"人类社交邀约的回复反问是否欢迎西藏朋友，不能作为助手相关回答；移除整个问题家族。"}
+]

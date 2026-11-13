@@ -1,0 +1,44 @@
+{
+  "reason": "Apply measured batch 24 and four prefetched downloads. Preserve raw files, weights and both GPU ledgers.",
+  "previous_controller": {
+    "pid": 60704,
+    "started_utc": "2026-10-05T01:31:52.814693+08:00",
+    "plan": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\50m-general-pretrain-2b.json",
+    "plan_sha256": "21d874d5f3873daad050a66244be9edb2fa457a4e3caf08095ba3b24e1064033",
+    "status": "preparing_cpu_data",
+    "cumulative_target": 2000000000,
+    "historical_gpu_minutes": 881.3897566833335,
+    "new_gpu_minutes_cap": 900,
+    "capability_status": "not_accepted",
+    "historical_ledger_sha256": "4c5fb9d1955774509b0cbd424c389b3f05df7a295d846b9b65efb3ed1520f624",
+    "historical_ledger": "D:\\LubanLM-Runs\\chat-v2\\reports\\gpu_budget.json",
+    "parent_checkpoint_sha256": "e8ac25d710866d49d59fd71c698cbb4a7f015ea4fe40fc21a35adad52e3acbb9",
+    "parent_tokens": 808003584,
+    "updated_utc": "2026-10-05T01:31:56.03584+08:00"
+  },
+  "previous_progress": {
+    "updated_utc": "2026-10-05T02:08:29.709073+08:00",
+    "downloaded_bytes": 1343356375,
+    "elapsed_seconds": 2192,
+    "stage": "encoding",
+    "source": "fineweb-4-5",
+    "counts": {
+      "raw_documents": 315535,
+      "invalid_character_or_control": 1628,
+      "consecutive_repeat": 4818,
+      "chinese_ratio": 54640,
+      "train_documents": 233949,
+      "validation_documents": 1310,
+      "duplicate_lines": 301,
+      "same_lead_duplicate": 4649,
+      "exact_duplicate_or_legacy": 73,
+      "length": 10456,
+      "markup_or_code_density": 196,
+      "heldout_cap_excluded": 3509,
+      "too_few_tokens": 6
+    },
+    "train_tokens": 362885423,
+    "validation_tokens": 2009392
+  },
+  "archive_suffix": "20261005-020830"
+}

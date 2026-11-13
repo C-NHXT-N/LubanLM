@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "steps": 1000,
+  "tokens": 6144000,
+  "elapsed_seconds": 163.1720000000205,
+  "tokens_per_hour": 135552668.34994498,
+  "peak_reserved_mib": 5694.0,
+  "initial_validation_loss": 3.955508702993393,
+  "final_validation_loss": 4.004083108901978,
+  "parent_unchanged": true,
+  "weights_are_discarded": true,
+  "note": "Throughput/numeric validation on private copy of previous corpus; not a new-corpus quality comparison."
+}

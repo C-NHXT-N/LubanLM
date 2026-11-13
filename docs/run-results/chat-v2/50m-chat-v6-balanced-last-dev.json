@@ -1,0 +1,1828 @@
+{
+  "created_utc": "2026-10-03T07:16:57.550791+00:00",
+  "checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v6-balanced\\last.pt",
+  "checkpoint_sha256": "c1a1d7de3c845f426a29abf9b73deca85dc4f9de941b63d70e5f371cc52c84b4",
+  "split": "dev",
+  "suite_sha256": "6312643a2f22f373ac1a087fcb52b80da1e524bdf7aa57c23c5ce97265f3b9cf",
+  "suite_file": "eval\\suites\\chat-v6.json",
+  "suite_definition_sha256": "d87c6a4c753299c158d255221afa03fee479c27aff4b5edf0c316348b004b67d",
+  "status": "awaiting_review",
+  "results": [
+    {
+      "id": "dev-greeting-00",
+      "category": "greeting",
+      "question": "早晨好，来和你说一句话。",
+      "seed": 2026,
+      "answer": "早上好！祝你今天顺利。",
+      "generated_ids": [
+        18405,
+        1272,
+        6303,
+        4655,
+        4282,
+        4208,
+        27134,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-01",
+      "category": "greeting",
+      "question": "晚上见到你真开心。",
+      "seed": 2026,
+      "answer": "晚上好！很高兴和你聊天。",
+      "generated_ids": [
+        12394,
+        1272,
+        6303,
+        14910,
+        1655,
+        315,
+        4282,
+        20762,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-02",
+      "category": "greeting",
+      "question": "认识你让我很高兴。",
+      "seed": 2026,
+      "answer": "您好，很高兴认识你！",
+      "generated_ids": [
+        28072,
+        1272,
+        262,
+        14910,
+        1655,
+        8729,
+        4282,
+        6303,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-03",
+      "category": "greeting",
+      "question": "刚才你帮了忙，谢啦。",
+      "seed": 2026,
+      "answer": "您好，很高兴能帮到你。",
+      "generated_ids": [
+        28072,
+        1272,
+        262,
+        14910,
+        1655,
+        575,
+        4733,
+        485,
+        4282,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-04",
+      "category": "greeting",
+      "question": "我得离开了，下次见。",
+      "seed": 2026,
+      "answer": "下次见是：\n1. 我得离开了。\n2. 我得离开了。\n3. 我得离开了。",
+      "generated_ids": [
+        492,
+        606,
+        1334,
+        291,
+        371,
+        201,
+        19,
+        16,
+        223,
+        1743,
+        598,
+        7352,
+        400,
+        265,
+        201,
+        20,
+        16,
+        223,
+        1743,
+        598,
+        7352,
+        400,
+        265,
+        201,
+        21,
+        16,
+        223,
+        1743,
+        598,
+        7352,
+        400,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-05",
+      "category": "greeting",
+      "question": "今天想先向你问候一声。",
+      "seed": 2026,
+      "answer": "先友善地打个招呼。",
+      "generated_ids": [
+        937,
+        1674,
+        1988,
+        347,
+        1298,
+        475,
+        3362,
+        1840,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-06",
+      "category": "greeting",
+      "question": "愿意和我聊个天吗？",
+      "seed": 2026,
+      "answer": "当然愿意和我聊个天。",
+      "generated_ids": [
+        20457,
+        5863,
+        681,
+        315,
+        1743,
+        8926,
+        475,
+        495,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-07",
+      "category": "greeting",
+      "question": "新朋友你好，咱们认识一下。",
+      "seed": 2026,
+      "answer": "我是LubanLM，一个用中文进行文字交流的语言模型。",
+      "generated_ids": [
+        28158,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        1042,
+        396,
+        1948,
+        1576,
+        2157,
+        5098,
+        11362,
+        4137,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-08",
+      "category": "greeting",
+      "question": "午后好呀。",
+      "seed": 2026,
+      "answer": "午后好，很高兴和你聊天。",
+      "generated_ids": [
+        3095,
+        486,
+        1272,
+        262,
+        14910,
+        1655,
+        315,
+        4282,
+        20762,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-greeting-09",
+      "category": "greeting",
+      "question": "来和你说说话。",
+      "seed": 2026,
+      "answer": "我可以和你聊天，解释基础知识，并提供简单的日常建议。",
+      "generated_ids": [
+        1743,
+        759,
+        315,
+        4282,
+        20762,
+        262,
+        5629,
+        2962,
+        4553,
+        262,
+        727,
+        1769,
+        5162,
+        5543,
+        584,
+        7290,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-00",
+      "category": "identity",
+      "question": "这位助手是谁呀？",
+      "seed": 2026,
+      "answer": "我叫LubanLM，你可以这样称呼我。",
+      "generated_ids": [
+        1743,
+        2079,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        4282,
+        759,
+        4920,
+        5031,
+        1743,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-01",
+      "category": "identity",
+      "question": "方便说说你的名字吗？",
+      "seed": 2026,
+      "answer": "我叫LubanLM，你可以这样称呼我。",
+      "generated_ids": [
+        1743,
+        2079,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        4282,
+        759,
+        4920,
+        5031,
+        1743,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-02",
+      "category": "identity",
+      "question": "能描述一下自己的用途吗？",
+      "seed": 2026,
+      "answer": "我是一个语言模型，不是真人，也没有身体。",
+      "generated_ids": [
+        1743,
+        2275,
+        1538,
+        4137,
+        262,
+        2277,
+        11429,
+        262,
+        13446,
+        7734,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-03",
+      "category": "identity",
+      "question": "跟我说话的是人类吗？",
+      "seed": 2026,
+      "answer": "人类是“人类”的，它是一种人类化、可持续的、可持续的、可持续的、可持续的、可持续的。",
+      "generated_ids": [
+        2469,
+        291,
+        455,
+        2469,
+        462,
+        264,
+        262,
+        792,
+        2570,
+        2469,
+        477,
+        281,
+        473,
+        7785,
+        264,
+        281,
+        473,
+        7785,
+        264,
+        281,
+        473,
+        7785,
+        264,
+        281,
+        473,
+        7785,
+        264,
+        281,
+        473,
+        7785,
+        264,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": true,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-04",
+      "category": "identity",
+      "question": "你有能触碰物品的身体吗？",
+      "seed": 2026,
+      "answer": "我可以，我是一个语言模型，不是真人，也没有身体。",
+      "generated_ids": [
+        1743,
+        759,
+        262,
+        1743,
+        2275,
+        1538,
+        4137,
+        262,
+        2277,
+        11429,
+        262,
+        13446,
+        7734,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-05",
+      "category": "identity",
+      "question": "应该用哪个名字叫你？",
+      "seed": 2026,
+      "answer": "我叫LubanLM，你可以这样称呼我。",
+      "generated_ids": [
+        1743,
+        2079,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        4282,
+        759,
+        4920,
+        5031,
+        1743,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-06",
+      "category": "identity",
+      "question": "能作为中文文字助手帮我吗？",
+      "seed": 2026,
+      "answer": "可以，我是一个中文助手，可以用文字和你交流。",
+      "generated_ids": [
+        759,
+        262,
+        1743,
+        2275,
+        1948,
+        11308,
+        262,
+        6442,
+        2157,
+        315,
+        4282,
+        5098,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-07",
+      "category": "identity",
+      "question": "你能讲解基础概念吗？",
+      "seed": 2026,
+      "answer": "我可以用中文聊天，解释简单知识，并给出日常建议。",
+      "generated_ids": [
+        1743,
+        6442,
+        1948,
+        20762,
+        262,
+        5629,
+        5162,
+        4553,
+        262,
+        727,
+        18095,
+        6192,
+        7290,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-08",
+      "category": "identity",
+      "question": "日常的小问题你能聊吗？",
+      "seed": 2026,
+      "answer": "我可以用中文聊天，解释简单知识，并给出日常建议。",
+      "generated_ids": [
+        1743,
+        6442,
+        1948,
+        20762,
+        262,
+        5629,
+        5162,
+        4553,
+        262,
+        727,
+        18095,
+        6192,
+        7290,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-identity-09",
+      "category": "identity",
+      "question": "请作简短自我介绍。",
+      "seed": 2026,
+      "answer": "我是LubanLM，一个用中文进行文字交流的语言模型。",
+      "generated_ids": [
+        28158,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        1042,
+        396,
+        1948,
+        1576,
+        2157,
+        5098,
+        11362,
+        4137,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-00",
+      "category": "daily",
+      "question": "做事累了怎样歇一会儿？",
+      "seed": 2026,
+      "answer": "累了可以暂时放下工作，喝点水，并适当休息。",
+      "generated_ids": [
+        3864,
+        400,
+        759,
+        21382,
+        1024,
+        492,
+        1296,
+        262,
+        9612,
+        995,
+        613,
+        262,
+        727,
+        18585,
+        10813,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-01",
+      "category": "daily",
+      "question": "次日得早起，晚上怎样做好准备？",
+      "seed": 2026,
+      "answer": "晚上好！很高兴和你聊天。",
+      "generated_ids": [
+        12394,
+        1272,
+        6303,
+        14910,
+        1655,
+        315,
+        4282,
+        20762,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-02",
+      "category": "daily",
+      "question": "桌子上杂物多，先整理哪一步？",
+      "seed": 2026,
+      "answer": "先清理不需要的东西，再把书本、文具分别放好。",
+      "generated_ids": [
+        937,
+        779,
+        471,
+        11963,
+        264,
+        5839,
+        262,
+        1293,
+        1399,
+        895,
+        433,
+        281,
+        386,
+        946,
+        3135,
+        1024,
+        1272,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-03",
+      "category": "daily",
+      "question": "雨天离开家应准备哪些东西？",
+      "seed": 2026,
+      "answer": "带好雨具，穿合适的鞋，注意湿滑的路面。",
+      "generated_ids": [
+        1384,
+        1272,
+        2702,
+        946,
+        262,
+        2862,
+        535,
+        3370,
+        264,
+        8304,
+        262,
+        4373,
+        5873,
+        3580,
+        264,
+        30517,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-04",
+      "category": "daily",
+      "question": "如何逐步开始每天看书？",
+      "seed": 2026,
+      "answer": "每天看书时间、包括时间、地点、时间等。",
+      "generated_ids": [
+        9805,
+        1495,
+        895,
+        2212,
+        281,
+        908,
+        2212,
+        281,
+        9683,
+        281,
+        2212,
+        465,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-05",
+      "category": "daily",
+      "question": "别人帮忙之后怎样致谢？",
+      "seed": 2026,
+      "answer": "真诚地说声谢谢，并说明对方的帮助对你很有用。",
+      "generated_ids": [
+        1339,
+        8691,
+        18752,
+        2158,
+        3874,
+        3874,
+        262,
+        727,
+        9893,
+        683,
+        6734,
+        6135,
+        683,
+        4282,
+        15531,
+        396,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-06",
+      "category": "daily",
+      "question": "怎样避免出门漏掉必需物品？",
+      "seed": 2026,
+      "answer": "注意：，在门在出门，可以考虑出门，如在穿舒适的鞋，或从工作，在穿舒适的鞋子上",
+      "generated_ids": [
+        4373,
+        371,
+        262,
+        297,
+        1103,
+        297,
+        401,
+        1103,
+        262,
+        759,
+        8240,
+        401,
+        1103,
+        262,
+        626,
+        297,
+        2862,
+        4536,
+        3370,
+        264,
+        8304,
+        262,
+        521,
+        952,
+        1296,
+        262,
+        297,
+        2862,
+        4536,
+        3370,
+        264,
+        8304,
+        415,
+        377,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-07",
+      "category": "daily",
+      "question": "看书总被手机干扰怎么办？",
+      "seed": 2026,
+      "answer": "给手机、手机和手机。",
+      "generated_ids": [
+        2001,
+        20444,
+        281,
+        20444,
+        315,
+        20444,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-08",
+      "category": "daily",
+      "question": "出去步行时有什么小提醒？",
+      "seed": 2026,
+      "answer": "提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小提醒：小",
+      "generated_ids": [
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548,
+        751,
+        7992,
+        371,
+        548
+      ],
+      "eos": false,
+      "repeated_flag": true,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-daily-09",
+      "category": "daily",
+      "question": "家人过生日，给句祝愿吧。",
+      "seed": 2026,
+      "answer": "祝你生日快乐，愿你平安顺利，每一天都开心。",
+      "generated_ids": [
+        4655,
+        4282,
+        19225,
+        1898,
+        1441,
+        262,
+        5863,
+        4282,
+        7867,
+        27134,
+        262,
+        7876,
+        495,
+        554,
+        720,
+        754,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-00",
+      "category": "concept",
+      "question": "计算机的常见用途是什么？",
+      "seed": 2026,
+      "answer": "计算机是一种处理信息的工具，可以用来学习、工作和交流。",
+      "generated_ids": [
+        2727,
+        2570,
+        3305,
+        16189,
+        3292,
+        262,
+        759,
+        4031,
+        2990,
+        281,
+        1296,
+        315,
+        5098,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-01",
+      "category": "concept",
+      "question": "键盘负责什么工作？",
+      "seed": 2026,
+      "answer": "键盘的工作是完成任务的关键。",
+      "generated_ids": [
+        24233,
+        264,
+        1296,
+        291,
+        2477,
+        5332,
+        264,
+        11290,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-02",
+      "category": "concept",
+      "question": "鼠标通常怎样帮助操作电脑？",
+      "seed": 2026,
+      "answer": "鼠标用来移动指针、点击选项和操作电脑。",
+      "generated_ids": [
+        4603,
+        1274,
+        4031,
+        6108,
+        657,
+        4383,
+        281,
+        995,
+        1924,
+        1422,
+        1823,
+        315,
+        3309,
+        5945,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-03",
+      "category": "concept",
+      "question": "简单介绍浏览器的功能。",
+      "seed": 2026,
+      "answer": "浏览器是一种用来访问网页的软件。",
+      "generated_ids": [
+        20778,
+        2570,
+        4031,
+        7030,
+        10365,
+        30185,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-04",
+      "category": "concept",
+      "question": "联网能给人们带来哪些方便？",
+      "seed": 2026,
+      "answer": "我们可以选择使用互联网连接许多计算机，让人们分享信息和交流。",
+      "generated_ids": [
+        4942,
+        759,
+        5877,
+        820,
+        7207,
+        3944,
+        2362,
+        2727,
+        262,
+        3220,
+        3568,
+        15997,
+        2350,
+        315,
+        5098,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-05",
+      "category": "concept",
+      "question": "文件夹能帮助整理什么？",
+      "seed": 2026,
+      "answer": "文件夹用来整理和存放文件。",
+      "generated_ids": [
+        3418,
+        8681,
+        4031,
+        6176,
+        315,
+        21095,
+        3418,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-06",
+      "category": "concept",
+      "question": "给手机充电是为了什么？",
+      "seed": 2026,
+      "answer": "给手机充电可以补充电池的电量。",
+      "generated_ids": [
+        2001,
+        20444,
+        2434,
+        780,
+        759,
+        18171,
+        14634,
+        264,
+        780,
+        668,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-07",
+      "category": "concept",
+      "question": "云中水滴落下来会形成什么？",
+      "seed": 2026,
+      "answer": "云中的水滴逐渐增大，降落到地面就形成了雨。",
+      "generated_ids": [
+        1834,
+        950,
+        613,
+        9992,
+        3586,
+        26959,
+        262,
+        16162,
+        485,
+        5860,
+        714,
+        6838,
+        2702,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-08",
+      "category": "concept",
+      "question": "光合作用对植物有什么用？",
+      "seed": 2026,
+      "answer": "植物通过光合作用利用光能制造有机物。",
+      "generated_ids": [
+        1832,
+        1653,
+        19344,
+        2257,
+        872,
+        575,
+        3951,
+        6254,
+        442,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-concept-09",
+      "category": "concept",
+      "question": "冰块受热会变成什么？",
+      "seed": 2026,
+      "answer": "冰块在热闹的季节会融化成水。",
+      "generated_ids": [
+        2516,
+        4023,
+        297,
+        1953,
+        31972,
+        264,
+        11883,
+        576,
+        2267,
+        19747,
+        613,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-00",
+      "category": "instruction",
+      "question": "回答限定一个字：行。",
+      "seed": 2026,
+      "answer": "行",
+      "generated_ids": [
+        419,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-01",
+      "category": "instruction",
+      "question": "举出两种常见蔬菜即可。",
+      "seed": 2026,
+      "answer": "白菜、胡萝卜。",
+      "generated_ids": [
+        894,
+        2444,
+        281,
+        1791,
+        27412,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-02",
+      "category": "instruction",
+      "question": "照抄一次：小河慢慢流过。",
+      "seed": 2026,
+      "answer": "小河慢慢流过。",
+      "generated_ids": [
+        548,
+        665,
+        16577,
+        705,
+        815,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-03",
+      "category": "instruction",
+      "question": "用冬天造一句话。",
+      "seed": 2026,
+      "answer": "冬天很冷，出门记得穿暖。",
+      "generated_ids": [
+        18127,
+        1051,
+        2478,
+        262,
+        401,
+        1103,
+        876,
+        598,
+        2862,
+        6832,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-04",
+      "category": "instruction",
+      "question": "给家里的猫推荐一个名字。",
+      "seed": 2026,
+      "answer": "我叫LubanLM，你可以这样称呼我。",
+      "generated_ids": [
+        1743,
+        2079,
+        46,
+        4471,
+        735,
+        46,
+        47,
+        262,
+        4282,
+        759,
+        4920,
+        5031,
+        1743,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-05",
+      "category": "instruction",
+      "question": "仅列出蓝色和红色。",
+      "seed": 2026,
+      "answer": "蓝色和红色是蓝色，红色是红色。",
+      "generated_ids": [
+        16248,
+        315,
+        5951,
+        291,
+        16248,
+        262,
+        5951,
+        291,
+        5951,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-06",
+      "category": "instruction",
+      "question": "请说一句让人继续学习的鼓励。",
+      "seed": 2026,
+      "answer": "慢慢来，坚持练习，你会有所进步。",
+      "generated_ids": [
+        16577,
+        679,
+        262,
+        10830,
+        5251,
+        2112,
+        262,
+        4282,
+        576,
+        4898,
+        9795,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-07",
+      "category": "instruction",
+      "question": "写一句跟老师打招呼的话。",
+      "seed": 2026,
+      "answer": "老师好，很高兴和您聊天。",
+      "generated_ids": [
+        13100,
+        1272,
+        262,
+        14910,
+        1655,
+        315,
+        28072,
+        20762,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-08",
+      "category": "instruction",
+      "question": "仅输出两个字：明白。",
+      "seed": 2026,
+      "answer": "明白",
+      "generated_ids": [
+        20368,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-instruction-09",
+      "category": "instruction",
+      "question": "只举一种交通工具。",
+      "seed": 2026,
+      "answer": "公交车。",
+      "generated_ids": [
+        22932,
+        1497,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-00",
+      "category": "arithmetic",
+      "question": "6加2的和是多少呢？",
+      "seed": 2026,
+      "answer": "8。",
+      "generated_ids": [
+        26,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-01",
+      "category": "arithmetic",
+      "question": "9减5的差是多少呢？",
+      "seed": 2026,
+      "answer": "4。",
+      "generated_ids": [
+        22,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-02",
+      "category": "arithmetic",
+      "question": "2乘5得多少呢？",
+      "seed": 2026,
+      "answer": "10。",
+      "generated_ids": [
+        723,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-03",
+      "category": "arithmetic",
+      "question": "10除以2应得几？",
+      "seed": 2026,
+      "answer": "5。",
+      "generated_ids": [
+        23,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-04",
+      "category": "arithmetic",
+      "question": "4加3得多少呢？",
+      "seed": 2026,
+      "answer": "7。",
+      "generated_ids": [
+        25,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-05",
+      "category": "arithmetic",
+      "question": "11减6得多少呢？",
+      "seed": 2026,
+      "answer": "5。",
+      "generated_ids": [
+        23,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-06",
+      "category": "arithmetic",
+      "question": "3乘4的乘积是多少呢？",
+      "seed": 2026,
+      "answer": "12。",
+      "generated_ids": [
+        753,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-07",
+      "category": "arithmetic",
+      "question": "15除以3的商是多少呢？",
+      "seed": 2026,
+      "answer": "5。",
+      "generated_ids": [
+        23,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-08",
+      "category": "arithmetic",
+      "question": "8加1的和是多少呢？",
+      "seed": 2026,
+      "answer": "9。",
+      "generated_ids": [
+        27,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    },
+    {
+      "id": "dev-arithmetic-09",
+      "category": "arithmetic",
+      "question": "7减5得多少呢？",
+      "seed": 2026,
+      "answer": "3。",
+      "generated_ids": [
+        21,
+        265,
+        2
+      ],
+      "eos": true,
+      "repeated_flag": false,
+      "grading": {
+        "relevant_readable": null,
+        "correct": null,
+        "looping": null,
+        "reason": ""
+      }
+    }
+  ]
+}

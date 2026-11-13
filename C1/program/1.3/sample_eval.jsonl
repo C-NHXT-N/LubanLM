@@ -1,0 +1,4 @@
+{"text":"中文评估：空格  连续空格、换行\n以及 emoji 😀。","category":"中文"}
+{"text":"English evaluation keeps   repeated spaces and newlines.\n","category":"英文"}
+{"text":"int sum = a + b;\n    return sum;\n","category":"代码"}
+{"text":"","category":"中文"}

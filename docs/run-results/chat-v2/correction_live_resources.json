@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-03T07:41:50.612418+00:00",
+  "training_pid": 70104,
+  "cpu_logical_count": 12,
+  "training_cpu_one_core_percent": 95.48454167390253,
+  "training_rss_mib": 2100.73828125,
+  "samples": [
+    {
+      "cpu_total_percent": 19.2,
+      "gpu": "68, 3521, 98.02, 55",
+      "ram_percent": 70.0
+    },
+    {
+      "cpu_total_percent": 18.2,
+      "gpu": "68, 3521, 99.39, 54",
+      "ram_percent": 70.0
+    },
+    {
+      "cpu_total_percent": 18.4,
+      "gpu": "81, 3521, 100.03, 54",
+      "ram_percent": 70.0
+    },
+    {
+      "cpu_total_percent": 20.3,
+      "gpu": "63, 3521, 101.24, 55",
+      "ram_percent": 70.0
+    },
+    {
+      "cpu_total_percent": 18.8,
+      "gpu": "75, 3521, 101.26, 54",
+      "ram_percent": 70.0
+    }
+  ],
+  "note": "5 short live samples; instantaneous utilization is not sustained throughput or proof of bottleneck. No competing GPU task launched."
+}

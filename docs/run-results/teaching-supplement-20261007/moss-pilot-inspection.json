@@ -1,0 +1,207 @@
+{
+  "repo": "OpenMOSS-Team/moss-003-sft-data",
+  "revision": "42e216d3e3fb331c18d5fa6e7cb4f1c53eef24a4",
+  "review_scope": "40 accepted examples read in full, finite pilot; not a factual certification of all records",
+  "marks": [
+    {
+      "index": 1,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 2,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 3,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 4,
+      "result": "minor",
+      "reason": "Traditional Chinese or broad technology/work advice; acceptable for local teaching"
+    },
+    {
+      "index": 5,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 6,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 7,
+      "result": "minor",
+      "reason": "Traditional Chinese or broad technology/work advice; acceptable for local teaching"
+    },
+    {
+      "index": 8,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 9,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 10,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 11,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 12,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 13,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 14,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 15,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 16,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 17,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 18,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 19,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 20,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 21,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 22,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 23,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 24,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 25,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 26,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 27,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 28,
+      "result": "minor",
+      "reason": "Traditional Chinese or broad technology/work advice; acceptable for local teaching"
+    },
+    {
+      "index": 29,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 30,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 31,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 32,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 33,
+      "result": "minor",
+      "reason": "Traditional Chinese or broad technology/work advice; acceptable for local teaching"
+    },
+    {
+      "index": 34,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 35,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 36,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 37,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    },
+    {
+      "index": 38,
+      "result": "minor",
+      "reason": "Traditional Chinese or broad technology/work advice; acceptable for local teaching"
+    },
+    {
+      "index": 39,
+      "result": "minor",
+      "reason": "Traditional Chinese or broad technology/work advice; acceptable for local teaching"
+    },
+    {
+      "index": 40,
+      "result": "pass",
+      "reason": "Relevant complete everyday/work/life advice, no obvious severe defect in inspected text"
+    }
+  ]
+}

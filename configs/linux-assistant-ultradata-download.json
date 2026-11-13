@@ -1,0 +1,18 @@
+{
+  "repo": "openbmb/UltraData-SFT-2605",
+  "revision": "affda6aca75e7cff78e73f93ad08d4c3b01f097c",
+  "endpoint": "https://hf-mirror.com",
+  "interface": "WLAN",
+  "raw_dir": "datasets/sources/ultradata-sft-2605",
+  "provenance_dir": "provenance/linux-assistant-upstream/ultradata-sft-2605",
+  "report_dir": "reports/linux-assistant-ultradata-download-20261021",
+  "selection_reason": "Two evenly spaced original shards per requested no_think domain provide a bounded candidate pool for the planned 400 Chinese-general and 200 IF training examples plus separate general holdouts. These are raw candidates, not approved training records.",
+  "data_files": [
+    "data/no_think/Chinese-general/Chinese-general_no_think_part-01-of-50.jsonl",
+    "data/no_think/Chinese-general/Chinese-general_no_think_part-26-of-50.jsonl",
+    "data/no_think/IF/IF_no_think_part-01-of-20.jsonl",
+    "data/no_think/IF/IF_no_think_part-11-of-20.jsonl"
+  ],
+  "documentation_files": ["LICENSE", "README.md", "README_ZH.md"],
+  "max_download_bytes": 100000000
+}

@@ -1,0 +1,19 @@
+{
+  "pid": 63072,
+  "plan": "D:\\BaiduSyncdisk\\知识库\\LubanLM\\configs\\50m-general-pretrain-10b.json",
+  "plan_sha256": "d7c48457bb5d4f1a90cdd8a8cd3ea8029722636a14f1505c2047dc6cfca8c436",
+  "started_utc": "2026-10-05T10:26:09.788341+00:00",
+  "capability_status": "not_accepted",
+  "additional_target": 10000000000,
+  "cumulative_target": 12000001024,
+  "expected_pretrain_hours": 71.82,
+  "historical_ledger_hashes": {
+    "D:\\LubanLM-Runs\\chat-v2\\reports\\gpu_budget.json": "4c5fb9d1955774509b0cbd424c389b3f05df7a295d846b9b65efb3ed1520f624",
+    "D:\\LubanLM-Runs\\general-2b-v1\\reports\\gpu_budget.json": "d5158d76b2210591cea080bc3cd5e3709dc802a5f2e2346ed0746f649ea2fe47"
+  },
+  "historical_gpu_minutes": 1396.751740016667,
+  "parent_sha256": "d85b1e0fac15857bf30aed59ff1ef80e4ef9b5ce5666f2eea0c4b1c7a7b5b789",
+  "status": "preparing_10b_cpu",
+  "updated_utc": "2026-10-05T10:26:13.263445+00:00",
+  "child_pid": 64836
+}

@@ -1,0 +1,14 @@
+{
+  "name": "LubanLM-0.5B",
+  "status": "design_candidate_not_deployment_validated",
+  "vocab_size": 32000,
+  "hidden_size": 1024,
+  "num_hidden_layers": 30,
+  "num_attention_heads": 16,
+  "num_key_value_heads": 4,
+  "head_dim": 64,
+  "intermediate_size": 4096,
+  "context_length": 2048,
+  "tie_word_embeddings": true,
+  "linear_bias": false
+}

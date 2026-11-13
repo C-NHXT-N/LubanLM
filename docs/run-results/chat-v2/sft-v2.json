@@ -1,0 +1,32 @@
+{
+  "source": {
+    "repo": "BelleGroup/train_0.5M_CN",
+    "revision": "29c35e9b56c7fc91f04a613ed33896f7a19bad54",
+    "license": "see dataset card: GPL-3.0 and additional restrictions",
+    "synthetic": true
+  },
+  "belle_accepted": 50000,
+  "authored_generated": 1000,
+  "authored_validation": "template facts reviewed; arithmetic computed exactly",
+  "statistics": {
+    "train": {
+      "examples": 50536,
+      "input_tokens": 6057826,
+      "supervised_tokens": 2670322
+    },
+    "validation": {
+      "examples": 1019,
+      "input_tokens": 123713,
+      "supervised_tokens": 55672
+    }
+  },
+  "rejected": {
+    "excluded_suite": 28,
+    "duplicate": 480,
+    "length": 96,
+    "filter": 16553
+  },
+  "question_split_disjoint": true,
+  "suite_exact_questions_excluded": true,
+  "created_utc": "2026-10-02T08:21:46.476994+00:00"
+}

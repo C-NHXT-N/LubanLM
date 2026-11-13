@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "name": "50m-chat-v5",
+  "data_version": "sft-v5",
+  "init_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-chat-v4\\last.pt",
+  "init_sha256": "b08c49d6f7152363e1ed6d8ae93be332479bb1f235eaa7e2065c17df8d95e867",
+  "base_checkpoint": "D:\\LubanLM-Runs\\chat-v2\\checkpoints\\50m-base-v2\\last.pt",
+  "base_new_tokens": 400001024,
+  "initial_chat_supervised_tokens": 4111130,
+  "lr": 1e-05,
+  "epochs": 2,
+  "minutes": 45,
+  "created_utc": "2026-10-03T03:22:44.953446+00:00",
+  "rationale": "v4 development 45/60; public validation degradation independently verified. Broader public retention, general identity/copy/keyword/naming coverage, lower learning rate; no final-answer tuning",
+  "gpu_budget_at_start": 588.0798400166669,
+  "sft_gpu_minutes_at_start": 52.46383333333333,
+  "new_optimizer": true
+}

@@ -1,0 +1,15 @@
+{
+  "results": {
+    "pretrain": {
+      "weights_optimizer_rng_sampler_exact": true,
+      "input_tokens": 512,
+      "supervised_tokens": 512
+    },
+    "sft": {
+      "weights_optimizer_rng_sampler_exact": true,
+      "input_tokens": 2296,
+      "supervised_tokens": 684
+    }
+  },
+  "passed": true
+}
