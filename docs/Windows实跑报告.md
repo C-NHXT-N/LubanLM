@@ -19,7 +19,7 @@ GPU：
 - NVIDIA GeForce GTX 1650, GPU-81c9d1c8-490e-6251-b4bf-66bfaf0e90d7, 591.74, 4096 MiB
 - NVIDIA GeForce RTX 4060 Ti, GPU-c50d3c54-c5d3-f0da-7fa4-a48d195a849f, 591.74, 16380 MiB
 
-依赖已通过 `pip check`，精确版本见 [锁定文件](../configs/requirements-gpu.lock.txt)。本次通过官方 CUDA 12.4 wheel 使用现有驱动，未额外安装 CUDA Toolkit。
+依赖已通过 `pip check`，精确版本见 [锁定文件](../project/configs/requirements-gpu.lock.txt)。本次通过官方 CUDA 12.4 wheel 使用现有驱动，未额外安装 CUDA Toolkit。
 
 ## 数据与词表
 

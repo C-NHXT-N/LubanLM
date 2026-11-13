@@ -8,18 +8,18 @@
 
 |章节|正文|对应代码实跑|
 |---|---|---|
-|C4 数据与语料|[4.1 LLM 到底需要什么数据](../C4/C4S1.md)<br>[4.2 数据清洗与去重](../C4/C4S2.md)<br>[4.3 Tokenization 与训练数据格式](../C4/C4S3.md)<br>[4.4 构建 LubanCorpus-v1](../C4/C4S4.md)|完成|
-|C5 训练系统|[5.1 从 Next Token Prediction 到 Loss](../C5/C5S1.md)<br>[5.2 Optimizer 与 Learning Rate](../C5/C5S2.md)<br>[5.3 16GB 显存下训练 0.5B](../C5/C5S3.md)<br>[5.4 Checkpoint、日志与训练规模估算](../C5/C5S4.md)|完成|
-|C6 预训练|[6.1 正式启动 LubanLM](../C6/C6S1.md)<br>[6.2 观察语言能力怎样形成](../C6/C6S2.md)<br>[6.3 简单评价 Base Model](../C6/C6S3.md)<br>[6.4 得到 LubanLM Base Model](../C6/C6S4.md)|正文与流程已验证；50M 能力待验收|
-|C7 SFT|[7.1 Base Model 为什么不会聊天](../C7/C7S1.md)<br>[7.2 准备 SFT 数据](../C7/C7S2.md)<br>[7.3 SFT 训练](../C7/C7S3.md)<br>[7.4 得到 LubanLM Chat Model](../C7/C7S4.md)|正文与流程已验证；50M 能力待验收|
-|C8 推理|[8.1 从 Logits 到下一个 Token](../C8/C8S1.md)<br>[8.2 Sampling](../C8/C8S2.md)<br>[8.3 KV Cache、Prefill 与 Decode](../C8/C8S3.md)<br>[8.4 完成自己的 Chat 程序](../C8/C8S4.md)|正文与流程已验证；50M 能力待验收|
-|C12 本地发布准备|[12.1 整理模型和数据说明](../C12/C12S1.md)<br>[12.2 整理项目代码](../C12/C12S2.md)<br>[12.3 编写复现教程](../C12/C12S3.md)<br>[12.4 总结与后续方向](../C12/C12S4.md)|正文与流程已验证；50M 能力待验收|
+|C4 数据与语料|[4.1 LLM 到底需要什么数据](../04/01.md)<br>[4.2 数据清洗与去重](../04/02.md)<br>[4.3 Tokenization 与训练数据格式](../04/03.md)<br>[4.4 构建 LubanCorpus-v1](../04/04.md)|完成|
+|C5 训练系统|[5.1 从 Next Token Prediction 到 Loss](../05/01.md)<br>[5.2 Optimizer 与 Learning Rate](../05/02.md)<br>[5.3 16GB 显存下训练 0.5B](../05/03.md)<br>[5.4 Checkpoint、日志与训练规模估算](../05/04.md)|完成|
+|C6 预训练|[6.1 正式启动 LubanLM](../06/01.md)<br>[6.2 观察语言能力怎样形成](../06/02.md)<br>[6.3 简单评价 Base Model](../06/03.md)<br>[6.4 得到 LubanLM Base Model](../06/04.md)|正文与流程已验证；50M 能力待验收|
+|C7 SFT|[7.1 Base Model 为什么不会聊天](../07/01.md)<br>[7.2 准备 SFT 数据](../07/02.md)<br>[7.3 SFT 训练](../07/03.md)<br>[7.4 得到 LubanLM Chat Model](../07/04.md)|正文与流程已验证；50M 能力待验收|
+|C8 推理|[8.1 从 Logits 到下一个 Token](../08/01.md)<br>[8.2 Sampling](../08/02.md)<br>[8.3 KV Cache、Prefill 与 Decode](../08/03.md)<br>[8.4 完成自己的 Chat 程序](../08/04.md)|正文与流程已验证；50M 能力待验收|
+|C12 本地发布准备|[12.1 整理模型和数据说明](../12/01.md)<br>[12.2 整理项目代码](../12/02.md)<br>[12.3 编写复现教程](../12/03.md)<br>[12.4 总结与后续方向](../12/04.md)|正文与流程已验证；50M 能力待验收|
 
 |附录|正文|执行|
 |---|---|---|
-|A|[深度学习基础](../附录/附录A%20深度学习基础.md)|张量/梯度/交叉熵实跑|
-|B|[开发环境](../附录/附录B%20开发环境.md)|Windows GPU 环境验证；WSL与板端未运行|
-|C|[LubanLM-Lab](../附录/附录C%20LubanLM-Lab.md)|短实验完成|
+|A|[深度学习基础](<../附录/附录A 深度学习基础.md>)|张量/梯度/交叉熵实跑|
+|B|[开发环境](<../附录/附录B 开发环境.md>)|Windows GPU 环境验证；WSL与板端未运行|
+|C|[LubanLM-Lab](<../附录/附录C LubanLM-Lab.md>)|短实验完成|
 
 后续未写/未跑：**C9、C10、C11 的12节**，分别为 WSL 模型转换与量化、RK3576部署、板端性能观察。0.5B正式长期预训练、Base/Chat公开发布也不在本次完成量内。
 

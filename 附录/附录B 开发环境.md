@@ -1,6 +1,8 @@
 # 附录 B：开发环境
 
-> 2026-10-18环境更新：当前电脑为RTX 5060 Ti，Miniconda在 `C:\Tools\miniconda3`，项目独立Python 3.11环境、GPU计算及50M加载已验证。WSL2 Ubuntu 22.04.5可启动，RKLLM仍待准备，详见 [ENVIRONMENT.md](../ENVIRONMENT.md) 和 [新电脑环境复现](../docs/新电脑环境复现.md)。下文保留旧4060 Ti电脑的安装与验证记录，旧D盘命令、Python版本和GPU设置不作为本轮安装方案。
+> 本文的项目命令从仓库内的 `project/` 目录执行；WSL 和板端命令按各自说明运行。
+
+> 2026-10-18环境更新：当前电脑为RTX 5060 Ti，Miniconda在 `C:\Tools\miniconda3`，项目独立Python 3.11环境、GPU计算及50M加载已验证。WSL2 Ubuntu 22.04.5可启动，RKLLM仍待准备，详见 [ENVIRONMENT.md](../docs/ENVIRONMENT.md) 和 [新电脑环境复现](../docs/新电脑环境复现.md)。下文保留旧4060 Ti电脑的安装与验证记录，旧D盘命令、Python版本和GPU设置不作为本轮安装方案。
 
 Windows侧已使用独立Python 3.11环境，安装入口与国内镜像实体直连方法见新电脑环境复现。WSL侧按选定RKLLM版本另建转换环境，不共享Windows二进制包。阅读下列历史步骤时，先理解隔离环境、依赖与验证的作用，不将旧命令当作新电脑安装记录。
 

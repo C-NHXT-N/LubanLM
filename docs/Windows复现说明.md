@@ -14,7 +14,7 @@ python -c "import sys,torch; print(sys.executable); print(torch.__version__,torc
 python -m pip check
 ```
 
-首次安装过程见 [附录 B](../附录/附录B%20开发环境.md)。环境已创建时不要重新覆盖。精确依赖见 [锁定文件](../configs/requirements-gpu.lock.txt)；若从该文件安装，CUDA wheel 源也要明确提供：
+首次安装过程见 [附录 B](<../附录/附录B 开发环境.md>)。环境已创建时不要重新覆盖。精确依赖见 [锁定文件](../project/configs/requirements-gpu.lock.txt)；若从该文件安装，CUDA wheel 源也要明确提供：
 
 ```powershell
 python -m pip install -r .\configs\requirements-gpu.lock.txt --extra-index-url https://download.pytorch.org/whl/cu124

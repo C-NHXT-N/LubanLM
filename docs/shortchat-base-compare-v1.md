@@ -2,7 +2,7 @@
 
 > 历史实验记录：下面的环境、路径与进行中状态属于记录时点。当前学习顺序见[教材基准](教材基准.md)，保留范围见[历史记录说明](历史记录说明.md)。
 
-配置：[50m-shortchat-base-compare.json](../configs/50m-shortchat-base-compare.json)。入口为 `scripts.compare_shortchat`，使用 `D:/miniconda3/envs/lubanlm-gpu/python.exe`。
+配置：[50m-shortchat-base-compare.json](../project/configs/50m-shortchat-base-compare.json)。入口为 `scripts.compare_shortchat`，使用 `D:/miniconda3/envs/lubanlm-gpu/python.exe`。
 
 本实验的数据目录为 `D:/LubanLM-Data/shortchat-base-compare-v1`，运行目录为 `D:/LubanLM-Runs/shortchat-base-compare-v1`。旧候选库通过只读连接访问；原2B、12B最佳、12B最终检查点只用于初始化和校验。不会追加预训练，也不会自动进行10万条正式微调。
 

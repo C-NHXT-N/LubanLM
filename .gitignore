@@ -70,3 +70,11 @@ env/
 /环境与验证记录.md
 /目录.md
 /章节正文要求.md
+
+# Runnable project artifacts
+/project/.cache/
+/project/data/raw/
+/project/data/processed/
+/project/data/cache/
+/project/export/*/model/
+/project/benchmark/results/

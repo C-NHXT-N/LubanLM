@@ -1,5 +1,7 @@
 # Linux助手微调与板端交付
 
+> 本文的项目命令从仓库内的 `project/` 目录执行；WSL 和板端命令按各自说明运行。
+
 当前数据与后续实验应使用[统一数据说明](数据与实验状态.md)及[重建报告](数据与实验状态.md)。现为部分发布：训练606条、开发82条、封存验收65条，通用数据均为0；没有训练批准，默认入口会阻止基线和微调。本页后文保留的首轮教学配置、数字和旧数据集路径均为历史记录，不代表当前有效数据。当前数据工作没有启动基线、微调或模型评测。
 
 本实验把“怎样确认板端程序与系统架构一致”作为任务样例：先保存原模型回答，再用有来源的问答训练LoRA，最后检查微调是否改善回答。实验配置是 `configs/linux-assistant-v1.json`。以下命令对应已经新增的入口；有入口不等于已经训练、合并或通过板端验收，实际完成情况以工作区 `reports/linux-assistant-v1-20261019/` 的证据为准。
@@ -11,7 +13,7 @@
 从工作区根目录打开PowerShell，设置源码目录并使用独立训练解释器：
 
 ```powershell
-$env:PYTHONPATH='C:\Lab\LubanLM-lab\LubanLM'
+$env:PYTHONPATH='C:\Lab\LubanLM-lab\LubanLM\project'
 $env:PYTHONUTF8='1'
 $assistantPython='C:\Lab\LubanLM-lab\.conda\qwen-lora-py311\python.exe'
 ```
@@ -89,7 +91,7 @@ WSL转换沿用已验证的独立SDK1.3.1环境；该GPU环境与SDK的两项Tor
 
 ```powershell
 wsl -d Ubuntu-22.04 -- /home/aiyong/.venvs/lubanlm-rkllm-gpu310/bin/python `
-  /mnt/c/Lab/LubanLM-lab/LubanLM/scripts/convert_qwen_rk3576.py `
+  /mnt/c/Lab/LubanLM-lab/LubanLM/project/scripts/convert_qwen_rk3576.py `
   --model Qwen3.5-2B --device cuda `
   --model-dir /mnt/c/Lab/LubanLM-lab/exports/linux-assistant-v1-20261019/merged `
   --calibration /mnt/c/Lab/LubanLM-lab/exports/linux-assistant-v1-20261019/data_quant.json `
