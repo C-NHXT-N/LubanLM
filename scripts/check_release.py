@@ -16,6 +16,7 @@ GENERATED = {'.pt', '.pth', '.ckpt', '.safetensors', '.rkllm', '.onnx', '.engine
     '.parquet', '.arrow', '.sqlite', '.db', '.pyc', '.pyo', '.zip', '.tmp', '.lock', '.sha256', '.log'}
 TEXT = {'.md', '.py', '.pyw', '.json', '.jsonl', '.txt', '.ps1', '.sh', '.cpp', '.h', '.c', '.yaml', '.yml', '.toml', '.html', '.css', '.js'}
 ALLOWED = TEXT | {'.svg', '.png', '.jpg', '.jpeg', '.webp', '.ipynb'}
+LICENSE_FILES = {'LICENSE', 'LICENSE-CODE', 'LICENSE-DOCS', 'NOTICE'}
 SECRET = re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}|\bAKIA[A-Z0-9]{16}\b|\bsk-(?:proj-)?[A-Za-z0-9_-]{32,}')
 LINK = re.compile(r'!?\[[^\]]*\]\((<[^>]+>|[^)]+)\)')
 
@@ -42,11 +43,11 @@ def inspect(root: Path):
         if path.is_symlink() or not path.resolve().is_relative_to(root):
             errors.append(dict(file=rel, reason='symlink_or_outside_root'))
             continue
-        if path.suffix.lower() not in ALLOWED and path.name not in {'.gitignore', '.gitattributes', 'LICENSE', 'NOTICE'}:
+        if path.suffix.lower() not in ALLOWED and path.name not in {'.gitignore', '.gitattributes'} | LICENSE_FILES:
             errors.append(dict(file=rel, reason='unsupported_release_file'))
         data = path.read_bytes()
         files.append(dict(path=rel, bytes=len(data), sha256=hashlib.sha256(data).hexdigest()))
-        if path.suffix.lower() in TEXT or path.name in {'LICENSE', 'NOTICE'}:
+        if path.suffix.lower() in TEXT or path.name in LICENSE_FILES:
             try:
                 text = data.decode('utf-8-sig')
             except UnicodeDecodeError:

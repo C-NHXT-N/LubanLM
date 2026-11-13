@@ -1,0 +1,22 @@
+LubanLM licensing overview
+
+Copyright (c) 2026 Ai_YG (C-NHXT-N).
+
+This repository uses separate licenses for different materials:
+
+* Original software, runnable configuration, and original code examples,
+  including original code snippets embedded in the tutorial: MIT License.
+  See LICENSE-CODE for the complete license text.
+* Original tutorial prose, explanatory documentation, and original
+  illustrations, excluding the code examples above: Creative Commons
+  Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+  See LICENSE-DOCS for the complete license text.
+
+These licenses apply only to rights the project's copyright holders are
+authorized to license. Third-party code, quoted material, datasets, model
+weights, SDKs, and other upstream materials retain their original terms.
+Their presence in, or reference from, this repository does not relicense
+them under MIT or CC BY-SA 4.0.
+
+See LICENSING.md for scope, attribution, and third-party material guidance.
+This file identifies the applicable licenses; it does not amend their terms.
