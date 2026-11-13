@@ -65,3 +65,8 @@ env/
 /exports/
 /.migration-staging*/
 *.zip.sha256
+
+# Local writing notes; keep out of GitHub and release packages.
+/环境与验证记录.md
+/目录.md
+/章节正文要求.md

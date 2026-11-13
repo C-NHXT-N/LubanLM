@@ -17,12 +17,15 @@ GENERATED = {'.pt', '.pth', '.ckpt', '.safetensors', '.rkllm', '.onnx', '.engine
 TEXT = {'.md', '.py', '.pyw', '.json', '.jsonl', '.txt', '.ps1', '.sh', '.cpp', '.h', '.c', '.yaml', '.yml', '.toml', '.html', '.css', '.js'}
 ALLOWED = TEXT | {'.svg', '.png', '.jpg', '.jpeg', '.webp', '.ipynb'}
 LICENSE_FILES = {'LICENSE', 'LICENSE-CODE', 'LICENSE-DOCS', 'NOTICE'}
+LOCAL_DOCUMENTS = {'环境与验证记录.md', '目录.md', '章节正文要求.md'}
 SECRET = re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}|\bAKIA[A-Z0-9]{16}\b|\bsk-(?:proj-)?[A-Za-z0-9_-]{32,}')
 LINK = re.compile(r'!?\[[^\]]*\]\((<[^>]+>|[^)]+)\)')
 
 
 def selected(path: Path, root: Path) -> bool:
     parts = path.relative_to(root).parts
+    if len(parts) == 1 and parts[0] in LOCAL_DOCUMENTS:
+        return False
     if any(p in EXCLUDED_DIRS or p.startswith('.migration-staging') for p in parts):
         return False
     if parts[0] in ROOT_OUTPUTS or path.suffix.lower() in GENERATED:

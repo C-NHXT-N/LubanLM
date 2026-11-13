@@ -9,7 +9,7 @@ def main():
     numbered_count=len(expected)-len(list((ROOT/'附录').glob('*.md')))
     appendix_count=len(list((ROOT/'附录').glob('*.md')))
     expected += list((ROOT/'docs').glob('*.md'))
-    expected += [ROOT/'章节正文要求.md',ROOT/'C3/C3S4.md']
+    expected += [ROOT/'C3/C3S4.md']
     errors = []
     for path in expected:
         if not path.exists():
